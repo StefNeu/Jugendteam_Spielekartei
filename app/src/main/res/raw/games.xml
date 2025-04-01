@@ -1,0 +1,2307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <name>Kartenverteilen</name>
+    <category>GROUP_ALLOCATION </category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Ein Kartenspiel</material>
+    <description>Jeder Mitspieler zieht eine Karte. Je nach gewünschter Gruppengröße gibt es folgende Möglichkeiten zur Gruppeneinteilung:
+•Rote Karten/schwarze Karten bilden jeweils eine Gruppe
+•Alle Karos/Piks/Herzen/Kreuze bilden eine Gruppe
+•Alle Siebener, Achter, Neuner, etc. bilden eine Gruppe
+
+Wichtig: vorher die Karten auf die Gesamtgruppengröße anpassen, so dass das Prinzip Zufall keine Chance mehr hat 
+</description>
+  </row>
+  <row>
+    <name>Atomspiel</name>
+    <category>GROUP_ALLOCATION </category>
+    <size_min>8</size_min>
+    <size_max>50</size_max>
+    <age>6</age>
+    <material>Evtl. Musikanlage, mehrere Decken zum drauf legen</material>
+    <description>Die Spieler bewegen sich über die Spielfläche undsind freie Atome. Der Spielleiter ruft eine Atomanzahl. Genau diese Anzahl an Atomen muss sich zu Molekülen verbinden. Die gerufene Zahl bestimmt die Gruppengröße für das nächste Spiel.
+
+Variation:
+ Die Gruppen sollen sich immer unter unterschiedlich vielen Decken verstecken. Dabei sollte unter jeder Decke die gleiche Anzahl an Spielern stehen. </description>
+  </row>
+  <row>
+    <name>Familie Meyer</name>
+    <category>GROUP_ALLOCATION </category>
+    <size_min>87</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Vorbereitet Zettel mit Namen</material>
+    <description>Jeder Spieler erhält einen Zettel. Anschließend müssen sich möglichst schnell die Gruppen bilden. Eine Gruppe bilden jeweils die Personen, die den gleichen Begriff aufdem Zettel stehen haben. Die Spieler rufendazu nach dem Startsignal alle den Namen und versuchen so die anderen passenden Gruppenmitglieder zu finden.    So weit, so einfach. Das schwierige daran: die Namen der Gruppen lauten 
+•Familie Maier   
+• Familie Meier  
+•Familie Mayer   
+• Familie Meyer 
+ •Familie Mair   
+</description>
+  </row>
+  <row>
+    <name>Fäden ziehen</name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>40</size_max>
+    <age>6</age>
+    <material>Je nach TN Zahl Fäden aus dem gleichen Material (ca. 0,5m lang)</material>
+    <description>Der Spielleiter hält ein Büschel mit Fäden in einer Hand in der Mitte hoch. Jeder TN soll sich ein Ende greifen und nicht mehr loslassen. Beim Entwirren des Wollknäuels wird er am anderen Ende auf einen Partner stoßen.</description>
+  </row>
+  <row>
+    <name>Überraschungseier</name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>40</size_max>
+    <age>6</age>
+    <material>für jeden TN eine Kapsel aus dem Überraschungsei, gefüllt mit verschiedenen Materialien</material>
+    <description>Der Spielleiter präpariert vorher diverse Kapseln aus dem Überraschungsei. In den Dosen sind verschiedene Gegenstände (z.B. Reis, Erbsen, Sand, Mehl, etc.).  Jeder TN bekommt eine Dose und versucht die anderen mit den gleichen Inhalten in den Eiern zu finden (natürlich nur durchschütteln und nicht durch hineinsehen). Zum Schluss darf überprüft werden, ob es auch stimmt.</description>
+  </row>
+  <row>
+    <name>Marktplatz</name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>40</size_max>
+    <age>6</age>
+    <material>verschiedene Gegenstände in mehrfacher Ausführung</material>
+    <description>Für jede Gruppe die benötigt wird, braucht man einen Gegenstand in so vielen Ausführungen wie TN da sein sollen (z.B. 5 Gabeln, 5 Löffel, etc. oder 3 Bleistifte, 3 Kugelschreiber, etc.). Jeder TN erhält erst einmal einen Gegenstand, eswird Musik gespielt. Während der Musik werden die Gegenstände wahllos getauscht. Hört die Musik auf, müssen sich die Gruppen je nach Gegenstand finden(also alle Löffel, alle Kulis,...).</description>
+  </row>
+  <row>
+    <name>Besuch im Zoo</name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>40</size_max>
+    <age>6</age>
+    <material>Vorbereitete Tierkarten</material>
+    <description>Der Spielleiter bereitet verschiedene Karten mit Tieren vor. Jeder TN bekommt eine Karte, die er noch geheim halten muss. Auf Kommando laufen alle durch den Raum. Immer wenn sich zwei begegnen, begrüßen sie sich in ihrer Tier sprache. So sollen „Gleichgesinnte“ gesucht werden (sprich: alle Kühe bildeneine Gruppe, alle Elefanten, etc.)</description>
+  </row>
+  <row>
+    <name>Bonbons/ Gummibärchen ziehen</name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Es werden vorher genügend Gummibärchen oder Bonbons bestimmter Farben/Sorten herausgesucht, so dass jeder nur einen ziehen braucht und dann sich so in Gruppen einteilt</description>
+  </row>
+  <row>
+    <name>Schuheinteilung</name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Jeder zieht einen Schuh aus und legt ihn in die Mitte auf einen Haufen. Dann werden blind Schuhe (je nachdem wie groß die Gruppen sein sollen) gezogen. Jeder ordnet sich dann seinem Schuhwieder zu. </description>
+  </row>
+  <row>
+    <name>Daumen oben</name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>20</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Jeder*e soll seinen/ihrer Hände falten  </description>
+  </row>
+  <row>
+    <name>Durchzählen</name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Der Spielleiter*in zählt je nach Gruppengröße im Kreis alle Teilnehmer*Innen ab.  </description>
+  </row>
+  <row>
+    <name>Pärchen Suchspiel </name>
+    <category>GROUP_ALLOCATION</category>
+    <size_min>10</size_min>
+    <size_max>40</size_max>
+    <age>6</age>
+    <material>Vorbereitete Partnerkarten</material>
+    <description>Es sollen berühmt Paar gefunden werden, jeder TN bekommt einen Zettel mit einem Prominenten Teilpärchen. Die Karten werden getauscht solange die Musik läuft, danach müssen sich die Paare finden.
+
+Variante: 
+Die Pärchen müssen sich, wenn sie sich gefunden haben auf den Boden setzten, das letzte Pärchen scheidet aus. So entsteht eine neue Form des Spieles</description>
+  </row>
+  <row>
+    <name>Luftballonspiel</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Luftballons, Eddings, Musikanlage</material>
+    <description>Jeder Spieler erhält einen Ballon, den er aufbläst und mit seinem Namen beschriftet. Die Spieler bewegen sich zur Musik durch den Raum und halten den Ballon in die Luft. Bei  einem  Musikstopp  schmettert  jeder  seinen  Ballon möglichst weit weg und schnappt sich einen anderen. Hat jeder einen neuen Ballon in der Hand, stellt der Spielleiter eine Aufgabe, z.B.: 
+-„Erzählt euer Lieblingsessen/Lieblingstier“ 
+-„Erzählt euch einen Wunsch“ 
+-„Findet eine Gemeinsamkeit/einen Unterschied“
+-„Tanzt einen Walzer“
+Nun müssen die Teilnehmer den „Besitzer“ des Ballons suchen und die Aufgabe mit diesem lösen. Gleichzeitig bekommt man auch seinen eigenen Ballon wieder,also wird jede Aufgabe zweimal absolviert: Einmal mit dem Besitzer des „fremden“ Ballons und einmal mit dem „Wiederbringer“des eigenen Ballons. So erfährt man eine Menge über die anderen Teilnehmer in der Gruppe</description>
+  </row>
+  <row>
+    <name>Der Vorhang fällt</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>12</size_min>
+    <size_max>20</size_max>
+    <age>6</age>
+    <material>Großes Tuch</material>
+    <description>Zwei Gruppen treten gegeneinander an. In der Mitte wird ein großes, undurchsichtiges Tuch hochgehalten, so dass sich die Gruppen nicht sehen können.  Rechts und links hinter der Decke stehen sich zwei Stühle gegenüber. Jeweils ein Freiwilliger aus jeder Gruppe setzt sich auf den Stuhl.  
+Der Spielleiter zählt langsam bis drei. Bei „drei“ fällt der Vorhang. Die beiden, die sich anschauen müssen schnell den Namen des anderen sagen. Der, der ihn zuerst sagt, bekommt einen Punkt. Der Vorhang wird wieder hochgehalten, eine neue Runde beginnt und zwei neue Freiwillige besetzen die Stühle.
+
+Der Spielleiter zählt langsam bis drei. Bei „drei“ fällt der Vorhang. Die beiden, die sich anschauen müssen schnell den Namen des anderen sagen. Der, der ihn zuerst sagt, bekommt einen Punkt. Der Vorhang wird wieder hochgehalten, eine neue Runde beginnt und zwei neue Freiwillige besetzen die Stühle.</description>
+  </row>
+  <row>
+    <name>Namens-Chaos</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>10</size_min>
+    <size_max>50</size_max>
+    <age>6</age>
+    <material>Eine Musikanlage</material>
+    <description>Der Spielleiter macht die Musik an. Alle sollen sich durch den Raum bewegen (auf Ansage auch hüpfen, schleichen, schreiten, ...). Irgendwann macht der Spielleiter*in die 
+Musik aus und ruft einen Namen aus der Gruppe. Nun müssen alle zu der Person laufen, von der sie glauben, dass dies die gesuchte Person ist. Die  letzte Person die ankommt, scheidet aus und muss den nächsten Namen ansagen.</description>
+  </row>
+  <row>
+    <name>Zeitungsschlagen</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>8</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Eine Zeitung </material>
+    <description>Die Gruppe sitzt in einem Stuhlkreis. Ein Spieler steht in der Mitte und hält die zusammengerollte Zeitung in der Hand. Er fängt an einen Namen aus der Gruppe zu rufen. Dieser muss aufstehen und schnell einen anderen Namen rufen.  Dieser steht wiederum aufund ruft einen weiteren Namen. Der Spieler mit der Zeitungsrolle muss versuchen einem stehenden Mitspieler auf die Beine zu schlagen, bevor dieser einen neuen Namen gerufen hat. Gelingt es dem Spieler*in in der Mitte jemanden rechtzeitig mit der Zeitungsrolle zu berühren werden die Rollen gewechselt. </description>
+  </row>
+  <row>
+    <name>Mein rechter, rechter Platz ist frei </name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Mitspieler sitzen im Stuhlkreis. Ein weiterer Stuhl steht zwischen den Stühlen der Mitspieler. Dieser ist leer.Der Spieler links vom leeren Stuhl beginnt.Er legt seine Hand auf die Sitzfläche des leeren Stuhls und sagt: „Mein rechter, rechter Platz ist leer. Da wünsch ich mirden/die ... (z.B. FLORIAN) her.“ Dieser Mitspielerantwortet: „Als was soll ich kommen?“ Der erste Spielernennt ein Tier: „Als Elefant!“ Der ausgesuchte Spieler stellt pantomimisch einen Elefanten dar, stampft zum leeren Stuhlund setzt sich auf diesem hin. Nun hat ein neuer Mitspieler einen leeren rechten Platz. Dieser sagt, während er auf die leere Sitzfläche klopft: „Mein rechter, rechter Platz ist leer. Da wünsch ich mir den/die ... (z.B. TINA) her.“Der genannte Mitspieler antwortet: „Als was soll ich kommen?“Der Spieler nennt ein Tier und so weiter.</description>
+  </row>
+  <row>
+    <name>Ich packe meinenKoffer</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>10</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Personen setzen sich in einemKreis zusammen, je mehr desto besser. Der Erste aus der Runde sagt: &quot;Ich packe meinen Koffer und nehme mit: “seinen Namen&quot;,der Zweite: &quot;Ich packe meinen Koffer und nehme mit: den Namen vom vorherigen und seinen eigenen&quot;, der Dritte,: macht genauso weiter. 
+Und so geht das immer weiter, bis sich jemand verspricht oder die Reihenfolge durcheinanderbringt.Dann  beginnt man von vorne</description>
+  </row>
+  <row>
+    <name>Zip Zap</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>10</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Einer steht in der Mitte. Er deutet auf jemanden im Kreis und sagt &quot;Zip&quot;. Der Angesprochene muss seinen linken Nachbarn nennen.Bei Zap seinen Rechten.Wer zu lange zögert oder gar einen Fehler macht, muss in die Mitte.
+
+Varianten:
+Bei &quot;ZipZap&quot; müssen alle die Plätze tauschen, auch der TN in der Mitte darf versuchen einen Platz zu bekommen. Wer übrigbleibt, bleibt mittig.&quot;ZipZip&quot; bedeutet zwei weiter links.</description>
+  </row>
+  <row>
+    <name>Alle die...</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>8</size_min>
+    <size_max>50</size_max>
+    <age>6</age>
+    <material>Evtl. Musikanlage, mehrere Decken zum drauf legen</material>
+    <description>Die Spieler versammeln sich in einer Gruppe. Dann nennt der Spielleiter ein Kriterium, nach der eine zweite Gruppe gebildet werden soll. Etwa alle, deren Vorname mehr als fünf Buchstaben hat. Die Spieler, auf die das Kriterium zutrifft, sammeln sich. Sobald die Aufgabe gelöst ist, versammelt sich die Gruppe wieder und wartet auf die nächste Gruppenaufgabe. Es können beliebig viele Kriterien genannt werden, z.B. Geburtstag, Schuhgröße, Alter, Anzahlder Buchstaben im Straßennamen.</description>
+  </row>
+  <row>
+    <name>Ja, Nein, Vielleicht</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Ja, nein, vielleicht ist ein tolles, schwungvolles Spiel, bei dem es darauf ankommt, so viele Fragen wie möglich zu beantworten und dabei bestimmte Worte zu vermeiden. Das Spiel besteht aus Fragen, auf die man schnell antworten muss, aber nicht mit ja, nein oder vielleicht. Während des Spielskönnen weitere Wörter bestimmtwerden, die man zusätzlich vermeidenmuss.</description>
+  </row>
+  <row>
+    <name>Daniel Döner</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>40</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Alle TN stellen sich mit seinem Namen und einem Lebensmittel mit dem Anfangsbuchstaben von seinem Namen vor. Der nächste TN sagt den Namen von der vorherigen Person, sowie seinen eigenen. So geht es immer weiter, bis sich einer verspricht. </description>
+  </row>
+  <row>
+    <name>Papierrolle </name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>20</size_max>
+    <age>12</age>
+    <material>Eine Klopapierrolle</material>
+    <description>Zunächst nimmt jeder TN von einer Toilettenpapierrolle ein paar Papierblätter weg. Jeder soll nicht zu viel nehmen, aber soviel wie er meint zu benötigen. Anschließend bekommen die Gruppenteilnehmer gesagt, dass sie pro Papier,das sie genommen haben etwas von sich bzw. über sich erzählen müssen.</description>
+  </row>
+  <row>
+    <name>Smarties Story </name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Eine Packung Smarties</material>
+    <description>Spiel wie zuvor, jedoch anstatt Papierblätter zu nehmen nimmt sich jeder eine beliebige Anzahl von Smarties aus einer Tüte. Pro Smartie muss nun jeder etwas von sich erzählen.</description>
+  </row>
+  <row>
+    <name>Sortieren nach...</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Auf Kommando muss jede Gruppe sich so schnell wie möglich in die richtige Reihenfolge stellen. z.B.: alphabetisch sortiert nach dem ersten oder zweiten Vornamen, nach der Größe, nach dem Alter, nach Schuhgröße.Variante: wie  zuvor,  jedoch  nun  darf  nicht  gesprochen werden.</description>
+  </row>
+  <row>
+    <name>Spinnennetz</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>10</age>
+    <material>Ein Wollknäul / Seil</material>
+    <description>Ein Wollknäuel wird gehalten. Die erste Person hält den Faden in der Hand und stellt irgendeiner anderen Person eine Frage indem das Knäuel dieser Person zugeworfen wird. Nach Beantwortung dieser Frage wirft wiederum diese Person den Knäuel weiter. So entsteht mit der Zeit ein tolles Spinnennetz. Mit etwas Glück so stabil, dass sich am Schluss eine Person darauflegen kann und angehoben werden kann.</description>
+  </row>
+  <row>
+    <name>Wahr oder Falsch</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>20</size_max>
+    <age>12</age>
+    <material>Kein Material nötig</material>
+    <description>Jedes Gruppenmitglied macht zu verschiedenen Eigenschaften (Hobby, Schule/Beruf, Freund/Freundin, Urlaub, Erlebnis, ...) je eine Aussage über sich. Eine Aussage ist falsch, die anderen stimmen. In der gemeinsamen Vorstellungsrunde stellt sich jeder vor unddie anderen müssen erraten welchedie falsche Aussage ist. </description>
+  </row>
+  <row>
+    <name>Vorstellen mit Zettel ziehen</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Zettel</material>
+    <description>Bei der Vorstellungsrunde fällt es manchen TNimmer schwer etwas über sich zu erzählen. Meistens endet es damit, dass jeder fast dasselbe wie die Vorredner erzählt. Von daher empfiehlt es sich, noch 2-3 Fragen aus einem Topf zu ziehen und diese neben der normalen Vorstellung zu beantworten.</description>
+  </row>
+  <row>
+    <name>Peng</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>10</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Gruppenmitglieder stehen im Kreis. Der Gruppenleiter nennt einen Namen. Die Personen rechts und links von der aufgerufenen Person bilden mit der Hand eine Pistole und deuten einen Schuss auf diejenige Person an und sagen „Peng“. Die aufgerufene Person hingegen wirft sich duckend auf den Boden.Ausgeschieden istentweder derjenige, welcher sich zu langsam geduckt hat, oder falls dieser sich schnell ducken konnte, derjenige der beiden Schützen, welcher langsamer war.</description>
+  </row>
+  <row>
+    <name>Mini – Chaosspiel</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>10</size_min>
+    <size_max>80</size_max>
+    <age>12</age>
+    <material>Kein Material nötig</material>
+    <description>Alle stehen im Kreis. Der Spielleiter sagt:&quot;Denke dir für dich 5 Personen, zu denen du gleich hingehst und denen du einen guten Tag wünscht!&quot;. Auf &quot;3&quot; laufen nun alle zu den Personen, die sie sich vorher still ausgesucht haben. Es heißt Chaosspiel, weil es durchaus ein Chaos gibt, wenn plötzlich 3 Leute auf die gleiche Person zulaufen und diese selber aber auf noch eine andere zugeht. Die nächsten Spielrunden sind dann variabel. Z.B. kann man sagen: &quot;Suche dir nun 4 Personen, die du umarmst!&quot; Dies wird solange gespielt, bis man sich nur noch EINE Person aussuchen darf.</description>
+  </row>
+  <row>
+    <name>Namesstaffel</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>12</age>
+    <material>Kreppband, Eddings</material>
+    <description>Es bilden sich kleine Gruppe, je nach TN Zahl.  Auf der einen Seite befindet sich Kreppband und Eddings, auf der anderen Seite die TN. Die TN müssen nacheinander zum dem Krepband rennen und sich ein Namensschild machen, dann den nächsten aus der Gruppe abklatschen. Die Gruppe die zuerst fertig ist gewinnt.</description>
+  </row>
+  <row>
+    <name>Geheimcode</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>12</age>
+    <material>Codezettel</material>
+    <description>Es werden auf Zetteln Codes vorbereitet, die bestehen aus Alter, Geschlecht, Haarfarbe, Schuhgröße.Zum Beispiel: 22WB38 oder 10MR35. Die Codes müssen immer der ungefähren Gruppe angepasst werden</description>
+  </row>
+  <row>
+    <name>Positionieren</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>50</size_max>
+    <age>12</age>
+    <material>Kein Material nötig</material>
+    <description>Ihr bereitet verschiedene Fragen vor:Welche Musik hört ihr ?Welchen Sport macht ihr?Lieblingsessen?Reisen? Dann überlegt ihr euch vier Kategorien als Antwortmöglichkeiten. Die TN sollen sich dann jeweils einer Ecke zuordnen. Das gleiche geht auch mit Ja -oder Neinfragen. </description>
+  </row>
+  <row>
+    <name>Fan Schnick -Schnack -Schnuck</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>10</size_min>
+    <size_max>80</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Alle TN spielen gegeneinander Schnick, Schnack, Schnuck. Der Verlier müssen sich hinter den/die Gewinner*in stellen und diese Person ganz stark anfeuern. </description>
+  </row>
+  <row>
+    <name>Eigenschaften zuordnen</name>
+    <category>GET_TO_KNOW</category>
+    <size_min>10</size_min>
+    <size_max>20</size_max>
+    <age>12</age>
+    <material>Zettel und Stift </material>
+    <description>Die Gruppe teilt sich in zwei. AlleTNschreiben auf mehrere Zettel Lieblingsfilm, Lieblingsmusik, Hobby, Lieblingstier, Lieblingsort... Danach werden die Zettel getauscht und die Gruppe muss die Zettel den Leuten zuordnen.</description>
+  </row>
+  <row>
+    <name>Bingo </name>
+    <category>GET_TO_KNOW</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>12</age>
+    <material>Bingozettel </material>
+    <description>Bei diesem Spiel geht es darum, dass man in vorgefertigte Zettel hinter jeder Eigenschaft jemanden findet, auf den diese Eigenschaft passt. Trifft die Eigenschaft zu, so unterschreibt diejenige Person in dieser Zeile mit ihrem Namen. Aber der Name einer Person darf maximal 2x auf dem Zettel auftauchen. Gewonnen hat, wer zuerst alle Felder ausgefüllt hat.</description>
+  </row>
+  <row>
+    <name>Parkplatzsuche in Tokio</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Stuhlkreis</material>
+    <description>Alle Spieler/innen sitzen im Stuhlkreis. Die Spielleitung steht in der Mitte und erklärt die Story (evtl. übersetzen). „In Tokio herrscht dichter Verkehr. Viele Menschen wollen ihr Auto parken und Parklücken sind begrenzt verfügbar. Ihr fahrt alle ein Auto und erledigt verschiedene Dinge an unterschiedlichen Orten der Stadt. D.h. alle müssen ab und an „umparken“.“ Jede/r Spieler/in sucht Augenkontakt zu anderen Spielern im Kreis. Treffen sich zwei Blicke, so tauschen diese beiden Spieler/innen die „Parkplätze“. Der Spielleiterin der Mitte versucht auch einen Platz zu erhaschen, sodass bald ein neuer TN in der Mitte steht und einen Parkplatz sucht.Dies ist ein schnelles und dynamisches Spiel.</description>
+  </row>
+  <row>
+    <name>Mixgeschichten</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>8</size_min>
+    <size_max>15</size_max>
+    <age>6</age>
+    <material>Kleinen Ball</material>
+    <description>Der Spielleiter beginnt die Runde und startet mit einem Satz,um die Geschichte einzuleiten. Danach wirft erden Ball zu einer anderen Person, die an den vorherigen Satzanschließen und einen Satz dranhängen muss. So entsteht Stück für Stück eine Geschichte.</description>
+  </row>
+  <row>
+    <name>Affe –Elefant –Giraffe</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>10</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Die Teilnehmer stehen im Kreis, ein Spieler in der Mitte. Dieser zeigt auf einen Spieler und sagt einen Tiernamen. Der betroffeneSpieler und seine beiden Nachbarn müssen nun das Tier darstellen –wer einen Fehler macht, geht in die MitteAffe: Mittlerer Spieler: Mund zu / linker Spieler –Ohren zu / rechter Spieler –Augen zuElefant: Mittlerer Spieler: Rüssel / rechter und linker Spieler jeweils ein Ohr mit den ArmenGiraffe: Mittlerer Spieler streckt beide Arme hoch (Hals) / linker Spieler Ohren / rechter Spieler Körper
+
+Varianten:
+Känguruh, Kamel, Palme, Toaster, Ente (Der Spielleiter muss sich dafür Figuren ausdenken)</description>
+  </row>
+  <row>
+    <name>Buchstabenkette</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>8</size_min>
+    <size_max>20</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>MaterialSpielerklärungEin Spiel, das man überall spielen kann. Auch ideal auf Reisen. Zum Beispiel im Flugzeug oder im Autobus. Das erste Kind nennt ein Wort. z.B.: „Banane.“ Das zweite Kind muss dann aus dem Endbuchstaben wieder ein Wort bilden. In dem Fall wäre es das „E.“ Wenn das Kind jetzt „Eimer“ sagt, muss das nächste ein Wort mit „R“ finden. Am Anfang darf man ruhig ein wenig überlegen. Nach einer Weile wird die Geschwindigkeit gesteigert. Wer kein Wort mehr weiß, scheidet aus. Natürlich darf jedesWortnur einmal vorkommen. Schwieriger wird es,wenn man die Spielrunden in Kategorien einteilt,z.B.: Tiere, Lebensmittel, Städte, </description>
+  </row>
+  <row>
+    <name>Auto und Schwein </name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Spieler sitzen oder stehen im Kreis. Dann beginnt einer mit dem Geräusch eines Autos (zB: niu). Sein Nachbar setzt das Geräusch fort und so wird es im Kreis weitergegeben.Zur gleichen Zeit beginnt jemand mit einem Schweinegrunzen. Es wird in derselben Art und in dieselbe Richtung weitergegeben. Das Spiel ist zu Ende, wenn das Autogeräusch das Schweinegrunzen überholt hat (das Schwein wurde überfahren).!!! Sehr beliebt undlustig!
+
+Variante: 
+Kissenrennen –da spielt jeder Zweite in einem Team und gibt das Teamkissen an seinenTeamnachbarn weiter. Die Kissen werden mit einem gleichen Abstand losgeschickt. Wenn das eine Kissen das andere überholt hat gewinnt die eine Mannschaft</description>
+  </row>
+  <row>
+    <name>Obstsalat </name>
+    <category>CIRCLE_GAME</category>
+    <size_min>0</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>DieStühle werden im Kreis aufgestellt. Jedes Kind setzt sich auf einen Stuhl und bekommt vom Spielleiter eine Obstsorte zugeteilt. Dabei erhalten immer mehrere Kinder dieselbe Obstsorte,(Apfel, Banane, Orange, Pflaume, usw.).Dann ruft derSpielleiter eine Obstsorte, zB.:„Banane!“. Alle Kinder, denen vorher die Banane zugeteilt wurde, müssen aufstehen und miteinander die Plätze tauschen.Die Kinder dürfen sich nicht wieder auf den eigenen Stuhl setzen, es muss ein neuer Stuhl sein.Wenn der Spielleiter „Obstsalat!“ ruft, springen alle Kinder auf und suchen sich einen anderen Stuhl.Der Spielleiter kann auch mehr als eine Obstsorte rufen. Zum Beispiel ruft er „Pflaume und Apfel!“. Dann müssen alle Kinder der Gruppen Pflaume und Apfel die Plätze tauschen.</description>
+  </row>
+  <row>
+    <name>Bombe</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>8</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Ein kleiner Ball o.Ä. ist die Bombe. Diese wird reihum von den Teilnehmern durchgegeben. Ein/e LeiterIn sitzt als Zeitzünder blind in der Mitte und sagt laut “Tick, tick, tick, ...” bzw. “Tack, tack, tack, ...”. Bei “Tick” wird die Bombe je an den linken Nachbarn weitergegeben, bei “Tack” an den rechten. Durch Wechsel der Richtung und der Geschwindigkeit des Tickens kann Spannung aufgebaut werden. Ruft der Zeitzünder schließlich “Bumm!”, scheidet derjenige Spieler/diejenige Spielerin aus und setztsich mit ausgestreckten Beinen auf den Boden. Noch lebendeSpielermüssen von jetzt an zuerst über die Beine der Ausgeschiedenen steigen, bevor sie die Bombe weitergeben dürfen. Der/die letzte Überlebende gewinnt. Variation für kleine Gruppen:Das Weitergeben der Bombe funktioniert direkt, ohne zusätzliche Hindernisse, eventuell sogar ohne festgelegte Reihenfolge. Wer ausscheidet ist der Zeitzünder für die nächste Runde. 
+
+Variation:
+ für kleine Gruppen:Das Weitergeben der Bombe funktioniert direkt, ohne zusätzliche Hindernisse, eventuell sogar ohne festgelegte Reihenfolge. Wer ausscheidet ist der Zeitzünder für die nächste Runde.</description>
+  </row>
+  <row>
+    <name>Musikzirkus oder Dancing Queen</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Kein Material nötig </material>
+    <description>
+Es wird eine Person bestimmt, die den Raum verlässt. Alle anderen Teilnehmerstellen sich im Kreis auf und bestimmen einen Dirigenten oder eine Dancing Queen. Diese Person hat die Aufgabe immer ein Musikinstrument oder eine Tanzbewegung vorzugeben. Dabei soll die Person die draußen war nicht mitbekommen, wer der Dirigent oder die Dancing Queen ist. Wenn diese Person den Raum betritt, hat sie drei Versuche zu erraten, wer den Beat angibt.</description>
+  </row>
+  <row>
+    <name>Turtelwushu</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>40</size_max>
+    <age>6</age>
+    <material>Schildkrötenfiguren oder ähnlichesz.B. Wäscheklammern für jeden Spieler</material>
+    <description>Jeder Spieler positioniert die Schildkröte auf seiner Handoberfläche. Wenn das Spiel startet hat jeder die Aufgabe, die Schildkröten von den anderen Mitspielern von der Hand zu schlagen. Verliert man dabei seine eigene Schildkröte, ist man aus dem Spiel ausgeschieden.</description>
+  </row>
+  <row>
+    <name>Simon sagt </name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>5</age>
+    <material>Kein Material nötig</material>
+    <description>Ein Mitspieler wird bestimmt, der das Spiel beginnen darf. Dieser hat die Aufgabe, euch zu sagen, was ihr tun müsst.
+Denn immerwenn er einen Satz mit: „Simon sagt“ anfängt, müsst ihr genau das tun, was er euch sagt. Ruft er also „Simon sagt springt in die Luft“, dann müssen alle in die Luft springen. Sagt er „Simon sagt dreht euch im Kreis“, müssen sich alle im Kreis drehen.Rufter jedoch ein Kommando, ohne „Simon sagt“, also z. B. nur „Arme kreisen“, müssen alle ganz still stehen bleiben und dürfen sich nicht bewegen. Bemerkt der Mitspieler wenn jemand sich bewegt oder wackelt, so scheidet dieser Spieler aus.Der letzte, der übrig bleibt, hat gewonnen und darf der nächste Simon sein.</description>
+  </row>
+  <row>
+    <name>Helme auf </name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Spieler setzen oder stellen sich locker im Kreis auf, mit Blick zur Kreismitte. Mit Daumen und Zeigefinder der beidenHände wird ein &quot;O&quot; geformt, die restlichen Finger von der Hand abgestreckt. Diese improvisierte &quot;Brille&quot; wird an die Augen gelegt undsymbolisiert die Kopffedern der Hühner.
+
+Reihum führen die Spieler nun eine einfache Bewegung durch: sie fahren mit einemder Arme in Richtung Boden und geben dabei ein &quot;Hühnergegacker&quot; (zum Beispiel &quot;bok-gah!&quot;) von sich. Anschließend ist der nächste Spieler an der Reihe, der ebenfalls diese Bewegung ausführen muss. Die Richtung im Kreis, in der diese Bewegung ausgeführt wird, kann sich aber ändern: als nächster Spieler ist jeweils der an der Reihe, auf dessen Seite der zuletzt aktive Spieler seinen Arm gesenkt hatte. Führt dieser die Bewegung mit dem linken Arm aus, ist sein linker Nachbar an der Reihe, beim rechten Arm wäre es sein rechter Mitspieler.
+
+Sind alle Spieler mit den Regeln vertraut, so werden folgende (oder ähnliche) Sonderregeln eingeführt:
+Wirdein anderes Gegacker ausgesprochen (zum Beispiel: &quot;buut&quot;), wird ein Spieler übersprungen (die Richtung wird beibehalten).Werden beide Arme gesenkt, tauschen alle Spieler die Plätze (natürlich unter euphorischem Gegackere).Weitere Sonderregeln können nach Belieben eingeführt werden.Wer einen Fehler macht, muss die &quot;Fehlerhand&quot; aus dem Spiel nehmen. Fehler können etwa sein:-zu spät reagieren(hierzu hat der Spieler etwa zwei Sekunden Zeit)-falsch reagieren (wenn man nicht selber an der Reihe ist).-zu früh reagieren (wenn man nicht an der Reihe ist, bei -einem überraschenden Richtungswechsel oder wenn man aussetzen muss)
+-eventuell können auch falsche Töne oder generell Sprechen verboten werden: insbesondere &quot;Lachen&quot; kann so &quot;bestraft&quot; werdenWer eine Hand verloren hat, kann dementsprechend keinen Richtungswechsel mehr durchführen (andere Sonderfiguren, zum Beispiel das Überspringen eines Mitspielers, sind weiter möglich). Wer beide Hände verloren hat, scheidet aus dem Spiel aus.</description>
+  </row>
+  <row>
+    <name>Ghost </name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>20</size_max>
+    <age>8</age>
+    <material>Kein Material ntig</material>
+    <description>Die Spieler setzen sich im Kreis oder machen sonst eine Reihenfolge aus. Der erste Spieler denkt sich ein Wort aus und sagt dessen ersten Buchstaben. Der zweite muss sich nun ein Wort suchen, dass mit diesem Buchstaben beginnt und sagt den zweiten von seinem Wort. Es muss nicht das Wort des Vorgängers sein. Der dritte Spieler muss sich nun ein Wort suchen, das so beginnt und sagt den dritten. Wer ein Wort beendet bzw. unbewusst einen Buchstaben sagt mit dem dies Wort zuende ist, auch wenn er an ein anderes gedacht hat, kriegt einen Punkt und er beginnt mit einem neuen Buchstaben. Wenn einem kein Wort einfällt mit den bisher genannten Buchstaben, kann seinen Vorgänger fragen, was er sich gedacht hat. Weiß dieser ein Wort, so bekommt der Fragende einen Punkt. Weiß er keines, weil er einfach einen Buchstaben gesagt hat, kriegt er den Punkt. Wer drei Punkte hat, wird zum Geist. Der Geist darf zwar keine Buchstaben mehr nennen und spielt nicht mehr richtig mit, aber er darf versuchen, andere abzulenken. Denn wer mit einem Geist Kontakt aufnimmt, wird selbst zum Geist. Geister können sich problemlos unterhalten. Wer hält am längsten durch?Der letzte,der übrig bleibt, hat gewonnen.</description>
+  </row>
+  <row>
+    <name>Beim Psychiater </name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>12</size_max>
+    <age>12</age>
+    <material>Kein Material nötig</material>
+    <description>Eine Person wird zum Psychiater bestimmt und geht kurz vor die Tür. Die anderen überlegen sich jeweils eine Krankheit. Das können folgende Dinge sein:
+
+Der eine antwortet immer auf die Fragen, die der Person rechts daneben gestellt wurden bei einem bestimmten Wort oder Gegenstand fängt die Person an zu heulen.Ein anderer hält sich für den Bundeskanzler, oder für einen Spieler der Deutschen Nationalmannschaft.Ein anderer lebt in einer anderen Welt.Der nächste sitzt immer mit Beinen überkreuzt da und hat die Hände in der Hosentasche.Der nächste meint er fühlt er sei ein Flippergerät.Anschließend kommt der Psychiater wieder herein und stellt Fragen und möchte herausfinden an was die Patienten leiden.</description>
+  </row>
+  <row>
+    <name>Mörderspiel</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>40</size_max>
+    <age>8</age>
+    <material>Kartenspie</material>
+    <description>An jede Person wird eine Spielkarte verteilt. Die Person mit dem Herzkönig ist der Mörder. Niemand weiß vom jeweilig anderen, was er für Karten hat. Blinzelt der Mörder jemanden an, muss dieser seine Karte aufdecken und ist tot. Wer einen Verdacht hat meldet sich: &quot;ich habe einenVerdacht !&quot;. Sobald eine weitere Person ebenfalls sagt &quot;Ich habe einen Verdacht!&quot;,müssen beide gleichzeitig ihren Verdacht nennen. Stimmen beide Namen überein,muss der Verdächtige sagen ob er der Mörder ist. Stimmen die Namen nicht überein, dann sind beide ausgeschieden (auch wenn ein Name eventuell richtig sein könnte).</description>
+  </row>
+  <row>
+    <name>Schenkelklopfen</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>25</size_max>
+    <age>10</age>
+    <material>Kein Material nätig</material>
+    <description>Alle sitzen im Kreis. Jeder legt seine Hände auf die Oberschenkel seines jeweiligen Nachbarn (eine Hand links, eine Hand rechts). Ein Mitspieler beginnt: er schlägt mit einer Hand auf den Oberschenkel seines Nachbarn. Im Uhrzeigersinn &quot;läuft&quot; dann der Impuls so weiter. Die Hände müssen nacheinander auf die Oberschenkel schlagen. Immer in der Reihenfolge, in der sieliegen. Wenn jemand zweimal schlägt geht es in die andere Richtung. Schlägt jemand zu früh oder ist gar nicht an der Reihe, muss er die Hand, mit der er den Fehler gemacht hat, hinter den Rücken -also aus dem Spiel -nehmen. Beim nächsten Fehler ist diese Person ausgeschieden.</description>
+  </row>
+  <row>
+    <name>Ribbel Dibbel </name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>20</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Die Mitspieler bekommen eine Nummer (1,2,3,...). Alle schlagen im gleichen Rhythmus auf ihre Oberschenkel, dann in die Hände klatschen und nun mit den Fingern schnipsen. Auf jedes Wort des folgenden Spruchs kommt ein &quot;Schlag&quot;: &quot;Ribbel Dibbel Nr. 1 , ruft Ribbel Dibbel Nr. 2&quot;. Als erste Nummer wird die eigene eingesetzt, die zweite Nummer muss die eines Mitspielers sein. Der Gerufene machtweiter. Kommt jemand aus dem Takt oder verspricht sich, bekommt er einen &quot;Dibbel&quot; mit Nivea-Creme. Am Ende hat derjenige mit den wenigsten Dibbeln gewonnen.
+Nicht weniger spannend und einfacher ist es mit Chef -Vize. Die erste Person istChef, die zweite Person ist Vize, die nachfolgenden Personen werden durchnummeriert. Alle schlagen im gleichen Rhythmus auf die Oberschenkel, klatschen anschließend in die Hände und zeigen mit der rechten Hand über die rechte Schulter 
+(oder schnipsen) und nennen den eigenen Namen (Chef, oder die entsprechende Zahl), mit der anderen (linken) Hand anschließend ebenfalls zeigend über die linke Schulter und gleichzeitig die Nennung einer Nummer eines Mitspielers (Vice, oder eine Zahl eines Mitspielers). Der Angesprochene macht im selben Rhythmus weiter. Wer durcheinander kommt musssichans Ende setzen. Alle rücken dann einen Platz auf, bis kein Platz mehr leer ist.Jeder erhält dann natürlich auch eine neue Positionsnummer und muss sich den neuen Namen/Nummer merken. Wer dreimal ans Ende muss bekommt einen Spitznamen, den die anderen anstatt der Nummer dann aufrufen müssen.
+
+
+</description>
+  </row>
+  <row>
+    <name>Entenspiel</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>25</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Die Teilnehmersitzen im Kreis und sagen nach einander verschieden Worte:
+-Eine Ente
+-2Füße
+-springtins Wasser
+ –Platsch
+ –zwei Enten
+-4 Füße-springen ins Wasser
+ –Platsch –Platsch,
+ und so weiterNach einer Zeit kann man noch schneller werden und das das Spiel etwas anheizen</description>
+  </row>
+  <row>
+    <name>Die Welle</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>40</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Alle stehen im Kreisund es wirdeine Wellenbewegung ausgelöst. Einer Bückt sich, die beiden Nachbarn*innen klatschen über der gebückten Person ab, danach Bückt sich die Person Links von der gebückten Person und die beiden Nachbarn*in klatschen wieder ab, so geht es jetzt weiter, bis einen schöne erkennbare Welle zu sehen ist, man kann auch noch schneller werden. </description>
+  </row>
+  <row>
+    <name>Liebling ich liebe dich</name>
+    <category>CIRCLE_GAME</category>
+    <size_min>6</size_min>
+    <size_max>40</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Alle sitzen im Kreis, ein Stuhl weniger wie Personen und ein Kandidat wird ausgewählt. Dieser Kandidat knietsichwie bei einem Heiratsantragvor eine Person im Kreis, schaut dieser Person ganz tief in die Augen und sagt: &quot;Liebling, wenn Du mich liebst dann lächle!&quot;. Die Person muss antworten ohne zu lachen: &quot;Liebling ich liebe Dich, aber ich kann nur nicht lachen!&quot;. Lacht die Person trotzdem werden die Rollen getauscht.</description>
+  </row>
+  <row>
+    <name>Pferderennen</name>
+    <category>SINGING_GAME</category>
+    <size_min>5</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig </material>
+    <description>Alle Pferde gehen an den Start.„Auf die Plätze, fertig, los (Startschuss)!“ ?Mit den Händen Pistole zeigen 
+und Schießgeräusch machenDie Pferde rennen. ?Klatschen auf die Oberschenkel
+Sie springen über ein Hindernis. ?Beim Sprung über
+das Hindernis Hände hochreißenSie rennen weiter.
+Da kommt eine Kurve. ?Mit dem Körper in die Kurve legenSie galoppieren weiter.
+Am Rand winken Zuschauer. ?WinkenDie Pferde rennen weiter.
+Da sind Fotografen ?Fotoapparat darstellenund klick, klick, klick machen
+Plötzlich reiten sie durch Matsch ?Mitdem Mund pft, pft, pft machen
+Die Pferde sind auch der Zielgeraden und laufen nochmals ganz schnell.
+Noch 10 Meter bis zum Ziel.Noch 9 Meter. ?abwärts zählen 10, 9, 8, 7, 6, ...Geschafft !!!
+Das Pferd mit der Startnummer „9“ ist der Sieger.
+Der Sieger reitet eine Ehrenrunde und winkt den Zuschauern</description>
+  </row>
+  <row>
+    <name>Dackel Waldemar</name>
+    <category>SINGING_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Kein Mterial nötig</material>
+    <description>Dackel Waldemar ist ein Singspiel. Der Text wird gesungen oder auch gesprochen und es werden passende Bewegungen dazu gemacht.Mein Dackel Waldemar und ich wir zwei, (auf sich zeigen, mit der Hand fast auf den Boden gehen, &quot;zwei&quot; mit zwei Fingern anzeigen), wohnen (mit den Händen ein Dach über dem Kopf machen) in der Regenbogenstraße (einen Regenbogen mit den Händen andeuten)3 (mit den Fingern die Zahl 3 zeigen),und wenn wir Abends eine Runde gehn (aufder Stelle laufen),dann kann man Dackelbeine wackeln sehn,. (wie Dackelbeine mit den Beinen wackeln).</description>
+  </row>
+  <row>
+    <name>Jack und Tina</name>
+    <category>SINGING_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Jack saß in der Küche mit Tina,
+Jack saß in der Küche mit Tina,
+Jack saß in der Küche mit Tina,
+und sie spielten auf dem alten Banjo.
+Sie spielten: 
+flie, fla, fiedeleiho,
+flie, fla, fiedeleiho,
+flie, fla, fiedeleiho,
+und sie spielten auf dem alten Banjo.
+
+Dabei werden typische Bewegungen ausgeführt:
+
+Bei &quot;Jack saß in der Küche mit Tina&quot; wird im Takt der Musik abwechselnd auf die eigenen Oberschenkel und auf die der Nachbarn geschlagen (zuerst eigene, dann die vom rechten Nachbarn, dann eigene, dann die vom linken Nachbarn).Bei &quot;und sie spielten auf dem alten Banjo&quot;: Banjo/Gitarre-Spiel nachahmen&quot;flie&quot;: eine Querflöte wird rechts vom Mund gespielt&quot;fla&quot;: eine Querflöte links vom Mund gespielt&quot;fiedeleiho&quot;: eine Geige wird gespielt
+
+Üblicherweise werden mehrere Runden mit steigender Geschwindigkeit gespielt.
+</description>
+  </row>
+  <row>
+    <name>Funky Chicken</name>
+    <category>SINGING_GAME</category>
+    <size_min>5</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Spieler stehen in einem Kreis. Einer beginnt den folgenden Dialog, die Gruppe antwortet: „Let me see a ...“ –„What did you say?“ –„Let me see a ...“ –„What did you say?“ –„I said [Bewegung]“ Der Spieler, der angefangen hat, macht das Tier/Wesen, das er vorher gerufen hat nach und alle anderen machen mit. Die Bewegung wird dreimal wiederholt. Dann gehen alle zurück in den Kreis. Und der gleiche oder auch jemand anders fängt den Dialog wieder an. Es können unter anderemfolgende Tiere gespielt werden(beim Ausgestaltender Figuren ist eure Kreativität gefragt):
+
+–„Funky Chicken“: Hünchenflügel mit Armen und Geräusch: „Boag-Boag“
+–„Crazy Monkai“: Kratzen und Geräusch: „Ug-Ug“
+–„Toilet Diver“: Nase zuhalten und mit der anderen Hand „an der Toilettenspülung ziehen“ Geräusch: „Zwusch“
+–„wildtiger“: Krallen mit den Händen, Geräusch: „Fauch“</description>
+  </row>
+  <row>
+    <name>Fli Fly Flow</name>
+    <category>SINGING_GAME</category>
+    <size_min>5</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Fli /:
+Fli Fly/:
+Fli fly flow /:
+Wiste /:
+Gumma nana gumma nana gumma nana wiste /:
+oh no no no no no wiste/:
+exa mini sana mini u a a guana mini /:
+exa mini sana mini u a a gua/:
+hey bei de Hotten Totten forn ma aus de linken Socken /:
+fornma aus de Schua /:
+
+Der Text wird jeweils vom Vorsänger gerufen und anschließend von der Gruppe wiederholt. Das gesamte Stück wird meistmehrfach mit ansteigender Geschwindigkeit wiederholt.</description>
+  </row>
+  <row>
+    <name>A ram sam sam</name>
+    <category>SINGING_GAME</category>
+    <size_min>5</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>A ram sam sam,
+ a ram sam sam
+Guli guli guli guli guli ram sam sam
+A ram sam sam,
+ a ram sam sam
+Guli guli guli guli guli ram sam sam
+A ra-vi, a ra-vi
+Guli guli guli guli guli ram sam sam
+A ra-vi, a ra-vi
+Guli guli guli guli guli ram sam sam
+
+Bewegungen
+
+Es gibt zahllose Varianten der Bewegungen, die ausgeführt werden können. Hier wird nur eine Möglichkeit beispielhaft angegeben.
+A ram sam sam -Fäuste bilden und zusammenschlagen; zuerst rechts über links, dann umgekehrt
+Guli guli -Flache Hände vor die Brust strecken und dort Kreisen (Winken)
+A ra-vi -Mit dem Zeigefinger Richtung Kopf zeigen und drehen, zum Abschluss nach oben in den Himmel deuten</description>
+  </row>
+  <row>
+    <name>The big fat pony</name>
+    <category>SINGING_GAME</category>
+    <size_min>5</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material></material>
+    <description>Die Spieler stehen im Kreis, nicht zu eng, so dass sich jeder frei bewegen kann. Es wird der Liedertext (&quot;here we go with the big fat pony&quot;) gesungen, alle bereits &quot;aktiven&quot; Spieler (zuerst nur der erste Spieler) laufen dabei im Kreis. Anschließend bleiben die aktiven Spieler bei (jeweils) einem noch passiven Spieler stehen und führen die Bewegungen mit diesem gemeinsam durch. Diese bisherpassiven Spieler werden dadurch zu aktiven und laufen in der nächsten Runde ebenfalls im Kreis mit.
+Liedertext und BewegungenDie Melodie des Liedes entspricht dem bekannten Lied &quot;What shall we do with the drunken sailor?&quot;:
+Here we go with the big fat pony,here we go with the big fat pony,here we go with the bigfat pony,Die aktiv laufenden Spieler laufen im Uhrzeigersinn im Kreis 
+early in the morning.und stellen sich zu einem noch passiven SpielerFront, front, front, my baby,Die jeweils zusammenstehenden aktiven und passiven Spieler &quot;shaken&quot; (rhythmisches&quot;Disco-&quot;Tanzen), wobei sie Brust an Brust stehen,back, back, back, my baby,... sie Hintern an Hintern stehen ...side, side, side, my baby,... sie Seite an Seite stehen.early in the morning.</description>
+  </row>
+  <row>
+    <name>If you happy and youknow it </name>
+    <category>SINGING_GAME</category>
+    <size_min>5</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>In der großen Gruppe wird das Lied gesungen. Die Haupt-Phrase (&quot;clap your hands&quot;) wird dabei mit einer Bewegung unterstützt, hier also in die Hände geklatscht.
+
+If you&apos;re happy and you know it, clap your hands.
+If you&apos;re happy and you know it, clap your hands.
+If you&apos;re happy and you know it,
+And you really want to show it,
+If you&apos;re happy and you know it, clap your hands.
+In der nächsten Strophe wirddie Phrase geändert, also etwa durch&quot;stomp your feet&quot; ausgetauscht; entsprechend wird dann nicht geklatscht, sondern zweimal mit den Füßen aufgestampft.
+
+weitere Strophensnap your fingers (zweimal mit den Fingern schnippen)
+shout &quot;Hurray!&quot; (Schreien &quot;hoo-ray&quot;)turn around (einmal um die eigene Achse drehen)
+slap your knees (beide Knie zusammen schlagen)
+do it all (alle zuvor gemachten Bewegungen hintereinander)</description>
+  </row>
+  <row>
+    <name>Singingin the rain</name>
+    <category>SINGING_GAME</category>
+    <size_min>5</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>I&apos;m singing in the rain
+just singing in the rain
+what a glorious feeling
+I&apos;m happy again
+
+Zuerst wird die Strophe aus dem Lied gesungen. Anschließend ruft der Betreuer (er unterbricht dadurch das Lied, das ja noch weiter ginge):
+
+Hands up   (deutsch: &quot;Arme nach oben&quot;)
+
+Die Gruppe wiederholt die Anweisung und führt diese ebenfalls aus.
+
+Anschließend wird am Stand locker getanzt (mit den Hüften gewackelt) und dazu folgender Text gesprochen/gesungen:
+
+A zumzaza, A zumzaza, A zumzazaza-aha
+A zumzaza, A zumzaza, Azumzazaza-aha
+
+Danach beginnt die nächste Runde. Es wird wieder die Liederstrophe gesungen, das Lied vom Betreuer unterbrochen. Dann wiederholt er alle bisherigen Bewegungen und fügt eine weitere hinzu. In der ersten Runde führt die Gruppe also eine besondere Bewegung vor dem Tanz aus, in der zweiten Runde zwei und so weiter. Besonders lustigwird dies, wenn etwa die Zunge aus dem Mund gestreckt werden muss.
+
+Bewegungen
+Folgende Bewegungen werden vor dem Tanz ausgeführt, und müssen während des Tanzes beibehalten werden!
+
+Hands up (Hände nach vorne strecken)
+Thumbs up (Daumen nach oben, &quot;OK&quot;-Geste)
+Elbows back (Ellenbogen zurück, das heißt an die Hüfte anlegen, während die Hände nach vorne gestreckt bleiben)
+Knees together (Knie zusammendrücken)
+Head back (Kopf nach hinten)
+Tongue out (Zunge rausstrecken)
+</description>
+  </row>
+  <row>
+    <name>Karawanen -Song (Sum gali gali)</name>
+    <category>SINGING_GAME</category>
+    <size_min>5</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Die Gruppe wird in drei Untergruppen eingeteilt. Die eine Gruppe sind die Kamele die machen: Uhh –ahhpuhh(dabei gehen die Arme erst hoch, dann nach außen gestreckt und dann pustest man Luft durch die Lippen aus und senkt seinen Kopf) Die andere Gruppe sind die singenden Mädchen, sie singen: laalalalalaaaalalaalalalalaaala(dazu machen sie Bauchtanz Bewegungen mit den Armen). Die letzte Gruppe sind die Kameltreiber, die machen: Sum gali gali gali sum galigali Jetzt steuert man mit unterschiedlichen Lautstärken und Geschwindigkeiten die Gruppe und bekommt so ein witziges Lied hin. Besonders gut funktioniert es auch, wenn man die einzelnen Gruppen alleine singen lässt.</description>
+  </row>
+  <row>
+    <name>Der Fisch muss vom Tisch</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>15</size_max>
+    <age>8</age>
+    <material>Streichhölzer, Würfel</material>
+    <description>Die Streichhölzer sind die Fische, von denen jeder Mitspieler 20 Stück vor sich liegen hat. Nach einer „Leerrunde“, bei der die höchste Augenzahl gewinnt und damit bestimmt, wer anfangen darf, geht es richtig los. Dann muss nämlich je der versuchen, seine Fische so schnell wie möglich loszuwerden. Wer als Erster einen blanken (leeren) Tisch anmelden kann, hat gewonnen!
+
+Am Anfang geht es ganz flott: Bei jedem Wurf darf diejenige Anzahl an Streichhölzern weggelegt werden, die der Anzahl der Würfelaugen entspricht. Wirft jemand eine „5“, ister fünf Fische los. Wirft jemand eine „3“, darf er drei Stück zur Seite legen usw. Schwierig wird es, wenn der Fischbestand auf weniger als sechs Stück zusammengeschrumpft ist. Würfelt nämlich jemand eine 5, hat aber nur noch vier Fische vor sich liegen, muss er sich einen dazu holen. Dem Nachbarn ergeht es vielleicht noch schlechter, denn er hatte sich möglicherweise schon auf einen einzigen Fisch heruntergewirtschaftet und würfelt eine 6. Dann kommen gleich 5 Fische inden eigenen Bestand zurück.Das Ziel ist es natürlich alle Fische loszuwerden.</description>
+  </row>
+  <row>
+    <name>Nase auf Blau </name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Ein Spieler beginnt und gibt ein Kommando, das aus einem Körperteil, der Präposition „auf“ und einer Farbe besteht, z.B. Naseauf Blau (Knie auf Grau, Schulter auf Pink...). Sofort müssen sich alle Spieler etwas Blaues im Raum suchen und ihre Nase daranhalten(Kleidungsstücke zählen auch!). Wer zuletzt seine  Nasean etwas Blaues gehalten hat, bekommt einen Minuspunktund darf das  nächste Kommando geben.</description>
+  </row>
+  <row>
+    <name>Evolution</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Spieler starten mit der ersten Evolutionsstufe und laufen herum. Treffensich zwei gleiche Evolutionsstufen, führen sie ein Duell in „Schere, Stein, Papier“durch. Der Gewinner steigt eine Stufe auf, der Verlierer bleibt in der Evolutionsstufe. Ziel ist es, die letzte Stufe zu erreichen. Wenn alle richtig gespielt haben, bleibt am Ende je ein Vertreter jeder Stufe von 1-4übrig. Es gibt folgenden Evolutionsstufen:
+1)Ei –in der Hocke laufen, sich mit der Hand auf den Kopf schlagen und „Ei  Ei Ei Ei Ei...“ rufen
+2)Huhn –bekannte Hühnerbewegung und gackern
+3)Dino –mit beiden Armen ein großes Dinomaul nachahmen und dabei wie ein Dino schreien. 
+4)Ritter –Mit dem Schwert herumfuchteln und dabei immer wieder rufen„Ich schlage dich, du Schuft“
+5)Weise/r Mann/Frau –an den Rand des Geschehens stellen und sich den Bart streicheln
+
+Tipp: Es empfiehlt sich, die Evolutionsstufenim Vorfeld gemeinsam zu üben.</description>
+  </row>
+  <row>
+    <name>Kettenkrieger </name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>12</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Kein Material ntig</material>
+    <description>Ein Spieler ist der erste Ticker und muss andere Spieler versuchen zu fangen.  Alle anderen laufen dabei weg. Wird ein Spieler gefangen, so müssen sich die Beiden „aneinander ketten“ (d.h. sie halten sich an den Händen fest). Die „Kette“ (die beiden Spieler) muss jetzt versuchen andere Spieler zu fangen, dabei dürfen sie sich nicht loslassen. Die „Kette“ wird durch jeden gefangenen Spielerlänger, bis nur noch eine Person überbleibt und dann eine neue Spielrunde beginnt. 
+
+Variation: 
+ Eine Kette besteht maximal aus drei Personen. Kommt eine vierte Person hinzu, teilt sich die Gruppe in zwei 2er Gruppen. Jetzt ticken zwei Ketten.</description>
+  </row>
+  <row>
+    <name>Zombieball</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>In dem Spiel spielt jeder gegen jeden. Es wird ein Ball ins Spiel gegeben und dieSpieler müssen versuchen den Ball für sich zu gewinnen, damit sie möglichstviele andere Mitspieler abtreffen können. Hierbei ist zu beachten, dass man entweder dem Ball ausweicht oder den Ball fängt. Wenn man den Ball fängt,bleibt man im Spielfeld und wenn man abgeworfen wird, setzt man sich amRand z.B. auf eine Bank hin.Jeder abgeworfene Spieler muss sich merken, werihn abgeworfen hat, da er sobald dieser von einem anderen abgeworfen wird, wieder auf das Spielfeld darf. Bei diesem Spiel ist es so, dass man nicht gleich aus dem Spiel ausgeschieden ist, wenn man getroffenwird. Man kann immer wieder sein Geschick unter Beweis stellen. 
+
+Variante: 
+Durch einen zweiten Ball kann die Schwierigkeit erhöht werden.</description>
+  </row>
+  <row>
+    <name>Riese, Elfen, Zauberer</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Kein Materal nötig</material>
+    <description>Bei diesem Spiel gibt es drei Figuren, von denen eine immer stärker ist als die andere. Die Spieler teilen sich in zwei Gruppen auf. Sie überlegen sich innerhalb einer Gruppe, welche Figur sie darstellen wollen (ohne dass die andere Gruppe mithört). Dann stellen sich die beiden Gruppen in einer langen Reihe zueinander auf, der Abstand zwischen den beiden Gruppen soll ca. 1 m betragen. Auf ein Signal des Spielleiters stellen beide Gruppen ihre Figur dar. Die Gruppe, die die stärkere Figur hat, muss möglichstviele Leute aus der anderen Gruppe fangen.  Die „schwächere“ Gruppe muss zum Ende des Spielfeldes laufen, um „sicher“ zu sein. Das Spiel kann solange gespielt werden, bis alle in einer Gruppe sind.
+
+Rollen zum Spiel: Riesen:Sie stellen sich auf Zehenspitzen, strecken die Arme in die Luft, schauen grimmig und brüllen laut: „Riesen!“ Elfen:Elfen machen sich klein, ziehen die Schulter ein und flüstern ganz leise:  „Elfen“ Zauberer:Sie haben einen buckligen Rücken, magischenBlick und zischen mit verzaubernden Gesten „Zauberer!“
+
+Wichtig: Die Riesen sind stärker als die Elfen; die Elfen sind stärker als die Zauberer; die Zauberer sind stärker als die Riesen</description>
+  </row>
+  <row>
+    <name>Kegelfußball </name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>5</age>
+    <material>Pro Personen einen Kegel, einen Fußball </material>
+    <description>Jedes Kind erhält einen Kegel. Alle Mitspieler verteilen sich in der Halle und stellen ihre Kegel dort ab. Nun legt der Spielleiter einen Fußball in die Mitte der Halle und eröffnet das Spiel. Bei vielen Spielern kann man auch zwei oder drei Bälle einsetzen. Nun versucht jeder Spieler die Kegel der anderen Mitspieler umzuschießen. Fällt der eigene Kegel um, ist man ausgeschieden. Ebenfalls scheidet man aus, wenn man seinen eigenen Kegel, z.B. aus Versehen beim Verteidigen, umstößt. Am Ende bleiben nur noch 2 Spieler übrig. Gewonnen hat derjenige, dessen Kegel am Ende noch steht.
+
+Variation: 
+Das Spiel kann man auch gegeneinander spielen. Es werden zwei Teams gebildet und man stellt die Kegel gegenübervoneinander auf (z.B. in einem Abstand von 6m). Beide Teams versuchen die Kegel der gegnerischen Mannschaft umzuschießen. Gewonnen hat die Mannschaft, die zuerst alle Kegel der gegnerischen Mannschaft umgeschossen hat.
+</description>
+  </row>
+  <row>
+    <name>Buchstabenbelegen</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>15</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Buchstabenkarten von A bis Z pro Gruppe</material>
+    <description>Die Gesamtgruppe wird in Kleingruppen (4-6 Personen) getrennt. Jede Klein gruppe erhält das Alphabet als Buchstabenkarten (jeder Buchstabe auf einem Blatt Papier). Auf Kommando beginnt das Spiel. Ziel ist es, auf jede Karte einen Gegenstand zu legen, der mit diesem Anfangsbuchstaben beginnt. Es ist auch Kreativität gefragt, z.B. zählt bei C auch „Christianes Uhr“ oder bei U „unsichtbarer Kugelschreiber“. Die Gruppe, die zuerst fertig ist, hat gewonnen.</description>
+  </row>
+  <row>
+    <name>Kartenlauf</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>12</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kartenspiel</material>
+    <description>Zur Vorbereitung werden alle Karten des Spiels verdeckt in derMitte der Hallegelegt. Die Spieler stehen in 4 Gruppen an jeder Ecke der Halle und erhalten durch Losentscheid eine der 4 Asse (Karo, Herz, Kreuz oder Pik).
+Auf Kommando beginnt das Spiel. Der jeweils Erste jeder Gruppe läuft in die Mitte und dreht eine beliebige Karteum. Ist sie von seiner Farbe, darf er sie mitnehmen. Ist die Karte nicht von seiner Farbe, dreht er sie wieder um. Er sprintet zurück zu seiner Gruppe, schlägt per Handschlag ab und der nächste Läufer darf starten. Das wiederholt sich in jeder Gruppe solange, bis alle Karten einer Farbe gesammelt wurden (2, 3, 4, 5, 6, 7, 8, 9, 10, Bube, Dame, König und Ass). Sieger ist die Mannschaft, welche zuerst alle Karten ihrer Farbe komplett hat.
+
+Variante 1:
+ Es wird mit weniger Karten gespielt.
+
+Variante 2:
+ Es muss der Reihe nach gesammeltwerden (Straße). 
+
+ACHTUNG: dauert sehr lange und ist eher für Ältere gedacht.</description>
+  </row>
+  <row>
+    <name>Cola, Fanta, Sprite</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Ein Streifen Kreppband wird auf den Boden geklebt. Alle Spieler stellen sich schulterbreit auf die Linie. Dann sagt der Spielleiter „Cola“ und alle springen auf die rechte Seite der Linie. Danach sagt der Spielleiter „Sprite“ und alle stellen sich wieder in die Mitte der Linie. Dann sagter „Fanta“ und alle springen auf dielinke Seite der Linie. Die Begriffe „Cola, Fanta, Sprite“ können natürlich auch in einer x-beliebigen Reihenfolge gerufen werden. Der, der falsch steht, scheidet aus. Als erschwerter Faktor kommt „Mezzo Mix“ hinzu, dabei muss man mit den Beinen gekreuzt auf der Linie stehen.</description>
+  </row>
+  <row>
+    <name>Krabbencatchen</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Bei diesem Spiel spielen alle Mitspieler gegeneinander. Es gilt, wie Krabben auf allen Vieren zu laufen. Außer den Händen und den Füßen darf kein anderer Körperteil den Boden berühren. Aufstehen ist ebenso wenig erlaubt.Die Aufgabe ist es nun, durchstoßen, schubsen und drücken die anderen Krabben dazu zu bringen, dass sie auf ihrem Gesäß landen oder umfallen. Wer nicht mehr in der Krabbenposition läuft und umgeschubst wurde, scheidet aus undmuss die Spielfläche verlassenWem gelingt es am längstenals Krabbe zu überleben?Die Spielleitung sollte bei diesem Spiel ein besonders waches Auge haben, damit niemand zu stark andere schubst und ärgert. Zu starke Kabbeleien sollten unterbunden werden.</description>
+  </row>
+  <row>
+    <name>Wäscheklammern klauen</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Für jeden Mitspieler drei oder mehr Wäscheklammern </material>
+    <description>Jeder Mitspieler bekommt drei Wäscheklammern, die er an seiner Kleidung befestigt. Nach einem Startsignal versuchen sich die Mitspieler gegenseitig die Wäscheklammern zu klauen, um sie bei sich zu befestigen. Wer keine Wäscheklammern mehr hat, scheidet aus. Gewonnen hat, wer nach einer bestimmten Zeitspanne die meisten Wäscheklammern gesammelt hat.</description>
+  </row>
+  <row>
+    <name>Flöhe fangen</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>15</size_max>
+    <age>8</age>
+    <material>Augenbinde</material>
+    <description>Alle Spieler sind Flöhe. Einer davon ist der Fänger, ihm werden die Augen verbunden. Wichtig ist, dass sowohl aktive als auch ausgeschiedene Spieler möglichst leise sind, ansonsten istdas Spiel schwer durchführbar.Die Flöhe verteilen sich im Raum und hocken sich nieder. Der Fänger hüpft nun -blind-herum und versucht, die anderen Flöhe durch berühren zu fangen. Wer gefangen ist, stelltsich an eine Seite des Raumes.Durch Weghüpfen können sich die Flöhe auch aus der Gefahrenzone befreien. Allerdings Achtung: jeder Floh darf nur eine vorher definierte Anzahl an Sprüngen vollziehen (etwa 3-5).Dies gilt natürlich nicht für den fangenden Floh, der eine beliebige Anzahl an Sprüngen durchführen kann.</description>
+  </row>
+  <row>
+    <name>Bambule </name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>12</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Absperrband, Socke mit Tennisball</material>
+    <description>Es wird ein Spielfeld abgesteckt ca. 10x10 Meter. Jeder Spielerbekommt eine Nummer zugeordnet, am besten auf einen Kreppklebestreifen schreiben. Anschließendteilt sich die Gruppe auf die vier Seiten auf. Der Spielleiter liest immer zwei Nummernaus einem gegenüberliegenden Team vor, die dann versuchen müssen, die Socke auf ihreSeite zubringen.  Der Kampf um die Socke gilt als gewonnen, sobald die Socke über der abgesperrten Linie ist. 
+WICHTIG: Darauf achten, dass die Kinder alle angemessene Kleidung anhaben und die Kämpfe nicht zu stark werden.</description>
+  </row>
+  <row>
+    <name>Glucke, Küken, Fuchs</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>8</age>
+    <material>Kein Material nötig</material>
+    <description>Die Teilnehmer stellen sich in zwei Kreise voreinander auf. Eine Person sollte übrig sein und stellt den Fuchs da. Die Person imhinteren Kreis sind die Küken und im vorderen die Glucken. Die Glucken versuchen mit lautem Gegacker die Küken zu retten und den Fuchs zu verscheuchen. Der Fuchs versucht an die Küken dran zu kommen. Beidem Spiel geht es darum zu lernen wie man sich für einander stark macht. </description>
+  </row>
+  <row>
+    <name>Jeder fängt jeden</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>40</size_max>
+    <age>8</age>
+    <material>Kein Material nötig </material>
+    <description>lle spielen gegeneinander. Jeder darf jeden ticken. Die getickten müssen stehen bleiben und sich merken von wem sie getickt wordensind.  Wird diese Person dann getickt, ist man selber wieder frei.</description>
+  </row>
+  <row>
+    <name>Fangen im Gehen</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Kein Material nötig</material>
+    <description>JederSpieler bekommt einen Partner zugelost.  Der eine wird zum Fänger der andere zum gejagt, doch für beide gilt, man darf nicht anfangen zu rennen, sondern nur laufen! Man kann auch sagen, dass man nur Rückwärts gehen darf oder humpelndErweiterung: Alle Spieler rennen wild Durcheinandern und versuchen dabei die anderen nicht zu berühren. Wenn dies aber doch passiert muss drei Mal ganz laut geflucht werden. Das Spielfeld kann man immer kleiner machen.</description>
+  </row>
+  <row>
+    <name>Drachenschwanzjagd</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Reepschnur bzw. Tuch als Schwanz</material>
+    <description>Alle Kinder stehen in einer Schlange hintereinander und fassen mit den Händen um die Hüftedes Vordermanns. Der Letzte (=Schwanz) hat eine Reepschnur/ein Tuch etc. in seiner Hose alsSchwanz stecken. Der Erste (=Drachen-Kopf) muss den Schwanz abreißen, ohne dass sein„Körper“ (= restliche Kinder) auseinanderfällt. Hat er es geschafft, kommt der Erste an die letzteStelle, und so weiter.
+
+Variante: 2 Drachen</description>
+  </row>
+  <row>
+    <name>Bierdeckel werfen</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Bierdeckel</material>
+    <description>Man steckt ein Feld ab und bildet zwei Mannschaften.  Jetzt sucht man sich eine Spiel Variante raus. 
+
+1. Variante: Bierdeckel ins gegnerische Feld werfen
+2. Variante: Bierdeckel umdrehen, jede Mannschaft muss alle seinen Bierdeckel aufeine Seitegedreht bekommen
+3. Variante: Die Bierdeckel müssen aufgesammlet werden, wer am Ende die meisten hat, hat gewonnen.
+
+Die Ideen Mannschaftsspiele aus Bierdeckel zu machen, kann man individuell überlegen. </description>
+  </row>
+  <row>
+    <name>Lifter</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Kinder, bis auf eins, stehen auf einer Seite, die andere Person steht gegenüber mitca. 30 Meter Abstand. Jetzt ruft die einzelne Person „Wer hat Angst vorm Lifter“, die Gruppe antwortet mit „Niemand“, dann der Lifter „und wenn er kommt“ „dann rennen wir“ Jetzt rennen die Personen los, der Lifter hat die Aufgabe Personen hochzuheben, wenn er es bei einer Person geschafft hat, wird diese auch zum Lifter und helfen dem Lifter in der nächsten Runde beim liften. </description>
+  </row>
+  <row>
+    <name>Tortenvölkerball</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Etwas zum Abstecken des Spielfeldes, Bälle Es wird ein rundes Spielfeld abgesteckt, mit einem kleinen extra Kreis drum herum. Dann wird der Kreis in 6 Stücke aufgeteilt.  Die Spielleiter*in muss jetzt 6 Mannschaften bilden. Jede Mannschaft bestimmt einen Hintermann/frau (der letzte Spieler, der 3 Leben hat). Die restlichen Spieler sind in ihrem Tortenstück und werfen sich gegenseitig mit Bällen ab. Wenn einer getroffen worden ist,dann muss er zum Hintermann ins Feld. Er kann sich wieder frei werfen, indem er eine Person auf dem Feld trifft.Man darf nur seineNachbarfelder abwerfen und nicht über andere Felder drüber werfen.
+</description>
+  </row>
+  <row>
+    <name>Hase und Igel</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Je zwei Kinder haken sich mit Armen bei einander ein. Diese Zweiergrüppchen verteilen sichauf der Fläche.Zwei Kinder sind Fänger und Gefangener. Gejagter kann sich inSicherheit bringen, indem ersich bei einem Zweiergrüppchen dazu einhackt. Hat er sich eingehakt, muss sich der äußeredritte von dem Grüppchen lösen und wird nun zum Fänger. Der Fänger wird somit plötzlich zumGejagten.Kann der Fänger den Gejagten fangen, wechseln ebenfalls die Rollen –der Fängerwird zumGejagten und umgekehrt.Dieses Spiel ist auch sehr nett als Storch und Bär (statt Hase und Igel). Alles gleich, jedoch istder Fänger der Bär und muss während dem Fangen laut brüllen und mit den Händen„BärKratz-Fang-Bewegungen“ machen.Der Gefangene ist der Storch. Dieser muss mit ausgestreckten Armen vor sich in die Händeklatschen und während dem Rennen laut „klapp –klapp“ rufen.</description>
+  </row>
+  <row>
+    <name>Wo ist mein Huhn</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>6</size_min>
+    <size_max>30</size_max>
+    <age>10</age>
+    <material>Gummihuhn oder ähnliches</material>
+    <description>Eine Person wird ausgesucht und entfernt sich ca. 15 Meter von der Gruppe. Das Huhn wird vor diese Person auf den Boden gelegt. Die Gruppe stellt sich in einer Reihe nebeneinander auf. Die auserwählte Person dreht sich um und ruft: „WOOOO...IST...MEIN...HUHN!!“ Dann dreht sich diese wieder zur Gruppe. In dem Zeitraum, wo die Person sich umdreht, darf die Gruppe sich bewegen und versuchen das Huhn zu bekommen. Wenn sich jemand weiterbewegt, nachdem die Person sich wieder umgedreht hat, wird dieser wieder an den Anfang zurückgeschickt. Wenn es jemand geschafft hat, das Huhnzu bekommenohne dabei gesehen zu werden, muss dieses -ohne es zu werfen -zurück an die 
+Startliniegebracht werden. Die Person darf Einzelne aus der Gruppe auswählen, welche auf Befehl die Hände heben müssen und so zeigen, dass sie das Huhn nicht haben. Ziel des Spiels ist es so  unentdeckt das Huhn über die Ziellinie zu bekommen.</description>
+  </row>
+  <row>
+    <name>Das Tütenspiel</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Pro Betreuer eine Tüte, gefüllt mit 10 Gegenständen</material>
+    <description>JederBetreuer bekommt eine Tüte gefüllt mit 10 Gegenständendrin. Die Kinder versuchen nun die Betreuer zu ticken und einen Blick für 10 Sekunden in die Tüte zubekommen und die Gegenstände auf eine Liste zuschrieben. Doch das gemeine ist, das Betreuer untereinander die ganzen Tüten oder auch nur einzelne Gegenstände tauschen dürfen. Auch dürfen die Betreuer vor den Kindern wegrennen. Nach Ablauf der Zeit gewinntdie Gruppe mit den meisten Gegenständen. </description>
+  </row>
+  <row>
+    <name>Das Chaosspiel</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Ein Spielplan, Spielfiguren, Karten mit Nummer und Codewort</material>
+    <description>Auf dem gesamten Gelände sind Karten verteilt mit einer Nummer (1-100) und auf der anderen Seite einem Codewort. Die Kinder müssen Würfelnund haben dann die Aufgabe die Nummer, auf der sie gelandet sind zu suchen, dann bringen sie das Codewort zur Spielleitung und müssen eine kleine Aufgabe erledigen. (Ein Lied singen, Liegestützen, Hampelmänner, irgendetwas bringen etc.) Nach der Erfüllung der Aufgabe, darf die Gruppe erneut würfeln.</description>
+  </row>
+  <row>
+    <name>Muh-Mäh-Miau-Spiel</name>
+    <category>MOVEMENT_GAME</category>
+    <size_min>12</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Tröte, Zettel, Stift</material>
+    <description>Die Betreuer haben eine Liste von Tiergeräuschen, die sie machen müssen, Sie verteilen sich auf dem Gelände und laufen durch die Gegend.  Nach jeweils 5 Minuten ertönt ein Geräusch, das zum Tierwechsel ruft. Die Kinder müssen alle Tiere finden. Um es etwasschwieriger zu machen dürfen sie aber nur zwei Unterschriften von einem Betreuer haben. Die Gruppe die zuerst bei jedem Tier eine Unterschrift hat gewinnt. Kuh, Ziege, Katze, Frosch, Esel, Hund, Huhn, Hahn, Fisch, Elefant, Fisch, Schwein, Mensch etc.</description>
+  </row>
+  <row>
+    <name>Stratego</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>20</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Strategokarten</material>
+    <description>Die Gruppe wird aufgeteilt in 2 Mannschaften. Jede Gruppe sucht sich innerhalb von 5-10Minuten einen Lagerplatz im Wald  und  grenzt  diesen  (etwa  4  mal  4  Meter  groß)  mit Ästen  und  Ähnlichem  ab.  Die  Spieler  des  einen  Teams erhalten gelbe, diedes anderen Teams blaue Karten.
+
+Nach Spielbeginn (zuvor festgelegte Uhrzeit) schwärmen die  Gruppen  aus.  Trifft  ein  Spieler  auf  einen  Feind  und berührt diesen, zeigen sich beide Spieler die Karten. Der im  Rang  höhere  Spieler  (z.B.  &quot;Bombe&quot;)  führt  den  Feind (z.B.  &quot;Unteroffizier&quot;)  ab  und  bringt  ihn  persönlich  zum Lagerplatz.  Während  einer  Gefangenenabführung  kann keiner  der  beiden  gefangen  oder  befreit  werden!  Bei gleichem  Rang  trennen  sich  die  Gegner.  Ein  Festhalten, bis der nächsthöhere Mitspieler kommt, ist verboten. DerRang  des  Feindes  sollte  in  diesem  Fall  lautstark  den eigenen   Mitspielern   verkündet   werden   (&quot;Christian   ist Generaaaaal!&quot;),   denn   das   Tauschen   der   Karten   nach Spielbeginn  ist  verboten  und  führt  sofort  zur  Niederlage der  gesamten  Mannschaft!  Jedes  Team  hat  genau  eine &quot;Fahne&quot;  und  mindestens  2  &quot;Spione&quot;.  Gefangene  können nur  durch  Abschlagen  des  &quot;Spions&quot;  im  Lager  befreit werden.  Dabei  reicht  es aus,  wenn  die  Gefangenen  eine Kette innerhalb des Lagers bilden und das Ende der Kette berührt wird. Das Spiel ist gewonnen, wenn entweder die gegnerische   &quot;Fahne&quot;   geschlagen   wurde,   alle   Spione gefangen   wurden   oder   zu   einer   vorher   bestimmten Uhrzeit die meisten Gefangenen gesammelt wurden.
+
+-Der Lagerplatz muss von mindestens 3 Seiten angreifbar sein,    nicht    mehr    als    3    Totenwachen    mit    einem Mindestabstand    von    10    Metern    haben,    und    die Abgrenzungen müssen überwindbar sein!
+-Pro  Team  sollte  1  Leiter  mitspielen, um  den  Kindern verschiedene Strategien vorzuschlagen (z.B. Massenangriff;   niedrige   Ränge   suchen   die   Fahne   im Gelände;  niedriger  Rang  geht  mit  höherem  Rang,  um schwieriger  angreifbar  zu  sein  (z.B.  Minör  &amp;  Bombe  / Feldmarschall &amp; Unteroffizier), Ablenkungsmanöver etc.). 
+-Das  1.  Spiel  ist  meist  noch  etwas  unkoordiniert,  da  die Regeln zunächst verinnerlicht werden, beim 2. Malist es interessanter!</description>
+  </row>
+  <row>
+    <name>Capturethe Flag</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>-2 Flaggen oder ähnliches -Absperrband</material>
+    <description>Bei diesem Geländespiel gibt es 2 Teams, die in 2 ungefähr gleichgroßen Gebieten die Flagge des anderen Teams bzw. deren Hauptquartier suchen müssen. Zuerst teilt man 2 Teams ungefähr in 2 gleich große und starke Gruppen auf und gibt jedem Team eine Fahne, die gut sichtbar aufgehängt werden muss, bzw. mit dem Stab im Boden steckt.Nur auf den Boden legen und mit Laub abdecken ist nicht erlaubt. Wenn ein Angreifer des gegnerischen Teams in die Hälfte einer Mannschaft kommt, darf diese ihn versuchen zu fangen. Wenn es der Mannschaft gelingt ihn zu berühren, muss dieser Spieler ins Gefängnis. Er muss mit mindestens 1 Fuß im Gefängnis sein. Falls mehrere Gefangene dort sein sollten, können sie eine Kette bilden. Der Gefängniswärter muss mindestens einen Abstandvon 2,5m um das Gefängnis herum einhalten, da esansonsten keiner schafft jemandenzu befreien wodurchdas Spiel für Gefangene langweiligwird. Wenn jemand die Fahne geklaut hat muss er sie über die Mittellinie bringen. Falls er dies nicht schaffen sollteda ihn ein Verteidiger gefangen hat, kann er die Flagge entweder kurz vorher einem Mitspieler übergeben, NICHT ZUWERFEN!!!! Falls er das nicht tut oder nicht tun kann, muss er die Flagge abgeben und die Verteidiger haben 30 Sekunden Zeit die Fahne erneut zu verstecken, oder wieder im Hauptquartier zu hissen.
+
+Wertung
+Gewonnen hat das Team das am häufigsten die Fahne der Gegner über die Grenzlinie ins eigene Gebiet gebracht hat. Bei Gleichstand hätte dann die Mannschaft gewonnen, die weniger Leute im Gefängnis haben. Nach jeder Runde wird das Gelände/die Spielseite gewechselt.</description>
+  </row>
+  <row>
+    <name>Farbenspiel</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>25</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Einen Farbkasten für jede Gruppe:-eine Schere, ein Wollknäul in der Farbe, Pappstreifen in der Farbe und Infozettel</material>
+    <description>Die Gruppe wird in acht kleineGruppen eingeteilt. Jede Gruppe erhält einen Farbkasten (sodass die anderen die Farbe nicht erkennen können) und sucht sich nun im Gelände ein Lager. Die Lager sollten gut verteilt sein, sodass die Gruppen nicht zu eng aneinander sind. Jeder Teilnehmer erhält ein Band zur Farberkennung um sein Handgelenk. Außerdem bekommt er einen Pappstreifen. Jetzt kann das Spiel beginnen. Die Spieler laufen durchs Gelände und versuchen Pappstreifen von den Farben die sie schlagen können (siehe Liste)  zu bekommen. Wenn sie selber von derFarbe getickt werden, müssen sie 
+alle Pappstreifen egal welche Farbe abgeben. Wenn ein Spieler kein Pappstreifen mehr hat, so muss er wieder zurück ins Lager um sich einen neuen zu holen.Wenn sich zwei Farben treffen, die nicht in Kontakt stehen passiertnichts.
+Farbe                                    schlägt                             wird geschlagen von 
+Orange                                Gelb/Grün                         Rot/Lila 
+Gelb                                     Grün/Rosa                      Lila/Orange 
+Grün                                     Rosa/Hellblau                 Orange/Gelb
+Rosa                                    Hellblau/Dunkelblau     Gelb/Grün
+Hellblau                              Dunkelblau/Rot              Grün/Rosa
+Dunkelblau                        Rot/Lila                             Rosa/Hellblau 
+Rot                                       Lila/Orange                    Hellblau/Dunkelblau
+Lila                                       Orange/Gelb                  Dunkelblau/Rot                                                </description>
+  </row>
+  <row>
+    <name>Contacto</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>5</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Kein Material ntig</material>
+    <description>Es wird eine Person aus der Gruppe bestimmt, die zum Contacto wird. Der Contacto steht im Kreis, jetzt müssen sich die anderen Mitspieler bei ihm an der Hand abklatschen und sich dann verstecken. Der Contacto zählt nun von 15 runter. Wenn er zu Ende gezählt hat, dann versucht er möglichst viele Mitspieler zu finden und laut aufzurufen. Wenn er die Spieler richtig erkannt hat sind sie aus dem Spiel. In der nächsten Runde zählt der Contacto von 14 herunter. Die Mitspieler müssen sich erneut beim Conatco abklatschen und verstecken. Diesgeht so lange, bis der Contacto alle Mitspieler gefunden hat. </description>
+  </row>
+  <row>
+    <name>Bombenentschärfung</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>9</age>
+    <material>7 Nylonstrumpfhosen3 Packungen Mehl Bierdeckel und Klebeband</material>
+    <description>Im Wald haben Bösewichte Bomben versteckt, um den ganzen Wald in die Luft zu sprengen. Das muss verhindert werden! Der Pyrotechniker bittet die Kinder um Hilfe, sie sollen so viele Bomben wie möglich finden und zu ihm bringen. Das Team, das am meisten Bomben gefunden hat, gewinnt.
+-Die Kinder werden in Teams eingeteilt (4 Teams)
+-Die Kinder müssen im Wald versteckte „Bomben“ finden und zu zwei zentralen Sammelpunkten bringen
+-„Aus Sicherheitsgründen“ können nur drei Kinder aus einem Team gemeinsam eine Bombe abgeben-Der Pyrotechniker im Sammelpunkt nimmt die Bomben entgegen (um sie zu „entschärfen“) und notiert, wie viele Bomben die Teams jeweils abgegeben haben
+-Jäger (ca. 5 ausdauernde Teamer) jagen die Kinder und versuchen sie mit Mehl gefüllten Bällen aus Nylonstrumpfhosen zu „verletzen“. Diese hinterlassen weiße Mehlflecken auf der Kleidung (lassen sich nach dem Spiel leicht wieder abklopfen)
+-Wurde ein Kindgetroffen, muss es stehenbleiben (falls es eine Bombe bei sich hat, darf es sie aber behalten) und nach einem Sanitäter rufen-Sanitäter (ca. 3 Teamer) „heilen“ die Kinder, indem sie Streifen Klebeband über die  Mehlflecken kleben ! Kinder dürfen weiterspielen-Kinder dürfen Mitspielern des gegnerischen Teams Bomben abnehmen, wenn sie sie ticken (wurde ein Kind getickt muss es die Bombe abgeben, aber nicht stehenbleiben)Nach ca. 1 ½ Stunden, müssten so langsam alle Bomben gefunden und entschärft sein. Die Jäger werden festgenommen.
+
+Verboten:
+-Bomben in Jacken-/Hosentaschen verstecken
+-Weiterlaufen, obwohl man von einem Jäger verletzt und noch nicht vom Sanitäter behandelt worden ist
+-Ein „verletztes“ Kind ticken und ihm die Bombe abnehmen
+-Jäger: Katzenwachen vor dem SammelpunktRollen der Teamer:
+-2 Pyrotechniker: Stellen das Spiel vor und nehmen die Bomben entgegen
+-Ca. 5-6 Jäger: Komplizen des Bösewichts und versuchen die Kinder mit Mehlbällenzu „verletzen“
+-Ca. 3-4 Sanitäter: „Verbinden die Wunden“ mit Klebeband
+Bierdeckel als Bomben! Jedes Team sollte mindestens 6-8 Bomben abgeben können, jedes Kind sollte die Chance haben, mindestens eine zu finden; wir müssen davonausgehen, dass nicht alle gefunden werden ! 40-60 Bomben
+Vorbereitung: Bomben müssen von uns vorher im Wald deponiert werden
+
+</description>
+  </row>
+  <row>
+    <name>Burg erobern</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>20 Tischtennisbälle, Zettel und Stift, 30 Teelöffel, 2 Wannen,Schwamm, Messbecher, Flasche Wasser 0,5, 100 Luftballons</material>
+    <description>Im Wald lebten einst 8 Adelsgeschlechter. Diese teilten sich auf in Ritter und Kundschafter (Späher). Jedes Adelsgeschlecht hatte sein eigenes Symbol, das man sich stolz ins Gesicht malte. Im Wald gab es mehrere Burgen: Burg Drachenherz, Burg Zwergental, Burg Schlotterstein, Burg Schwanenstein, Burg
+Holzenberg, Burg Ringelsock, Burg Königsfels, Burg Schönstett, Burg Schützental und Burg Riesenfluss. Diese Burgen waren im Besitz der Burgherren, und die Adelsgeschlechter versuchten, diese zu erobern. Dabei kam es aber selten zum Kampf, weil es meistensausreichte, die Burgherren schwer zu beeindrucken. Der Nachteil daran war, dass die Burgherren im Allgemeinen nicht sehr treu waren und sich schnell von einem anderen Adelsgeschlechtüberzeugen ließen, ihnen die Burg zu überlassen. Mindestens eine Burg musste aber jedes Rittergeschlecht besitzen, um dort ihre Schätze einzulagern. Eine weitere Schwierigkeit war die unglaubliche Hochnäsigkeit der Burgherren. So ließen sich diese nicht dazu herab, sich mit einemgewöhnlichen Ritter zu unterhalten und so mussten die Adeligen ihre gebildeten Kundschafter (Späher) vorschicken, um mit ihnen verhandeln zu können. Die Schätze der Ritter nahmen die Burgherren jedoch gerne entgegen, um diese für sie zu verwalten. Den Burgherren blieb auch nichts anderes übrig, da nur ein tapferer Ritter in der Lage war, den beschwerlichen und gefährlichen Weg zum König zurückzulegen und die Schätze sicher vor den anderen, stets aufeinander neidischen Rittergeschlechtern, in ihre Burg zuschmuggeln. Leider gehörte auch der König zu der hochnäsigen Sorte Mensch wie die Burgherren, und so benötigten die Ritter wieder die Hilfe ihrer Späher, um ihn zu überlisten: Diese brachten in Erfahrung, was z.Zt. das Lieblingsessen des Königs war und teilten es den Rittern mit. Diese wiederum begaben sich nun selbst zum König, gaben sich dort meist als Hellseher aus und bewiesen ihm ihre Fähigkeiten durch das Nennen seines Leibgerichtes und sagten ihm für viel Geld (Luftballons) seine Zukunft voraus. So kamen alle Adelsgeschlechter mit der Zeit zu großenReichtümern und horteten diese in ihren Burgen und versuchten, stets auf den eigenen Vorteil bedacht, die anderen Burgen mitsamt den Schätzen zu erobern.Solange, bis der einst so reiche König pleite war und dem Wohlhabendsten Adelsgeschlecht die Herrschaft überlassen musste. 8 gleich starke Gruppen, 10 GLs als Burgherren, 1 GL als König Gruppen werden in Späher und Ritter aufgeteilt und bekommen inihrer Farbe ihr Zeichen (R= Ritter, S= Späher) aufgemalt, Jede Gruppe bekommt zu Beginn einen Burgnamen verraten, diese Burg ist ihr Anfangsziel. Die Burgherren bekommen ebenfalls ihre Anfangsgruppe gesagt und dürfen nur preisgeben, welchen Namen ihre Burg hat, wenn die richtige Gruppe vor ihnen steht. Die Burg ist durch das Aufstellen eines Rekordes einzunehmen undkannjederzeit durch einen besseren Rekord übernommen oder gesichert werden.Die Burgherren und der König reden nur mit Spähern, dieRitter dürfen die Schätze (Luftballons) tragen und dem König sein Leibgericht nennen. Für richtiges Leibgericht gibt es einen Luftballon, den die Ritter inihre eingenommene Burg bringen müssen. Auf dem Weg dorthin dürfen sie von anderen Rittern getickt werden und müssen dann ihren Schatz abgeben.
+Der König wechselt alle 5 min sein Leibgericht.Gewonnen hat das Adelsgeschlecht mitden meisten Punkten.Luftballon 1 Punkt Eroberte Burg 3 Punkte10 Rekorde:
+1) Ton halten auf Zeit
+2) Tischtennisbälle in einer Hand
+3) Höchste Menschenpyramide
+4) In einer Minute möglichst viele Wörter mit I aufschreiben
+5) In einer Minute so viele Löffelwie möglich aus Wasserwannegeholt werden
+6) Mit Schwamm in einer Minute so viel Wasser wie möglich transportieren
+7) Handstand auf Zeit
+8) Am wenigsten Füße am Boden
+9) Flasche Wasser auf Zeit
+10) Luftballon durch aufpusten zum Platzen bringen auf Zeit
+</description>
+  </row>
+  <row>
+    <name>Mafia</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>8</size_min>
+    <size_max>50</size_max>
+    <age>8</age>
+    <material>Mafia Karten </material>
+    <description>Jedes Kind bekommt eine Karte, auf der seine Rolle steht. Es gibt den Boss, den Unterboss, Kapitän, Soldat und Konsument. Durch Codewörter, die auf dem Zettel stehen, sollen sie sich also Gruppe zusammenfinden, am besten heimlich, so dass die anderen das nicht mitbekommen. Der Boss holt nun aus dem Abhollager die ersten Schmuggelwaren, und gibt diese weiter an die nächste Position, dieser dann weiter etc. der Konsument gibt diese dann an dem Abnehmerlager ab. Das wäre aber etwas zu einfach, deswegen gibt esnatürlich noch Polizisten, die die Schmuggelware, den Kindern abnehmen. Die Gruppe die am Schluss die meisten Schmuggelwaren auf die andere Seite gebracht hat,gewinnt. </description>
+  </row>
+  <row>
+    <name>Scrabbel</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>10</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>Buchstaben mit Zahlenwerten</material>
+    <description>Das Spiel brauch etwas Vorbereitung: Man muss viele Buchstaben mit unterschiedlichen Zahlenwerten vorbereiten (seltenen Buchstaben wie z,q,w,x,y,... haben einen höherenWerte, Buchstaben wie e,a... natürlich einen geringeren Die Werte sollten sich zwischen 1-10 Punkten bewegen). Die Buchstaben werden jetzt im Wald verteilt, schön großzügig, danach haben die Kinder die Aufgabe, die Buchstaben zu sammeln und in ihr Lager zu bringen. Sie dürfen maximal 5 auf einmal sammeln, wenn sie von einem Betreuer*in getickt werden,müssen sie auch alle abgeben. Im Lager bilden sie dann Wörter die möglichst vielen Punkte bringen. Wenn die Buchstaben einmal benutzt worden sind, dürfen sie von den Betreuern wieder erneut verteilt werden.  Die Gruppe die am Ende, die meisten Wörter mit den meisten Punkte gelegt hat,gewinnt.</description>
+  </row>
+  <row>
+    <name>Pyramidenspiel</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>10</size_min>
+    <size_max>30</size_max>
+    <age>6</age>
+    <material>4 Pappteller, Edding, Band 2 Farben, Lebensstreifen (Pappstreifen oder so)</material>
+    <description>Die Gruppe wird in zwei gleichstarke Gruppen eingeteilt. Danach suchen sich die Gruppen ein Lager, und verteilten Erkennungsbändchen und Lebensstreifen. Außerdem bekommen siezwei Pappteller, die sie gestalten müssen.Anschließend werden die Papptellerim Gelände versteckt. Man darf auch Laub drunter legen, man muss aber über den Pappteller eine Pyramide aus Stöckern basteln. Das wäre aber zu einfach, deswegen muss jede Mannschaft viele Scheinpyramiden aufstellen, um so die Suche zu erschweren. Unter 200 Pyramiden die richtige zu finden ist nicht so einfach. Dazu kommt noch, dass die Kinder sich gegenseitig Ticken können und sich die Lebensstreifen klauen können, so muss die Person ohne Lebensbändchen wieder zurück ins Lager, um sich einen neuen Streifen zu holen.</description>
+  </row>
+  <row>
+    <name>Kamelspiel</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>20</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>-400 Kamelkartenoder Bierdeckel-400 Wasserkarten oder Wäscheklammern in unterschiedlichen Farben (unterschiedliche Werte)-Flatterband für die Markierung der Jäger-Zettel und Stift -Uhr -Trillerpfeife</material>
+    <description>Die Kinder sind Beduinen in der Wüste und müssen sich um ihre Kamele kümmern. Die Kamele im Wald müssen gefangen und mit Wasser versorgt werden. Vorbereitung: Die Kinder werden in 4 Gruppen eingeteilt. Je ein/e Leiter*in ist der Scheich der 
+Gruppe. Im kleinen Wald werden ca. 400 „Kamelkarten“ verteilt. In der Mitte des Spielfeldes wird eine Oase (Wasservorrat) aufgebaut und ein neutraler Bereich (20 Meter rundum) abgesteckt. In den vier Ecken werden Lager für die Gruppen aufgebaut. Die Gruppen ziehen sich in ihr Lager zurück. Der Scheich teilt seine Gruppe weiter ein in 5 Wasserträger, 5Kameltreiber, 5 Jäger.(je nach Gruppengröße)
+
+Ablauf: Versorgung der Kamele: ein Kamel benötigt 20 Liter Wasser pro Tag. Im Spiel entspricht 1 Tag 10 Minuten.
+
+Aufgaben:
+
+Kameltreiber*innen: haben die Aufgabe, Kamelkarten aufzusammeln und zum Lager zu bringen.Wasserträger*innen: müssen Wasserkarten von der Oase in ihr Lager bringen.
+
+Jäger*innen: Jeder Jäger bekommt eine gut sichtbare Markierung. Die Jäger versuchen, Kamele und Wasser vom Gegner abzujagen. Schlagen sie eine/n Gegner*in ab, muss er/sie seine/ihre Kamele bzw. sein/ihr Wasser abgeben. Jäger dürfen keine Kamelkarten vom Boden aufsammeln. Jäger dürfen sich nicht gegenseitig abschlagen.
+
+Scheich:verwaltet den Wasser-und Kamelbestand der Gruppe. Alle 10 Minuten zählt er Kamele und Wasser. Je Kamelmuss er 20 Liter Wasser abgeben. Gibt es mehr Kamele als Wasser, sterben die überzähligen Kamele und werden aus dem Bestand des Stammes gestrichen. Der/die Spielleiter*in sammelt Wasser und tote Kamele ein.
+
+Auf denStartpfiff des/der Spielleiter*inbeginnt das Spiel. Die Spieler*innen gehen ihren oben beschriebenen Aufgaben nach. Alle 10 Minuten pfeift der/die Spielleiter*in. Dann muss der Scheich jeweils den Kamelbestand und dieWasserkartenzählen und das Wasser aus dem Eimer legen. Nach einer vorher festgelegten Zeit pfeift der/die Spielleiter*in das Spiel ab. Dann werden nochmals die Kamele mit Wasser versorgt und es wird gezählt, wie viele überlebende Kamele es gibt.</description>
+  </row>
+  <row>
+    <name>FBI</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>8</size_min>
+    <size_max>50</size_max>
+    <age>6</age>
+    <material>Knicklichter, Klebeband</material>
+    <description>Es handelt sich hierbei um ein Nachtspiel, welches Betreuer vs. Kinder spielen. Die Betreuer ziehen sich komplett schwarz an und kleben sich Zeichen/Bilder mit den Knicklichtern auf die Klamotten. Dies ist das einziges 
+Erkennungszeichen der Betreuer*in. Die Kinder werden mit einem Klebestreifen (Lebensstreifen) auf der rechten Schulter ausgestattet. Jetzt wird noch eine Ausgabestelle und eine Abgabestelle vorbereitet. Die Kinder haben jetzt die Aufgabe, die Klebestreifen auf die andere Seite zum Abgabelager zu bringen. Das schwierige ist aber, dass die Betreuer die Klebestreifen von den Kindern klauen dürfen. Wenn die Kinder ihren Streifen verloren haben, müssen sie sich aus dem Ausgabelager einen neuen holen.</description>
+  </row>
+  <row>
+    <name>Schmugglerspiel 1</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>20</size_min>
+    <size_max>99</size_max>
+    <age>12</age>
+    <material>#NAME?</material>
+    <description>Die Schmuggler müssen ihre Schmuggelware von einem Startpunkt zu einem festgelegten Zielpunkt bringen. Die Grenzer versuchen, ihnen das Schmuggelgut abzunehmen.
+-Schmuggelgut vorbereiten und mit Punkten bewerten.
+-Grenze und Schutzzonen rund um Start-und Zielpunkt markieren (je nach Gruppengröße und Geländebeschaffenheit ca. 50 m. So dass eine Blockade durch die Grenzer ausgeschlossen ist).
+-Klären, wo am Körper das Schmuggelgut versteckt werden darf.
+-Die Schmugglerhaben 30 Minuten Zeit ihre Schmuggelware von einem Startpunkt durch unübersichtliches Gelände zum Zielpunkt zu bringen.Dort sitzt einHelfer, der die Schmuggelware in Empfang nimmt und die Punkte zusammenzählt.
+-Jeder Schmugglerdarf immer nur ein Teil gleichzeitig schmuggeln. Wer von einem Grenzerabgeschlagen wird, muss stehenbleiben und sich durchsuchen lassen. D.h. der Grenzerdarf auf drei Stellen am Körper des/der Gefangenen zeigen, an denen sich das Schmuggelgut befinden könnte. Das mitgeführte Schmuggelgut geht dann kampflos an denGrenzer. 
+-Das Werfen des Schmuggelguts –z.B. kurz vor dem Abschlagen –ist nicht erlaubt, die Weitergabe von Hand zu Hand an einen anderen Schmuggler, der nichts bei sich hat, ist aber zulässig.Wer seinSchmuggelgut an die Grenzer verliert oder erfolgreich abliefert, kann sofort zum Startpunkt zurückkehren und weiterschmuggeln. 
+-Die Grenzer dürfen sich im gesamten Spielgebiet bewegen, mit Ausnahme zweier eindeutig markierter Schutzzonen umStart-und Zielpunkt. Hat einGrenzer einenSchmugglerabgeschlagen und dessen Schmuggelgut beschlagnahmt, darf er keine weiteren Schmugglerabschlagen, bis erdas beschlagnahmte Schmuggelgut bei einem zweiten Sammelplatz abgegeben hat, wo einHelferdie Punkte der Grenzer notiert. 
+-Ein Helfergibt am Startpunkt das Schmuggelgut aus, zwei andere sammeln es jeweils für Schmuggler und Grenzerwieder ein und mindestens zwei weitere Helfer 
+durchstreifen das Gelände und achten auf die Einhaltung der Regeln.
+
+Nach Ablauf der 30 Minuten wird die über die Grenze gebrachte und die beschlagnahmte Schmuggelware gezählt, danach wechseln die Teams die Rollen und es geht in die &quot;zweite&quot; Halbzeit.
+
+Varianten:
+Das Spiel kann auch im Dunkeln gespielt werden. Die Grenzerhaben dann Taschenlampen, die Schmugglernicht. EinGrenzerhat einen Schmugglergefunden, wenn er ihnanleuchtet und seinenNamen ruft, abschlagen ist nicht nötig. Die Helfer, die Schmuggelgut ausgeben und einsammeln, haben einen Blinker, damit sie leichter zu finden sind.</description>
+  </row>
+  <row>
+    <name>Schmugglerspiel 2 mit Papierstreifen</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>6</size_min>
+    <size_max>40</size_max>
+    <age>6</age>
+    <material>Papierzettel</material>
+    <description>Die Gruppe wird in zwei gleichstarke Gruppen eingeteilt. Die eine Gruppe ist zuerst Polizei und die anderen Schmuggler. Die Schmuggler erhalten einen Papierstreifen, mit dem sie auf die andere Seite kommenund ihn an der Station abgeben sollen. Die Polizei, soll die Schmuggler ticken und darf jetzt erraten, wo das Schmuggelgut ist,(z.B.: In deiner Hosentasche, bei deiner Cappy, in deinen Schuhen etc. ).Wenn dies richtig ist und hier ist Ehrlichkeit und Fairness sehr wichtig, dann wird das Schmuggelgut abgegeben.  Wenn diesnicht stimmt, dann dürfen die Schmuggler weiterlaufen. Nach einer bestimmten Zeit werdendie Rollen getauscht. Gewonnen hat die Gruppe, die die meisten Streifen gesammelt hat.</description>
+  </row>
+  <row>
+    <name>Schmugglerspiel 3 am Strand </name>
+    <category>TERRAIN_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>12</age>
+    <material>Für jeden Spieler*in einen Becher, einen großen Eimer</material>
+    <description>Die Teilnehmer*innen spielen gegen die Betreuer*innen. Sie haben die Aufgabe aus dem Meer Wasser in ihren Bechern zu einem großen Eimer ca. 30-50 Meter vom Wasser entfernt zu bringen. Um den Eimerbefindet sich ein Schutzkreis, ca. 6meter Durchmesser, in dem die Betreuer*in nicht mehr angreifen. Die Betreuer*innen dürfen, den Kindern die Becher aus der Hand schlagen. Die Kinder dürfen aber nicht, die Betreuer*innen extra Nass machen, sonst wird Ihnen 5 Strafbecher aus dem großen Eimer genommen. Das gesammelte Wasser wird am Ende des Spiels über einen Betreuer*in gekippt. </description>
+  </row>
+  <row>
+    <name>Taschenlampen Schlacht</name>
+    <category>TERRAIN_GAME</category>
+    <size_min>6</size_min>
+    <size_max>99</size_max>
+    <age>12</age>
+    <material>Kreppapier, Tschenlampen für jeden*e Mitspieler</material>
+    <description>Die Taschenlampen-Schlacht ist ein besonders einfaches Geländespiel für dunkle Wintertage oder auch in der 
+Dämmerung im Sommer. Bei diesem Nacht-Geländespiel spielen ausnahmsweise nicht zwei Gruppen gegeneinander, sondern jeder Spieler ist auf sich alleine gestellt. Das Spiel findet am besten in einem abgegrenzten Bereich im Wald statt, oder auf einem Gelände, das nicht allzu übersichtlich ist, um es den Spielern nicht zu leicht zu machen. Bevor es losgeht, bekommt jeder Spieler fünf Kreppstreifen sichtbar auf die Jacke geklebt, jeder stattet sich mit einer Taschenlampe aus und dann geht es los.
+
+Die Spieler machen sich im Gelände auf die Socken und versuchen mit dem Lichtkegel der Taschenlampe andere Spieler zu erwischen, möglichst ohne dabei selbst erwischt zuwerden. Jeder, der angeleuchtet wird, muss dem entsprechenden Gegenspieler einen Kreppstreifen von sich abgeben.
+
+Achtung: in dem Moment der Übergabe des Kreppstreifens darf man die beiden Spieler nicht anleuchten.
+
+Am Ende der Spielzeit werden dann die Kreppstreifen gezählt und die Spieler mit den meisten Streifen haben gewonnen.</description>
+  </row>
+  <row>
+    <name>Capture the Zaubertrank </name>
+    <category>TERRAIN_GAME</category>
+    <size_min>12</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Zaubertränke, Lebensstreifen in rot, gelb, grün, blau, Theaterschminke in rot, gelb, grün, blau, Tabellenfür jedes Team wer wen schlägt, Schlumpfkostüme, für Zauberschlümpfe einen Zauberstab</material>
+    <description>10 Schlümpfe (Betreuer, die mitspielen, wobei ein Schlumpf aus jedem Team immer im Lagerbleibt), 2 Zauberschlümpfe (Betreuer, die Kinder aus „gefrorenem Zustand“ erlösen können), 2 Richterschlümpfe (Betreuer, die Schiedsrichter sind), Kinder als LäuferSchlumpfine begrüßt zu den diesjährigen Schlumpfspielen. Dieses Jahr geht es darum den Zaubertrank seines Teams zu verteidigen.
+
+-Die Gruppe wird in vier Teams eingeteilt (Team blau, rot, grün, gelb).
+-Jedes Team hat neben den Kindern 2-3 Schlümpfe (Betreuer) im Team.
+-Alle Teams bekommen einen „Drink“ (Zaubertrank) in der jeweiligen Teamfarbe, einen kleinen Topf Theaterschminke ebenfalls in der jeweiligen Farbe und Lebensstreifen in der jeweiligen Farbe
+-Jede Gruppe darf sich eine kleine Kriegsbemalung ins Gesicht malen, damit die Gruppeneinteilung verständlich ist
+-Jede Gruppe darf den Zaubertrank beliebigverstecken. Er darf nicht vergraben werden und nicht höher als 1 Meter versteckt sein
+-Nach dem Startschuss muss jede Gruppe versuchen einen Zaubertrank von einer anderen Gruppe zu finden
+-Wichtig dabei ist, dass der eigene Zaubertrank nicht gefunden wirdund jeder immer einen Lebensstreifen dabei hat
+-Wenn man seinen Gegner tickt, dann muss dieser stehen bleiben bzw. „einfrieren“ und seinen Lebensstreifen an den Gegner abgeben
+-Allerdings kann jedes Team nur von einem anderem Team Streifen bekommen Blau schlägt grün, grün schlägt rot, rot schlägt gelb und gelb schlägt blau
+-Aus seiner Starre wird man nur durch Zauberschlümpfe erlöst, anschließend muss man sich aus dem Lager einen neuen Lebensstreifen holen
+-Hat man einen Gegner getickt und seinen Lebensstreifen erhalten, muss dieser umgehend ins Lager gebracht werden
+-Sollte jemand mit zusätzlichen gegnerischen Streifen getickt werden, muss dieser alle Streifen, die er bei sich trägt, abgeben
+-Der Zaubertrank kann nur mit gültigem Lebensstreifen gefunden und ins Lager zurückgebracht werden
+-Sollte jemand getickt werden, der einen Zaubertrank dabeihat, muss er diesen mit seinem Lebensstreifen abgeben
+-Das Spiel endet, sobald ein Zaubertrank gefunden und ins Lager gebracht worden ist
+-Gewinnen tut das Team, welches einen gegnerischen Zaubertrank als erstes findet und das Team, was am meistengegnerische Lebensstreifen hat Je nachdemwie schnell die erste Runde ging, wird noch eine zweite gespielt
+</description>
+  </row>
+  <row>
+    <name>Immer im Viereck</name>
+    <category>TRUST_GAME</category>
+    <size_min>4</size_min>
+    <size_max>20</size_max>
+    <age>9</age>
+    <material>Seil, Augenbinden</material>
+    <description>Jeder Teilnehmer hat die Augen verbunden. Alle halten sich an einem Seil fest und müssen nun versuchen ein Quadrat zu bilden. Anschließend noch einen Kreis. Gelingt es Ihnen?Ggf. kann das Quadrat oder der Kreis auf dem Boden vorgezeichnet werden und ein Eckpunkt/Startpunkt/Ausgangspunkt festgelegt werden.</description>
+  </row>
+  <row>
+    <name>Spinnennetz</name>
+    <category>TRUST_GAME</category>
+    <size_min>5</size_min>
+    <size_max>10</size_max>
+    <age>9</age>
+    <material>Seile</material>
+    <description>Aus Seilen wird ein Netz hergestellt, welches zwischen 2 Bäumen oder Pfosten gespannt wird. Es ist nun die Aufgabe, dass alle Mitglieder von der einen Seite auf die andere Seite des Netzes wechseln müssen. Natürlich darf das Netz nicht berührt werden und jede Netzöffnung darf nur einmal gewählt werden. Beim Durchgeben ist darauf zu achten, dass niemand herunterfällt.
+
+Sinn: Gemeinsam eine Strategie entwickeln, gemeinsam das Problem angehen und lösen, keiner kann das Problem alleine bewältigen</description>
+  </row>
+  <row>
+    <name>Aufstehen</name>
+    <category>TRUST_GAME</category>
+    <size_min>2</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Zwei Personen sitzen mit angewinkelten Beinen Rücken an Rücken und müssen versuchen gemeinsam aufzustehen, ohne die Arme zu Hilfe zu nehmen.
+
+Sinn: Aufeinander abgestimmtes Handeln führt zum Ziel</description>
+  </row>
+  <row>
+    <name>Schenkelsitzen</name>
+    <category>TRUST_GAME</category>
+    <size_min>8</size_min>
+    <size_max>15</size_max>
+    <age>12</age>
+    <material>Kein Material nöig</material>
+    <description>Alle stehen ganz dicht hintereinander in einem geschlossenen Kreis. Es soll versucht werden, dass jeder sich auf die Schenkel/Knie der hinteren Person setzt. Ist gar nicht so einfach und leicht kann der ganze Kreis an irgendeiner Stelle auseinander brechen.</description>
+  </row>
+  <row>
+    <name>Murmelbahn</name>
+    <category>TRUST_GAME</category>
+    <size_min>8</size_min>
+    <size_max>30</size_max>
+    <age>9</age>
+    <material>Murmeln, Bahnelemente</material>
+    <description>Die Gruppe bekommt Bahnelemente für jeden Teilnehmer. Nun bekommen sie verschiedenen Aufgaben gestellt, um die Murmelvon der einen Seite bis zu anderen zu transportieren.  Erst nur so, dass sie einGefühl bekommen,die Murmel zu transportieren. Später müssen die Teilnehmer sich wieder Hinten anreihen.
+
+Sinn: gemeinsame Lösung eines (technischen) Problems, Kreativität, Ideenfindung</description>
+  </row>
+  <row>
+    <name>Schreien-Gröhlen-Kreischen</name>
+    <category>TRUST_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Zwischen Mannschaft A, die sich aufgeteilt in einer Entfernung von ca. 20 Metern befindet sich Mannschaft B. Die eine Mannschaftshälfte von Gruppe A bekommt nun Begriffe gesagt, die sie der anderen Mannschaftshälfte zurufen muss. Die gegnerische Mannschaft B versucht durch lautes Geschrei dies zu verhindern. Wie viel Wörter können innerhalb einer fest definierten Zeit übermittelt werden? Anschließend wird gewechselt.</description>
+  </row>
+  <row>
+    <name>Reise nach Jerusalem mal etwas anders</name>
+    <category>TRUST_GAME</category>
+    <size_min>10</size_min>
+    <size_max>99</size_max>
+    <age>9</age>
+    <material>Stühle</material>
+    <description>Stühle werden wie bei der Reise nach Jerusalem in einer Reihe Rücken an Rücken aufgestellt. Die Jugendlichen gehen im Kreis um die Stuhlreihe. Bei Musikstopp springt jeder auf einen Stuhl. Dabei ist es egal, ob 1, 2 oder mehr Personen auf einem Stuhl stehen. Nach jeder Runde wird ein Stuhl weggenommen. Ziel des Spiels ist es, dass alle der Gruppe auf den übrigen Stühlen Platz finden und die Gruppe gemeinsam dieses Ziel erreicht. Das Spiel ist aus, sobald einer aus der Gruppe nicht mehr auf den übrigen Stühlen gehalten werden kann.
+
+Sinn: nur gemeinsam ist das Ziel zu erreichen, durch Zusammenhalt, durch einander Festhalten</description>
+  </row>
+  <row>
+    <name>Besser als Eddy Murphey</name>
+    <category>TRUST_GAME</category>
+    <size_min>2</size_min>
+    <size_max>2</size_max>
+    <age>12</age>
+    <material>Kein Material nötig</material>
+    <description>Zwei Personen sitzen sich gegenüber. Jeder hat die Aufgabe dem Gegenüber etwas zu erzählen -egal was. Nur keiner von beiden darfeine Pause einlegen, sondern muss ununterbrochen erzählen. Ausgeschieden ist die Person, die abbricht und eine Pause einlegt (Atempausen sind erlaubt).
+
+Sinn: Manche reden gerne und lassen anderen keine Chance.</description>
+  </row>
+  <row>
+    <name>Decke drehen </name>
+    <category>TRUST_GAME</category>
+    <size_min>2</size_min>
+    <size_max>99</size_max>
+    <age>9</age>
+    <material>Decke </material>
+    <description>Die Gruppe nimmt auf einer Decke Platz. Die Decke kann ggf. soweit zusammengeschlagen werden, dass die Gruppe gerade noch so Platz hat (Schwierigkeitsgrad erhöht). Nun muss die Gruppe die Decke wenden, ohne die Decke zu verlassen.
+
+Sinn: Gegenseitig helfen und halten, abstimmen und koordinieren</description>
+  </row>
+  <row>
+    <name>Gordischer Knoten </name>
+    <category>TRUST_GAME</category>
+    <size_min>8</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Alle Kinder stellen sich in einem großen Kreis auf, laufen dann aufeinander zu, bis alle dicht gedrängt stehen. Dann schließen sie die Augen, und fassen mit jeder Hand ein anderes Kind. Danach muß der Knoten wieder aufgemacht werden, bis wieder ein, oder mehrere Kreise entstehen, ohne die Hände zu lösen.
+
+Sinn:Koordination und Kommunikation führen zur Auflösung des (gordischen) Knotens</description>
+  </row>
+  <row>
+    <name>Tic Tac Toe</name>
+    <category>TRUST_GAME</category>
+    <size_min>6</size_min>
+    <size_max>6</size_max>
+    <age>9</age>
+    <material>Stühle</material>
+    <description>Es werden 9 Stühle aufgestellt: 3 Reihen mit jeweils 3 Stühlen. Es gibt 2 Mannschaften mit je 3 Spielern. Jetzt geht es nach Tic Tac Toe Regeln: Ein Schüler aus Mannschaft eins setzt sich auf einen Stuhl seiner Wahl, dann kommt einer aus Mannschaft 2 der das Gleiche macht. Dann wieder Mannschaft 2 usw. Wenn beide Mannschaften ihre 3 Spieler &quot;platziert&quot; haben, dürfen sie untereinander tauschen, aber immer abwechselnd Mannschaft 1 und 2! Gewonnen hat, wer als erster seine 3 Spieler in einer Reihe (senkrecht, waagrecht), oder Diagonal platziert hat. Das wichtige dabei!!!! KEINER darf ein Wortsagen auch nicht die zuschauenden Mitschüler. Und wenn ein Mitspieler etwas sagt, hat die Mannschaft verloren! Die Spieler unter sich müssen sich also mit Zeichensprache verständigen.Ist auch ein tolles Spiel um Ruhe in die Klasse zu bekommen.
+
+Ziel: Kommunikation ohne zu reden!</description>
+  </row>
+  <row>
+    <name>Farbquadrate</name>
+    <category>TRUST_GAME</category>
+    <size_min>2</size_min>
+    <size_max>12</size_max>
+    <age>10</age>
+    <material>Straßenkreide</material>
+    <description>Die Gruppe sammelt sich im Startbereich, der durch eine auf den Boden aufgezeichnete Linie gekennzeichnet ist.Die Gruppe hat nun das Ziel an das Ende des vor ihnenliegenden Feldes zu gelangen. In diesem Feld sind mit Hilfeder Straßenkreide verschieden farbige Quadrate (oderKreise) aufgezeichnet. Je nach Gruppengröße sollten 3 –4Farben gewählt werden. Die Gruppe wird im Startbereich aufgeteilt. Jede dieser Kleingruppen wird nuneine dieser Farben zugeordnet. Insgesamt sollte das Feld ca. 10 Meter lang sein
+
+Regeln:
+Die Kleingruppen dürfen nurdie Kreise ihrer eigenen Farbe betreten. Es darf nicht gesprungen werden.Andersfarbige Kreise dürfen nur genutzt werden, wenn eine Person der dazugehörigen Farbe schon in diesem Kreis steht. Hierfür gibt es wieder verschiedene Varianten, die man nach eigener Einschätzung derKlasse für sich auslegen muss:Die Kreise der anderenFarben dürfen nicht berührtwerden (die Teilnehmer dürfen aber auf die Schuhebzw. Füße der in den Kreisen stehenden Personentreten)
+
+Bei dieser Variante gibt es folgendes zu beachten:
+-Schuhe könnten dreckig werden, ist mit denTeilnehmern zu klären.
+-Große und schwerere Personen trauen sich nichtauf kleine Füße zu steigen, StichwortBerührungsängste
+Die Kreiseder andersfarbigen Gruppe dürfen nurgenutzt werden, wenn eine Person in diesem Kreissteht. Hier gilt es zu beachten, dass man sehr genau darauf achten muss, wer wirklich nun zu der Farbe des Kreises gehört. Es wird schnell unübersichtlich undschwer kontrollierbar. Die Kreise der andersfarbeigen Gruppe dürfen nurgenutzt werden, wenn die Person in dem Kreis einenGegenstand in der Hand hält. Jede Farbe hat 1-2 dieservorher festgelegten Gegenstände in der Hand.
+
+Varianten / Erweiterungen:
+
+-Wenn ungefähr die Hälfte des Feldes erreicht ist, kanneine Insel eingebaut werden. FolgendeRegelerweiterungen sind denkbar:
+-Sobald die erstePerson einen Fuß auf die Insel gesetzt hat, darf nicht mehr mit Worten oder Lauten kommuniziert werden.
+-Da oftmals eine Gruppe ohne auf die Anderen zuachten schnell ins Ziel gelangen will, ist diese Variante sehr gut geeignet um das ThemaTeamarbeit, aufeinander achten, Egozentrismus zubesprechen. 
+-Sobald die erstePerson einen Fuß von der Insel gesetzt hat, darfnicht mehr mit Worten oderLauten kommuniziert werden. Hier hätte dieGruppe Zeit um eine Planungsphase einzulegen.
+
+</description>
+  </row>
+  <row>
+    <name>Seildurchlauf</name>
+    <category>TRUST_GAME</category>
+    <size_min>5</size_min>
+    <size_max>35</size_max>
+    <age>10</age>
+    <material>Springseil </material>
+    <description>2 Personen schwingen das Seil in Laufrichtung, dabei stehen sie ca. 5 Meter auseinander.Die Gruppe steht auf der einen Seite des Seiles und soll nun auf die andere Seite gelangen.Dabei gibt es folgende Stufen, bzw. Level
+Stufe 1: Einzeln –Jede Person läuft für sich durch das Seil
+Stufe 2: Zu zweit
+Stufe 3: 2 der in Stufe 2 gebildeten Zweiergruppezusammen
+Stufe 4: 2 gleich große Gruppen
+Stufe 5: die gesamte Gruppe
+
+Regeln:
+-Wird das Seil berührt, müssen alle Personen zurück auf die Ausgangsseite
+-Müssen die Personen die das Seil schwingen das Seil loslassen um nicht die Peron zum Fallen zu bringen, müssen alle wieder in ihre Ausgangsposition zurück
+
+Varianten / Erweiterungen:
+Weitere Möglichkeiten für die Stufen:
+-Gemischtgeschlechtliche Gruppen,
+-immer abwechselnd Junge –Mädchen –Junge –Mädchen, soweit wie es aufkommt.
+-Bei großen Gruppen, macht es u.U. Sinn zunächst 3gleich große Gruppen bilden zu lassen, bevor sich dieGruppe in 2 Gruppen teilen soll.
+</description>
+  </row>
+  <row>
+    <name>Moorpfad</name>
+    <category>TRUST_GAME</category>
+    <size_min>8</size_min>
+    <size_max>99</size_max>
+    <age>8</age>
+    <material>Teppichfliesen</material>
+    <description>Ein durch eine Start-und eine Ziellinie markiertes Feld(welches das Moor bzw. der Weg bis zur rettenden Inseldarstellt), muss von der ganzen Gruppe überquert werden. Als Hilfsmittel dienen Getränkekisten oder Teppichfliesen. Keine der Personen darf das Moorberühren bzw. aus dem Flugzeug fallen (je nachdem welche Rahmengeschichte man erzählen möchte) Die Länge des Feldes ist so zu wählen, dass selbst wenn alle Teppichfliesen bzw. Kisten aufgestellt sind, das 
+gegenüberliegende Ziel noch nicht erreicht werden kann. Die Aufgabe ist geschafft, sobald die letzte Person das rettende Ziel erreicht hat.
+
+Weitere Schwierigkeitsgrade:
+• Es darf nicht gesprochen werden
+• Die Teppichfliesen / Kisten müssen vollzählig auf dieandere Seite mitgebracht werden
+• Zeitlimit (z.B. muss die letzte Person aus der Gruppeden Startbereich nach spät. X Minuten verlassenhaben)
+• Berührt einedasMoor muss die Gruppe mit den zudiesem Zeitpunkt zur Verfügung stehenden Fliesenvon vorne beginnen
+• Es gibt Augenbinden für die Person die das Moorbetreten hat
+• Sobald die Kiste bzw. die Teppichfliese nichtfestgehalten wird, verliert die Gruppe dieseKiste bzw.Fliese (Hintergrund: Die Moorgeister klauen sich gernedie Kisten bzw. der Luftstrom, des Flugzeuges reißt dieTeile weg) </description>
+  </row>
+  <row>
+    <name>Kartensortieren</name>
+    <category>TRUST_GAME</category>
+    <size_min>0</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Kartenspiel</material>
+    <description>Diese Aufgabe wird gleichzeitig mehreren Kleingruppengestellt. Dabei haben sich Kleingruppen von 2 –4 Personenbewährt. Die Gruppen sitzen ca. 2 Meter von ihren Karten, die auf Tischen ausgelegt werden, entfernt.Die Karten liegen pyramidenartig aus, z.B. so:
+9
+Bube 10
+Dame AS König
+
+Wichtig! Die Karten liegen verdeckt aus!Ziel ist es nun, die Karten zu ordnen, sodass sie wie folgt auf dem Tisch liegen.
+
+AS
+König Dame
+Bube 10 9
+
+Regeln:
+Alle Kleingruppen fangen gleichzeitig an.Die Teilnehmer kommen einer nach dem anderennach vorne. Nun hat die Person zwei Möglichkeiten:
+1) Der/die Teilnehmer/-in nimmt eine Karte auf,schaut sich diese an und legt sie wieder verdecktan den Platz zurück. Diese Informationen werdender eigenen Gruppe zur Verfügung gestellt.
+2) Der/dieTeilnehmer/-in vertauscht zwei der
+Karten miteinander, ohne sie dabei anzuguckenSobald eine Gruppe meint die Karten richtig sortiertzu haben, wird dies dem Anleiter, der Anleiterinangezeigt. Die restlichen Gruppen können zu Endesortieren.</description>
+  </row>
+  <row>
+    <name>Stabablegen</name>
+    <category>TRUST_GAME</category>
+    <size_min>8</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Stab oder ähnliches</material>
+    <description>Ziel der Aufgabe ist es, den Stab auf den Boden abzulegen.Dazu stellen sich die Teilnehmenden an beiden Seiten desStabes auf und berühren diesen mit dem Zeigefinger. Dabei gelten folgende Bedingungen:
+• der Stab darf nicht zwischen den Fingern eingeklemmtwerden, der Stab liegt auf den Fingern
+• die Finger liegen also unterhalb des Stabes, nicht obendrauf
+• der Finger der am Stab ist, darf diesen ebenfalls nichtumklammern (Finger gerade lassen)
+• jede Person muss mit mindestens einem Finger amStab sein, sobald sich ein Finger vom Stab löst, ist dieAufgabe nicht geschafft
+
+ACHTUNG !!!
+Diese Aufgabe birgt erhebliches Konfliktmaterial! Nahezuimmer ist zu beobachten, dass der Stab wie von Zauberhand nach oben getragen wird. Das ist oftmals für die Teilnehmenden so unverständlich, dass die Frustrationstoleranzgrenze schnell erreicht ist!
+
+Weitere Schwierigkeitsgrade:
+• Um die Aufgabe schwierigerzu gestalten, kann amAnfang der Spielleiter mit am Stab stehen und diesenmit ein klein wenig Druck nach unten festhalten unddann das Startsignal geben. Der hierdurch von denTeilnehmer erzeugte Gegendruck bewirkt, dassder Stabaugenblicklich nach obengedrückt wird,sobald der Anleiter den Finger vom Stab nimmt.Zusätzlich können an jedes Ende zwei Ringe auf denStab gelegt werden. Wenn diese herunterfallen (z.B.weil der Stab nicht gerade abgelegt wurde), ist dieAufgabe ebenfalls nicht bewältigt.</description>
+  </row>
+  <row>
+    <name>Geheimpfad</name>
+    <category>TRUST_GAME</category>
+    <size_min>0</size_min>
+    <size_max>99</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Auf den Boden wird ein quadratisches Gitternetz aufgemalt bzw. aufgeklebt. Die einzelnen Quadrate sind 
+ungefähr gleich groß und bieten genügend Platz, damit eine Person mit beiden Füßen darinstehenkann. Bewährt hat sich ein Gitternetz von 5*6 Feldern. (Dies kann aber auch entsprechend der Gruppengröße angepasst werden) Die eine Seite des Gitternetzes ist die Startlinie, die gegenüberliegende Linie ist dasZiel. Um an das andere Ende zu gelangen, muss sich die Gruppe den Geheimpfad, der durch das Gitternetz führt, herausarbeiten.Diesen Geheimpfad kennen nur die Trainer/-in, dabei ist esratsam sich den Weg selbst auf einem Merkzettel aufzuzeichnen! Am Ende muss die ganze Gruppe das Ziel erreicht haben
+
+Generelle Regel:
+Nur eine Person aus der Gruppe darf an die Startlinie treten undeines der Felder ausprobieren. Ist das richtige Feld ausgewählt, darf die Person ein weiteres Feld versuchen heraus zu finden. Sobald sie in ein falsches Feldtritt, muss sie den Geheimpfad verlassen. Es gibt immer nur die Möglichkeit geradeaus, links, oder rechts zu gehen. (Dies kann natürlich auch angepasst werden, erhöht aber den Schwierigkeitsgrad)
+
+Varianten zur Gruppe:
+a) Die Gruppe darf sich um das Feld herum aufstellen unddirekt helfen.
+b) Die Gruppe muss sich im Nebenraum aufhalten und eskommt immer nur eine Person zum Feld.
+Zu a: Hier kann man sich wiederrum entscheiden. Darf dieGruppe per Sprache Hilfestellung geben (leichtere Variante),oder hat sie lediglich eine gewisse Zeit zur Planung und mussdann während der Aktion still sein?Zu b: Geht unter Umständen nur, wenn man zu zweit anleitenkann und die Gruppe im Nebenraum beaufsichtigt werden kann.Auch hier darf man sich entschieden ob die Gruppe sichHilfestellung, z.B: Blatt Papier und Stift holt, oder diesesuntersagt ist (schwierigste Variante)
+
+Variante zum Umgang mit Fehlversuchen:
+-Es wird ein falsches Feld betreten, welches aber schon alsfalsches Feld bekannt war.
+-Generell sollte bei der Variante a (s. oben) etwas weniger
+Spielraum im Umgang mit Fehlversuchen gewählt werden.
+
+Hier einige Möglichkeiten:
+a) Es gibt bei Fehlversuchen keine weiteren Konsequenzen
+(außer der, dass die Person aus dem Labyrinth herausmuss.)
+b) Pro Fehlversuch bekommt die Gruppe einen Strich beieinem Strichmännchen. Sobald es hängt, hat die Gruppedie Aufgabe verloren.
+c) Speziell für die Variante, wenn die Gruppe per Sprachehelfen darf. Es gibt nur einen Fehlversuch.
+Sollte dir Gruppe scheitern, gibt es die Möglichkeit nachBesprechung über die Gründe einen weiteren Besuch zurVerfügung zu stellen. Bedingung hierbei, es gibt einen neuen Weg der heraus zu finden ist.
+</description>
+  </row>
+  <row>
+    <name>Gemeinsamer Kreis</name>
+    <category>TRUST_GAME</category>
+    <size_min>0</size_min>
+    <size_max>99</size_max>
+    <age>6</age>
+    <material>Kein Material nötig</material>
+    <description>Eignet sich besonders, wenn man einer Gruppe etwas im Kreis erklären möchte. Der Gruppenleiterläuft an eine Stelle und zählt bis 10 herunter. Bei 0 sollten die Kinder in einem schönen Kreis stehen. Wenn es beim ersten Mal nicht klappt, dann läuftder Gruppenleiteran eine andere Stelle und zählt erneut runter.</description>
+  </row>
+  <row>
+    <name>Bäume wieder erkennen</name>
+    <category>TRUST_GAME</category>
+    <size_min>2</size_min>
+    <size_max>99</size_max>
+    <age>9</age>
+    <material>Augenbinden</material>
+    <description>Die Teilnehmer finden sich immer zu zwei zusammen. Eine Person bekommt die Augen verbunden, die andere führt die blinde Person nun zu einem Baum. Die blinde Person soll den Baum so gut abtasten, wie es geht, denn Sie soll am Schluss ihren Baum wiederfinden können.</description>
+  </row>
+  <row>
+    <name>Hula-Hoop-Kreis</name>
+    <category>TRUST_GAME</category>
+    <size_min>8</size_min>
+    <size_max>99</size_max>
+    <age>9</age>
+    <material>Ein Hula-Hoop-Reifen, ein Seil</material>
+    <description>Die Gruppe stehtin einem Kreis und hält mit beiden Händen das Seil fest. Der Gruppenleiter*in spannt nun an einer Stelle den Hula-Hoopreifen ein. Die Aufgabe für die Teilnehmer*in ist es ,den Reifen weiter zu transportieren, ohne die Hände vom Seil zu nehmen (sie müssen durch den Reifen steigen). Nach dem die Gruppe ein Gefühl dafür bekommen hat, kann man einen zweiten Reifen einspannen und dieser soll den ersten, etwas gewanderten Reifen einholen.</description>
+  </row>
+  <row>
+    <name>Verschiebeaufgabe</name>
+    <category>TRUST_GAME</category>
+    <size_min>2</size_min>
+    <size_max>8</size_max>
+    <age>9</age>
+    <material>Tape, Fliese</material>
+    <description>Mit Tape wird ein Quadrat mit 9 kleinen Feldern aufgeklebt. Jedes Feld hat eine Teppichfliese mit einem Namen drauf geklebt darunter. Die Teilnehmer stellen 
+sich jetzt jeweils in ein kleines Kästchen rein. Einssollte leer bleiben. Jetzt läuft es so ab, dass immer nur ein direkter Nachbar auf das leere Feld kann und guckenkann welcher Name auf der Fliese steht. Das Ziel ist es, alleTeilnehmer auf ihre Fliesen zu bekommen.</description>
+  </row>
+  <row>
+    <name>Gebete am Morgen 1</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Lieber Gott, jeden Tag sind wir mit vielen Kindern in unserer Gruppe zusammen. Am Anfang kannten wir uns kaum, aber jetzt sind wir richtige Freunde geworden.
+
+Freunde spielen miteinander, Freunde helfen sich auch, Freunde teilen miteinander, Freunde sind gut zueinander. Hilf uns, dass wir immer Freunde bleiben können.
+
+Amen</description>
+  </row>
+  <row>
+    <name>Gebete am Morgen 2</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Wie fröhlich bin ich aufgewacht,
+  hab gut geschlafen die ganze Nacht.
+ Hab Dank im Himmel, du Vater mein,
+dass du hast wollen bei mir sein.
+Bleib du bei mir auch diesen Tag,
+ dass mir kein Leid geschehen mag.
+ 
+Amen. </description>
+  </row>
+  <row>
+    <name>Gebete am Morgen 3</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Guter Gott, ein neuer Tag fängt an.  Ich möchte tun, was du willst.  Ich möchte mit meinen Freunden ohne Streit spielen. Ich möchte, dass viele Menschen nett zueinander sind.  Hilf mir, lieber Gott, gut zu sein!
+
+Amen</description>
+  </row>
+  <row>
+    <name>Gebete am Morgen 4</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material ntig</material>
+    <description>Lieber Gott, ich danke dir für den neuen Tag.
+Ich bin gesund aufgewacht.
+Lass mich heute viel Freude mit  
+-meinen Freunden  
+-meiner Freizeit
+-meiner Gruppe haben.
+Hilf mir, dass ich mich mit allen, die ich treffe, gut vertrage!
+Bleibe bei mir und beschütze mich!
+Danke schön, lieber Gott! 
+Amen.</description>
+  </row>
+  <row>
+    <name>Gebete am Morgen 5</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Lieber Gott, lass mich heute froh gelaunt und glücklich sein und leuchte du mit deiner Freude mitten in mein Herz hinein! 
+Amen.</description>
+  </row>
+  <row>
+    <name>Gebete am Morgen</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Guten Morgen lieber Gott, gib uns heute unser Brot. 
+Lass uns lachen und nicht weinen; Lasse deine Sonne scheinen –bis in unser Herz hinein. Lass uns immer fröhlich sein. 
+Amen.</description>
+  </row>
+  <row>
+    <name>Gebete am Abend</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Herr, bleibe bei uns, denn es will Abend werden und der Tag hat sich geneigt! Du bist mein Trost, wenn Träume mich erschrecken und ängstigen.  Sei besonders jenen nahe, die in dieser Nacht deine Hilfe brauchen: die Einsamen, die Verzweifelten, die Kranken, die Sterbenden.  Herr, bleibe bei uns,in dieser Nacht, in Zeit und Ewigkeit. 
+Amen.</description>
+  </row>
+  <row>
+    <name>Gebete am Abend 1</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Herr, mein Gott, ich danke Dir für diesen Tag. 
+Alles Schöne, Erfreuliche und Gute hast Du mir geschenkt, ohne dass ich es wirklich verdient hätte.
+Vielen Dank.
+Nun liegt vor mir die Nacht und dahinter derneue Tag.
+Lass mich gut ruhen, neue Kraft sammeln um morgen ausgeschlafen in den neuen Tag zu starten.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Gebete am Abend 2</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Wenn ich abends zu Bette geh,
+14 Englein bei mir steh ?n.
+Zwei zu meiner rechten Seite,
+Zwei zu meiner linken Seite,  
+Zwei zu meinemHaupte, 
+Zwei zu meinen Füßen,
+Zwei die mich decken,
+Zwei die mich wecken,
+Zwei die mich führen in das himmlische Paradies.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Gebete am Abend 3</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Herr, der Tag geht zu Ende.
+Ich blicke zurück auf die Menschen in den Straßen, auf die Menschen in den
+Zimmern, auf die Menschen an den Tischen.
+Ich habe mit ihnen gesprochen, habe gelächelt.
+Ich habe mit ihnen gearbeitet und gegessen. 
+Ich bin ihnen begegnet und wohl auch auf die Nerven gegangen.
+Ich habe sie gereizt, getröstet, geliebt. 
+Das alles, Herr, habe ich Menschen getan; das alles, Herr, habe ich dir getan. 
+Vergib mir, tröste mich, bleibe bei mir.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Tischgebete 0</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Wenn  wir  beieinandersitzen,  nicht  mehr  durch  das  Zimmer  flitzen  schnuppern  wir  die Frühstücks-/ Mittags-/ Abendbrotzeit und die Teller stehen bereit. Wer noch laut war, ist jetzt still, weil ein jeder essen will. 
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Tischgebete 1</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material ntig</material>
+    <description>Jedes Tierlein hat zu essen, jedes Blümlein trinkt von dir.
+ Hast auch mich heut nicht vergessen, lieber Gott, ich danke dir.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Tischgebete 2</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Wir danken all denen, die den Tisch gedeckt, 
+und wir danken Gott, der hinter all dem steckt.
+Du bist ein Gott, dem man danken kann, und jetzt fangen wir zu essen an.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Tschgebete 3</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Herr Jesus Christus, Du hast mit deinen Jüngern gegessen und an vielen Tischen gesessen. 
+Du hast dich auch hier und jetzt unsichtbar zu uns gesetzt.
+Dankbar nehmen wir die Gaben von dir an.
+Segne das zubereitete Essen, das du uns aus Liebe immer wieder schenkst.
+Dir sei Dank in Ewigkeit.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Tischgebete 4</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig </material>
+    <description>Guter Gott, wir sitzen am gedeckten Tisch. Du sorgst dich um uns, begleitest unsere Tischgemeinschaft. Nicht nur an diesem Morgen,sondern an jedem Tag. Dafür möchten wir dir danken. 
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Tischgebet 5</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Guter Gott, durch deine Güte leben wir, und was wir haben, kommt von dir. Drum lass uns auch an andre denken, von deinen Gaben weiterschenken. Gott, lass uns dankbar essen und trinken, damit wir Kraft haben, Gutes zu tun. 
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Tischgebete 6</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Du hast uns als Menschen geschaffen, damit wir einander helfen im Leben.  Du hast Nahrung geschaffen, um uns dadurch Energie zu geben.   Für Deine Gegenwart an diesen Morgen, für allen Segen, offen und verborgen, für diese Speise sei Dir Lob und Preis.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Tischgebete 7</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Du gibst uns, Herr,durch Speis und Trank Gesundheit, Kraft und Leben.  So nehmen wir mit Lob und Dank, das, was du jetzt gegeben. 
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 0</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Freunde und Freundinnen leben miteinander und füreinander.  Sie  freuen  sich  aneinander  und  helfen  sich  gegenseitig.  Ein  treuer  Freund,  eine  treue Freundin, ist mehr wert als Gold und Silber. 
+
+Wahre  Freundschaft  ist  unbezahlbar.  Jesus,  der  beste  Freund  aller  Menschen,  ist  uns immer treu. 
+Hilf mir, Gott, immer ein guter Freund zu sein. 
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 1</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>ch danke dir, Gott, dass ich Freunde habe. Ich danke dir für das Spiel, den Spaß und die Feste. Ich danke dir für meinen besten Freund. Ich will auch ein guter Freund sein. 
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 2</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Danke
+für die Freunde die ich habe, 
+sie schenken mir Vertrauen, 
+geben mir Kraft und Zuversicht.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 3</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig </material>
+    <description>Gütiger Gott, ich danke dir, dass ich Freunde habe. 
+Wir können miteinander sprechen und unsere Probleme gemeinsam lösen. 
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 4</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Manche Menschen wissen nicht, wie wichtig es ist, dass sie einfach da sind. 
+Manche Menschen wissen nicht, wie gut es ist, sie nur zu sehen. 
+Manche Menschen wissen nicht, wie tröstlich ihr gütiges Lächeln wirkt. 
+Manche Menschen wissen nicht, wie viel ärmer wir ohne sie wären. 
+Manche Menschen wissen nicht, dass sie ein Geschenk des Himmels sind.
+
+Sie wüssten es, würden wir es ihnen sagen. 
+Hilf uns Gott, diesen Menschen zu zeigen, wie wichtig sie sind.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 5</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig </material>
+    <description>GütigerGott, ich danke dir, dass ich Freunde habe. 
+Wir können miteinander sprechen und unsere Probleme gemeinsam lösen.
+
+Amen</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 6</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig </material>
+    <description>Groß und stark sein, schön, cool und sexy, was zu sagen haben, das ist in. Aber wenn ich mich im Spiegel sehe, komme ich mir ganz klein vor. Ich bin nicht so toll, wie ich es so gern wäre. 
+
+Ich stehe nicht in der Mitte, aus mir wird kaum was Großes werden, was soll ich nur machen, nichts gelingt mir.
+
+Und wenn die kleinen Schritte richtig wären, die kleinen Wege zum Ziel führen, die »kleinen« Menschen nach deinem Willen sind? 
+
+Gott der Armen und Kleinen, lass mich erkennen, dass nicht Größe und Macht und Ansehen entscheiden, sondern der Mut zum Leben.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 7</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Meine Zunge kann gut schmecken,
+Bonbons lutschen und Eis schlecken, 
+und die Nase riecht daran.
+Danke Gott, dass ich das kann.
+
+Meine Ohren können hören,
+ auch Geräusche, die mich stören,
+ und die Augen staunen dann.
+ Danke Gott, dass ich das kann.
+
+Meine Hände können fassen,
+und berühren Teller, Tassen
+und die Hände teilen dann.
+Danke Gott, dass ich das kann.
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Persönliche Gebete 8</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig </material>
+    <description>Ich bin ich.
+Mich gibt es nur einmal auf derganzen Welt:
+mein Gesicht, meine Haare, meine Au gen, meine Arme und meine Hände, mein
+Bauch und mein Rücken,  meine Beine und meine Füße,  meine Stimme, meine
+Ohren,  meine Gedanken und meine Gefühle.  Gott, Du hast mich bei meinem
+Namen gerufen.
+So nimm mich, wie ich bin, 
+und lass alle Menschen, denen ich begegne, so mit mir umgehen, wie Du es mit
+mir tust. 
+
+Amen.</description>
+  </row>
+  <row>
+    <name>Steinmeditation</name>
+    <category>IMPETUS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nöig</material>
+    <description>Im Raum liegen jeweils zwei Steinepaarweise zusammen, die Teilnehmer werden aufgefordert, sich zu einem Steinpaar zusetzen. Jetzt schließen alle die Augen. Der Gruppenleiter tippt nacheinander Personen an, die einenganz individuellen Rhythmus mit ihrem Steinpaar schlagen. Beim erneuten Antippen hört die Person auf die Steine zuschlagen.  Es entsteht eine Musik der Gruppe und sie haben ihreneigenen Rhythmus gefunden. </description>
+  </row>
+  <row>
+    <name>All that we Shared</name>
+    <category>IMPETUS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Für die Vorbereitung werden kleine Felder auf den Boden geklebt, wo die Gruppe in unterschiedliche Kategorien eingeteilt wird (Alter, Größe, Schule, etc.) Jetzt stellt ihr der Gruppe unterschiedliche Fragen: Wer was/ist der Klassenclown, wer ist verliebt, wer ist religiös, wer fühlt sich einsam, wer hat schon mal jemanden verloren, wer weiß was er im Leben will, wer hat einen Hund, wer hat Liebeskummer, wer bereut etwas aus seinem Leben....
+
+Die Leute die sich angesprochen fühlen bei dieser Frage stellen sich in eine extra Box. Am Schluss wird darüber gesprochen und es kann noch das Video auf Youtube gezeigt werden.
+
+https://www.youtube.com/watch?v=i1AjvFjVXUg</description>
+  </row>
+  <row>
+    <name>Danke sagen</name>
+    <category>IMPETUS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material ntig</material>
+    <description>Ihr spielt das Lied „Danke sagen“ von den Fantastischen Vier ab. Nach dem Song, sollen die Kinder sich Zeit nehmen und drüber nachdenken, wem sie lange nicht gedankt haben. Danach sollen sie eineetwas längere Nachricht andie Person über ihr Handy schreiben und abschicken. </description>
+  </row>
+  <row>
+    <name>Feuermeditation</name>
+    <category>IMPETUS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Man stellt eine Feuerschale in die Mitte und lässt zum Beispiel „I see fire“ von Ed Sheeren abspielen. Die Teilnehmer*inne sollen sich so etwas Zeit für sich selber nehmen.</description>
+  </row>
+  <row>
+    <name>Im Kreislaufen</name>
+    <category>IMPETUS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig </material>
+    <description>Die Gruppe läuft langsam im Kreis jeder seinen eigenenWeg. Wenn eine Person stehen bleibt, muss sich die Gruppe schnellst möglichst anpassen. Wenn eine Person dann wieder anfängt, muss die Gruppeund auch wieder anfangen zu laufen. Die Gruppe spielt sich so ein.</description>
+  </row>
+  <row>
+    <name>Phantasiereise </name>
+    <category>IMPETUS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Der Berg der Wünsche:
+Nun begib dich in deiner Phantasie zu einer wundervollen saftigen grünen Bergwiese. Überall kannst du Blumen, Sträucher und Gräser entdecken —geh zu einem Platz den du als angenehm empfindest —schau dich um und nimm deine Umgebung wahr —die Sonne strahltwarm und wohltuend in deine Richtung —such dir eine Blume in der Nähe deines Platzes aus und knie dich zu ihr —berühre sanft ihre Blüten —schau dir die Farbe und Form der Blüten, der Stengel genau an —sie können rund, oval oder kantig sein, oder eine andere Form haben —streiche sanft mit viel Gefühl über den Blütenkopf —ganz vorsichtig —nun rieche an deinen Händen und nimm den Geruch wahr —nimm dir Zeit diese Pflanze wahrzunehmen und zu erforschen.
+
+Nun steh auf und geh weiter und schau dich dabei um —auf der einen Seite der Alm geht ein breiter, gut ausgebauter Pfad zu einer etwas höher gelegenen Bergwiese —du kannst von weitem ihre bunten Blumen erkennen —geh zu diesem Pfad und laufe zu ihr —du nimmst auf deinem Weg zur anderen Wiese denstabilen Untergrund des Pfades wahr —die kräftigen Farben der Natur am Wegesrand —auf der Bergwiese angelangt siehst du ein wahres Blütenmeer —Blumen in den unterschiedlichsten Farben und Formen breiten sich auf einer riesigen Wiese aus —die Sonne schickt ihre warmen Strahlen zu dir und umhüllt dich wie miteinem warmen Mantel —du fühlst dichvollkommen ruhig und geborgen.
+
+Diese Farbenpracht erfüllt dich mit Freude —der Duft der Blumen umweht dich —es ist eine Komposition der Düfte —eine leichte Brise weht über das Blumenmeer —in der Mitte der Bergwiese steht ein riesiger Stein, der oben abgeflacht ist —fast wie ein Plateau —an der Seite sind große ausgebaute Treppen mit einem Geländer —er ist so groß, dass du bequem darauf stehen kannst —stell dich auf diese Erhöhung —auf dem Felsen liegen an der Seite bunte Zettel mit verschiedenen Stiften —nimm dir einen Zettel —befühle das Material —und einen Stift —nun schreibe auf dieses Blatt deinen sehnlichsten Wunsch —schreibe alle deine Wünsche auf diese Zettel —lass dir Zeit —lass die Gedanken fließen. Wenn du keine Wünsche formulieren kannst, dann stell dir die Zukunft vor —so wie du sie gerne hättest —übertrage deinen Zukunftswunsch auf ein Symbol, ein Bild, eine Empfindung oder was auch immer dir jetzt gerade in den Sinn kommt und male es auf das Blatt.
+
+Du bemerkst das ein leichter Wind aufkommt —er ist warm und angenehm —eine Windböe erfasst das Blumenmeer und nimmt viele der bunten Blütenblätter mit auf seinem Weg —du siehst, wie dieWindböe ihre Kreise über die Wiese zieht —wie ein großer Schwarm vieler bunter Blüten —der Duft der Blumen umhüllt dich und du fühlst dich vollkommen geborgen —wirf nun dein Blatt oder deine Blätter in den Blumenschwarm —sie fliegen mit den tausenden wundervollen bunten Blütenblättern davon —schicke deine Wünsche auf die Reise —schau noch eine Weile den davon fliegenden Blüten nach —sieh wie sie in den Himmel geweht werden —verschiedene Richtungen einnehmend—nimm den Duft der Blumen in dich auf.
+
+Begib dich nun auf deine Heimreise —Das Gefühl der Geborgenheit wird dich nun auf deiner Heimreise begleiten —fühle die Wärme der Sonne, die dich erfüllt —Fühle dieses Gefühl der Freude —Fühle die angenehme Schwere deiner Glieder —die Entspannung und die wohlige Wärme —nun kehre in Gedanken zurück aus deinem Bild —verabschiede dich —spüre den Atem ein und aus —heben und senkendes Brustkorbes —ein und aus.
+
+Nun kehre langsam mit geschlossenen Augen aus der Phantasiewelt zurück —fühle deine Füße —deine Arme —balle leicht deine Fäuste —gibt etwas Kraft hinein —bewege deine Füße —atme ganz tief ein und aus —strecke Arme und Beine —räkle dich, wenn du magst —öffne nun die Augen, atme nochmals tief durch —du bist vollkommen zurück in der wachen Welt.
+
+</description>
+  </row>
+  <row>
+    <name>Die Geschichte vom Jungen mit zwei Augen</name>
+    <category>IMPETUS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>In einer fernen Galaxie gab es einen Planeten, auf dem die Bewohner alle nur ein Auge haben. Damit können sie exzellent sehen. Sogar im Dunkeln. Der einzige Unterschied zu den zweiäugigen Menschen auf dem Planeten Erde ist, dass die Einäugigen alles nur in Schwarz und Weiß sehen. Bunte Farben sind ihnen fremd.
+
+Auf dem Planeten der Einäugigen gab es einen Mann und eine Frau, die einander sehr liebten. Sie heirateten, und einige Zeit später bekamen sie ihr erstes Kind. Es war ein Junge. Doch er hatte zwei Augen! Die Eltern waren zutiefst bestürzt und hatten Angst davor, wie sich nun für ihre kleine Familie alles entwickeln würde. 
+
+Die anderen Menschen blickten das zweiäugige Kind skeptisch an. Sie verstanden nicht, warum dieses seltsame Wesen zwei Augen hatte. Es sah so anders, so fremd aus. Der Junge wuchs heran und hatte immer wieder damit zu kämpfen, dass man ihn ausgrenzte oder ignorierte. Eben, weil er so aussah, wie er aussah. 
+
+Seine Eltern hatten sich jedoch in all den Jahren liebevoll um ihn gekümmert. Sie taten alles dafür, dass er glücklich war und dass es ihm an nichts fehlte. Eines Tages gingen die drei spazieren. Sie gelangten in einen Park, in dem viele blühende Sträucher und Bäume standen. Wunderschöne bunte Blumen ergänzten das traumhafte Bild. Der Junge staunte und sagte: “Papa und Mama – sind diese gelben Blüten nicht atemberaubend? Und sind die leuchtend grünen Blätter der Bäume nicht außergewöhnlich?”
+
+Da merkten die Eltern, dass ihr Kind nicht nur Schwarz und Weiß sah wie sie selbst, sondern dass er seine Welt bunt und farbenfroh wahrnahm. Ein echtes Geschenk! Und die Familie beschloss, auch die anderen Bewohner des Planeten der Einäugigen an dieser Vielfalt teilhaben zu lassen. Der Zweiäugige beschrieb ihnen die bunten Dinge, die er sah. Dies regte ihre Fantasie an – und es war ein wesentlicher Grundstein dafür, dass auch die Einäugigen ihre Welt von nun an anders – viel schöner und bunter – wahrnahmen. 
+
+Fazit:
+Vermeintlich “Anders sein” ist bereichernd, ermöglicht neue Blickwinkel und lässt die Welt mit andere Augen sehen. Man mus nur zuhören und offen in Kontakt treten.</description>
+  </row>
+  <row>
+    <name>Werwölfe -Das Waldspiel- </name>
+    <category>TERRAIN_GAME</category>
+    <size_min>20</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Bierdeckel mit Buchsaben</material>
+    <description>Geschichte:  
+
+Die Bewohner im Neser Wald haben große Angst, da sich in den letzten Zeit Werwölfe in der Umgebung gezeigt haben. Sie müssen sich eine Stadt errichten, um den bestmöglichen Schutz vor den Werwölfen zu erlangen. Die besonderen Menschen im Dorf wollen Sie dabei unterstützen und haben jeweils eine besondere Aufgabe, die die Bewohner sich erkaufen können.  
+
+ 
+
+Endziel:  
+
+Werwölfe weg und Grundstadt (8 Mauer, 3 Häuser, 1Rathaus, 1Kirche) errichten 
+
+ 
+
+Aufgabe:  
+
+Ressourcen im Waldgelände zu sammeln, um die Stadt zu bauen, aber auch um die besonderen Personen zu bezahlen, damit sie Hilfe bekommen, um sich vor den Werwölfen zu schützen. Mache Ressourcen müssen sie auch tauschen. 
+
+ 
+
+Es gibt 4 Lager 
+
+Rollen:  
+
+ErzählerIn = regelt den Verkauf (die sitzen im Lager und dokumentieren die Käufe/Fortschritte – Austausch mit anderen ErzählerInnen) 
+
+Blintzelmädchen = verteilt Rohstoffe und darf, wenn sie gefragt ist einen Rohstoff ziehen lassen (jedem 5. Kind, das fragt bekommt ein Rohstoff) 
+
+Medicus (Aufsicht für die gefangen Kinder, nehmen die Befreiungstränke an) 
+
+Amor = (schießt Ressourcen anstatt Liebespfeile, verteilt Rohstoffe) 
+
+Hexe (braut Befreiungstrank gibt zwei für 1 Eisen und 1 Holz raus à Tennisball)  
+
+Seherin (verteilt einen einmaligen Schutz für Werwölfen/ kostet 5 Holz à Wäscheklammern)  
+
+Jäger ( 2 Gold (anpassen nach Bedarf) gibt Kindern Gewehr (Kronkorken), zum Werwolf ausschalten  
+
+Werwölfe, ticken die Kinder und bringen sie in die Heilanstalt/Gefängnis, immer nur ein Kind auf einmal. Wenn ein Kind Ihnen eine Wäscheklammer gibt, dürfen die Kinder weiter laufen, bei einem Kronkorken, müssen die Werwölfe sich 15 Minuten hinlegen.  (stehen alle 15 Minuten wieder vom Tod auf, bis die Stadt komplett fertig ist) 
+
+ 
+
+Ressourcen: (Bierdeckel mit Buchstaben drauf) 
+
+Die Kinder dürfen immer nur 2 Rohstoffe auf einmal tragen. 
+
+Holz 1  
+
+Eisen2  
+
+Seide3  
+
+Gold (wird nur durch die Schmiede erzeugt) 
+
+ 
+
+Gebäude:  
+
+5 Mauer (Absperrband) = 1 Mauer-&gt; 5 Holz &amp; 1 Eisen  
+
+3 Häuser = 1 Haus à 3 Holz, 2 Eisen, 1Seide 
+
+1 Rathaus = 3 Holz, 2 Eisen, 2 Seide, 1 Gold  
+
+1 Kirche =3 Holz, 1 Eisen, 2 Seide, 2 Gold (ermäßigt den Schutz um 1 Holz) 
+
+ 
+
+Schmiede = 3 Holz, 3 Eisen 
+
+Tischlerei = 5 Holz, 2 Eisen  
+
+Jägerstand = 10 Holz, 2 Eisen  
+
+ 
+
+Gebäudefunktionen: 
+
+Mauer (gibt den Kindern 5 Meter Absperrband zum Einzäunen des Gebiets) 
+
+Schmiede (3 Eisen = 1 Gold) 
+
+Tischlerei (5 Holz = 1 Seide) 
+
+Jägerstand (Reduziert Preis des Jägers um ein Gold) 
+
+ 
+
+Kennzeichnung der gekauften Gebäude:  
+
+Lila Wolle für die Kirche  
+
+Grüne Wolle für den Jägerstand  </description>
+  </row>
+  <row>
+    <name>Dreiecke</name>
+    <category>PUZZLE</category>
+    <size_min>3</size_min>
+    <size_max>99</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Ablauf:
+
+Der Spielleiter zieht wiederholt &quot;Dreieke&quot; zwischen den Mitspielern/Gegenständen/Punkte im Raum.
+
+Beispiel:
+
+Ich ziehe ein Dreieck von Markus über Eva zu Stefan.
+
+Die Mitspieler müssen herausfinden wemm das Dreieck gehört.
+
+Lösung:
+
+Es gehört dem das Dreieck der als erstes, nach dem das Dreieck komplet gezogen ist, spricht.</description>
+  </row>
+  <row>
+    <name>I can see the moon in the spoon</name>
+    <category>PUZZLE</category>
+    <size_min>3</size_min>
+    <size_max>99</size_max>
+    <age>0</age>
+    <material>Löffel</material>
+    <description>Die Teilnehmer sitzen (typischerweise) im Kreis. Einer der Teilnehmer hat einen Löffel. Er betrachtet ihn intensiv, und spricht dann folgenden Satz:
+
+I can see the moon in the spoon. (deutsch: Ich kann den Mond im Löffel sehen).
+
+Anschließend gibt er den Löffel weiter. Diejenigen, die das Spiel bereits kennen, geben dann bekannt, ob er den Mond wirklich gesehen hat, oder ob diese eine Lüge ist.
+
+Lösung:
+
+Wichtig ist, ob dem Übergeber des Löffels gedankt wurde! Nur wer sich ordentlich bedankt, wenn er den Löffel erhält, wird auch den Mond im Löffel sehen können. Was die Gruppe dabei als Bedanken akzeptiert, ist ihr überlassen, sollte aber (möglichst) eindeutig sein.</description>
+  </row>
+  <row>
+    <name>Irrenhaus</name>
+    <category>PUZZLE</category>
+    <size_min>3</size_min>
+    <size_max>99</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>Die nicht eingeweihten Spieler sind die Irrenärzte, die bereits &quot;wissenden&quot; Spieler stellen die Irren dar. Die Ärzte dürfen Fragen stellen, jeweils ein Irrer antwortet drauf. Die Antwort klingt dabei meist so, als wäre sie Schwachsinn. Tatsächlich steckt aber System dahinter! Jeder, der beweisen kann, das System zu kennen, darf auch zum Irren werden. Natürlich wird die Lösung nicht erraten, sondern die Spieler müssen durch aktives Tun beweisen, das Wissen zu besitzen.
+
+Lösung:
+
+Die Irren beantworten jeweils die vorangegangene Frage (oder, bei sehr kleveren Spielern, noch weiter zurück liegende Fragen). Die erste Frage wird mit einer möglichst lustigen und unsinnigen Antwort beantwortet.
+
+Wie heißt du? =&gt; Raumschiff Enterprise (zufällige Antwort)
+Wie viel ist drei mal vier =&gt; Christian (Antwort auf Frage 1)
+Wie heißt die Hauptstadt von Deutschland =&gt; zwölf (Antwort auf Frage 2)
+und so weiter
+Alternativ können auch andere Systeme benutzt werden, beispielsweise Antworten mit nur einem Wort oder beginnend mit dem jeweils nächsten Buchstaben des Alphabets, etc.</description>
+  </row>
+  <row>
+    <name>Flasche auf, Flasche zu</name>
+    <category>PUZZLE</category>
+    <size_min>3</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>lehre Flasche</material>
+    <description>Die Teilnehmer sitzen in eine Kreis und dabei wir eine Flasche rumgegeben. Dabei sagt der die sie Weitgibt ob sie offen oder zu. Die die das Spiel schon kennen sagen dann ob die aussage richtig wahr. 
+
+Lösung:
+
+Die Flasche ist nicht wirchtig, mann kann mit ihr alles machen was man will. Wichtig ist ob die Person nach dem sie gesagt hat ob sie offen ist oder geschloßen den Mund auf oder geschloßen hatt. Offener Mund -&gt; offene Flasche.</description>
+  </row>
+  <row>
+    <name>Drache töten</name>
+    <category>PUZZLE</category>
+    <size_min>2</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Kein Material nötig</material>
+    <description>Verraten sollten die Spieler, welche die Lösung für dieses Ratespiel gefunden haben, diese natürlich nicht, um den Spielspaß möglichst lange aufrecht zu halten. Denn die Teilnehmer sitzen zu Beginn des Spiels im Kreis um den Spielleiter, der als einziger die Lösung kennt. Die Spieler müssen nämlich erraten, wie sich ein Drache am besten töten lässt. Was sie zu Beginn des Spiels nicht wissen: Es kommt auf den Anfangsbuchstaben des Gegenstandes, den sie nennen, an. Denkbar sind also auch scheinbar unsinnige Kombinationen wie D-egen, R-egenschirm, -A-ugapfel, C-haos, H-unger, E-mmentaler, D-ynamit. Nach einem Fehlversuch beginnt die Raterunde von Neuem. Das Spiel dauert so lange, bis ausreichend Spieler das System durchschaut haben, mit dem sie den Drachen töten können.
+
+Weil es jüngeren Teilnehmern wohl etwas schwer fallen dürfte, das System zu durchschauen, eignet sich dieses Spiel vor allem für Gruppen gemischten Alters oder mit älteren Teilnehmern. Sie lernen dabei auf eine lustige Art eine Fähigkeit, die ihnen im späteren Leben von großem Nutzen sein kann, nämlich Kombinationsgabe und auch die Fähigkeit, abstrakt zu denken. Schließlich haben Begriffe wie beispielsweise Augapfel oder Hunger rein gar nichts mit den Rittersagen aus dem Mittelalter, in welchen stolze Recken furchterregende Drachen getötet haben, zu tun. Trotzdem tragen diese Begriffe zur Lösung des Rätsels bei.
+
+Die Teilnehmer müssen also erst einmal das System durchschauen und anschließend die richtigen Begriffe finden, wobei Letzteres dann vergleichsweise einsam ist. Sind jüngere Teilnehmer in der Runde, die aufgrund ihrer geistigen Entwicklung noch nicht in der Lage sind, das System, welches hinter diesem Spiel steckt, zu durchschauen, sollte der Spielleiter ihnen dies auf kindgerechte Weise vermitteln. Er kann die Erklärung aber unter Umständen auch so vermitteln, dass die Teilnehmer von selbst auf des Rätsels Lösung kommen.
+
+</description>
+  </row>
+  <row>
+    <name>Kaufhaus</name>
+    <category>PUZZLE</category>
+    <size_min>2</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>Kein Material nötig</material>
+    <description> Ablauf:
+ Der Spielleiter (der die Lösung des Rätsels kennt) beginnt mit folgender kurzen Geschichte:
+ Ich gehe ins Kaufhaus.
+ Dort gehe ich in den (X) Stock (links oder rechts)
+ Ich kaufe mir dort ein (Gegenstand)
+ Danach versuchen die andern Spieler selber etwas in Kaufhaus zu kaufen.
+
+Lösung:
+ Beim Betreten des Kaufhauses geht der fragende Spieler nach links oder rechts; dies beschreibt die Spieler, die links oder rechts neben ihm stehen. Der ”2. Stock links”beschreibt also den zweiten Spieler, der
+ links neben dem Fragesteller steht (aus seiner Sicht). Geht der Spieler ins Erdgeschoss (”0. Stock”), ist der Fragesteller selber gemeint. Der Spieler der dort sitzt muss den Gegenstand an sich haben.</description>
+  </row>
+  <row>
+    <name>Türsteher</name>
+    <category>PUZZLE</category>
+    <size_min>2</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>kein Material nötig</material>
+    <description>Beispiel:
+Ich gehe in den Club und zeige bringe den Türsteher eine Bild von meiner Oma mit und ich komme rein.
+ 
+Lösung:
+ Wie genau der Satz gesagt wird ist nicht wichtig, nur dass eine Zeitung/Zeitschrift drin vorkommt. Was gesagt werden muss ist: Ich gehe in den Club und und ich komme rein.</description>
+  </row>
+  <row>
+    <name>Insel Keinikeinu</name>
+    <category>PUZZLE</category>
+    <size_min>2</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>kein Material nötig</material>
+    <description> Bei diesem Spiel verreisen die Mitspieler:innen in das Keinikeinuland. Sie packen ihren Koffer und dürfen
+ einige Sachen mitnehmen, allerdings dürfen sie nicht alles mitnehmen, bestimmte Dinge scheiden aus.
+ Wer das Prinzip erkannt hat, darf mit ins Keinikeinuland. Die Mitspieler:innen sagen der Reihe nach,
+ was sie mitnehmen möchten, die Spielleitung und die Spieler, die es wissen, antworten, ob er oder sie mit
+ ihnen fahren darf oder nicht.
+
+ Lösung: 
+Die mitgenommenen Sachen dürfen, wie der Name des Spiels schon sagt, kein ‘i’ und kein ‘u’
+ enthalten.</description>
+  </row>
+  <row>
+    <name>Maus-Maus-Elefant</name>
+    <category>PUZZLE</category>
+    <size_min>2</size_min>
+    <size_max>99</size_max>
+    <age>10</age>
+    <material>kein Material nötig</material>
+    <description>Affe-Affe-Elefant ist ein Rätsel. Ein Teilnehmer zeigt eine Bewegungsabfolge mit Text vor, die anderen
+ müssen sie exakt nachmachen. Klingt einfacher, als es ist!
+ Ablauf:
+ Ein Spieler zeigt eine Bewegungsabfolge mit den Händen vor und spricht einen ebenso einfachen wie
+ sinnlosen Text dazu.
+
+Also:
+ Maus
+ tippt auf den Ringfinger
+ Maus
+ tippt auf den Mittelfinger
+ Maus
+ tippt auf den Zeigefinger
+ Elefant
+ streicht den Zeigefinger entlang nach unten und am Daumen wieder hoch
+ Maus
+ tippt auf den Daumen
+ Elefant
+ streicht zur¨ uck ¨ uber Daumen und Zeigefinger
+ Maus
+ tippt auf den Zeigefinger
+ Maus
+ tippt auf den Mittelfinger
+ Maus
+ tippt auf den Ringfinger
+ Maus
+ tippt auf kleinen Finger
+ Und jetzt mach’s nach!            </description>
+  </row>
+</root>
