@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var filterButton: ImageButton
     private lateinit var gameList: ArrayList<Game>
     private lateinit var gameAdaptzer: ArrayAdapter<Game>
+    private var gameStore: GameStore = GameStore()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        gameStore.loadGames()
 
     }
 
