@@ -1,6 +1,7 @@
 package com.jugendteam_whv.Spielekartei
 
 
+import android.util.Log
 import org.xml.sax.InputSource
 import java.io.File
 import java.io.StringReader
@@ -21,9 +22,10 @@ class GameStore {
             val dBuilder = dbFactory.newDocumentBuilder()
             val xmlInput = InputSource(StringReader(file.readText()))
             val doc = dBuilder.parse(xmlInput)
+            Log.i("GameStore", "Loaded")
 
         } catch (e: Throwable) {
-            println(e)
+            Log.e("GameStore", "Error loading games", e)
         }
 
     }
