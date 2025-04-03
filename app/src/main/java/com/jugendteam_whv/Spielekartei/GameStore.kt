@@ -10,7 +10,7 @@ import java.io.StringReader
 import javax.xml.parsers.DocumentBuilderFactory
 
 class GameStore(private val appContext: Context) {
-    private lateinit var gamesList: ArrayList<Game>
+    lateinit var gamesList: ArrayList<Game>
 
     /**
      * Loads the games from the XML file
