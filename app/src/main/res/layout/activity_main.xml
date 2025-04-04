@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/cardview_dark_background"
+        android:background="@color/white"
         android:orientation="vertical">
 
         <com.google.android.material.appbar.MaterialToolbar
@@ -31,7 +31,8 @@
             <SearchView
                 android:id="@+id/swarchbar"
                 android:layout_width="342dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:queryBackground="@color/white">
 
             </SearchView>
 

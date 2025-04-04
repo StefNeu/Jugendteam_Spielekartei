@@ -9,14 +9,21 @@ import org.xml.sax.InputSource
 import java.io.StringReader
 import javax.xml.parsers.DocumentBuilderFactory
 
-class GameStore(private val appContext: Context) {
+class GameStore private constructor() {
+    companion object{
+        @Volatile private var instance: GameStore? = null
+
+        fun getInstance() =
+            instance ?: synchronized(this) { instance ?: GameStore().also { instance = it } }
+    }
     lateinit var gamesList: ArrayList<Game>
+    var selectedGame: Game? = null
 
     /**
      * Loads the games from the XML file
      * Overwrites the Games Array
      */
-    fun loadGames() {
+    fun loadGames(appContext: Context) {
         gamesList = ArrayList()
         var doc: Document? = null
         try {
@@ -72,5 +79,6 @@ class GameStore(private val appContext: Context) {
             else -> return Category.DEFAULT
         }
     }
+
 
 }

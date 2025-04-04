@@ -1,5 +1,6 @@
 package com.jugendteam_whv.Spielekartei
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.AdapterView
@@ -25,9 +26,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val appContext = applicationContext
-        gameStore = GameStore(appContext)
+        gameStore = GameStore.getInstance()
         try {
-            gameStore.loadGames()
+            gameStore.loadGames(appContext)
         } catch (e: Throwable) {
             Log.e("MAIN","Error in GameStore.lodingGames", e)
         }
@@ -38,9 +39,13 @@ class MainActivity : AppCompatActivity() {
         gameListView.adapter = gameListAdapter
 
         gameListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-    val selectedGame = gameList[position]
-    Log.d("MainActivity", "Spiel ausgewählt: ${selectedGame.name}")
-}
+            val selectedGame = gameList[position]
+            gameStore.selectedGame = gameStore.gamesList.get(position)
+            Log.d("MainActivity", "Spiel ausgewählt: ${selectedGame.name}")
+            val intent: Intent = Intent(this, games_details::class.java)
+            startActivity(intent)
+
+        }
 
     }
 
