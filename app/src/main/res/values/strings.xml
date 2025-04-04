@@ -6,5 +6,10 @@
     <string name="second_fragment_label" translatable="false">Second Fragment</string>
     <string name="next" translatable="false">Next</string>
     <string name="previous" translatable="false">Previous</string>
+    <string name="category_string">Category</string>
+    <string name="size_string">Group size</string>
+    <string name="age_string">Age</string>
+    <string name="material_string">Material</string>
+    <string name="description_string">Description</string>
 
 </resources>

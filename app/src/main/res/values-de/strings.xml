@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name">Spielekartei</string>
     <string name="action_settings">Einstellungen</string>
+    <string name="category_string">Kategorie</string>
+    <string name="size_string">Gruppengröße</string>
+    <string name="age_string">Alter</string>
+    <string name="material_string">Material</string>
+    <string name="description_string">Beschreibung</string>
 </resources>
