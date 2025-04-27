@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         gameListView = findViewById(R.id.gameList)
         gameList = gameStore.gamesList
-        gameListAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, gameList)
+        gameListAdapter = ArrayAdapter(this, R.layout.list_item, gameList)
         gameListView.adapter = gameListAdapter
 
         gameListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
