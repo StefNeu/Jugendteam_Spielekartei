@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var gameListView: ListView
     private lateinit var filterButton: ImageButton
     private lateinit var gameList: ArrayList<Game>
-    private lateinit var gameListAdapter: ArrayAdapter<Game>
+    private lateinit var gameListAdapter: CustomGameAdapter
     private lateinit var gameStore: GameStore
 
 
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         gameListView = findViewById(R.id.gameList)
         gameList = gameStore.gamesList
-        gameListAdapter = ArrayAdapter(this, R.layout.list_item, gameList)
+        gameListAdapter = CustomGameAdapter(this, gameList as ArrayList<Game?>?)
         gameListView.adapter = gameListAdapter
 
         gameListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->

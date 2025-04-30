@@ -50,7 +50,13 @@
         <ListView
             android:id="@+id/gameList"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:divider="@android:color/transparent"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/game_list_item"
+            android:dividerHeight="10sp"
+            />
 
     </LinearLayout>
 

@@ -1,21 +1,28 @@
 package com.jugendteam_whv.Spielekartei
 
+import android.content.Context
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
+import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.TextView
 
-class CustomGameAdapter(private val data: List<Game>) : BaseAdapter(){
-    override fun getCount(): Int = data.size
-    override fun getItem(position: Int): Any {
-        TODO("Not yet implemented")
-    }
+class CustomGameAdapter(context: Context,data: ArrayList<Game?>?) : ArrayAdapter<Game?>(context, R.layout.game_list_item, data!!){
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+        var view = convertView
+        val listData = getItem(position)
 
-    override fun getItemId(position: Int): Long {
-        TODO("Not yet implemented")
-    }
+        if (view == null) {
+            view = LayoutInflater.from(context).inflate(R.layout.game_list_item, parent, false)
+        }
+        val listImage = view!!.findViewById<ImageView>(R.id.imageView)
+        val gameName = view!!.findViewById<TextView>(R.id.GameName)
+        val gameCategory = view!!.findViewById<TextView>(R.id.GameCategory)
+        gameName.text = listData?.name
+        gameCategory.text = listData?.category.toString()
 
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-        TODO("Not yet implemented")
+        return view
     }
 
 }
