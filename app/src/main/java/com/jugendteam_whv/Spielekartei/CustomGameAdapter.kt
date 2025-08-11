@@ -21,6 +21,7 @@ class CustomGameAdapter(context: Context,data: ArrayList<Game?>?) : ArrayAdapter
         val gameCategory = view!!.findViewById<TextView>(R.id.GameCategory)
         gameName.text = listData?.name
         gameCategory.text = listData?.category.toString()
+        listImage.setImageResource(R.drawable.jugendteam_logo)
 
         return view
     }

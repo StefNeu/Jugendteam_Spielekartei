@@ -7,6 +7,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.ImageButton
 import android.widget.ListView
+import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import com.jugendteam_whv.Spielekartei.databinding.ActivityMainBinding
 
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var gameList: ArrayList<Game>
     private lateinit var gameListAdapter: CustomGameAdapter
     private lateinit var gameStore: GameStore
+    private lateinit var searchbar: SearchView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,13 +32,16 @@ class MainActivity : AppCompatActivity() {
         try {
             gameStore.loadGames(appContext)
         } catch (e: Throwable) {
-            Log.e("MAIN","Error in GameStore.lodingGames", e)
+            Log.e("MainActivity","Error in GameStore.lodingGames", e)
         }
 
         gameListView = findViewById(R.id.gameList)
         gameList = gameStore.gamesList
         gameListAdapter = CustomGameAdapter(this, gameList as ArrayList<Game?>?)
         gameListView.adapter = gameListAdapter
+
+        searchbar = findViewById(R.id.searchbar)
+        filterButton = findViewById(R.id.filterButton)
 
         gameListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
             val selectedGame = gameList[position]
@@ -47,6 +52,21 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        searchbar.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextChange(p0: String?): Boolean {
+                gameListAdapter.filter.filter(p0)
+                return true
+            }
+
+            override fun onQueryTextSubmit(p0: String?): Boolean {
+                gameListAdapter.filter.filter(p0)
+                return false
+            }
+        })
+
+        filterButton.setOnClickListener {
+            Log.d("MainActivity", "Click on filterButton")
+        }
     }
 
 
