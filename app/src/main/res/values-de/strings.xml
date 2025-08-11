@@ -5,6 +5,8 @@
     <string name="category_string">Kategorie</string>
     <string name="size_string">Gruppengröße</string>
     <string name="age_string">Alter</string>
-    <string name="material_string">Material</string>
+    <string name="material_string">Materialien</string>
     <string name="description_string">Beschreibung</string>
+    <string name="filter_title">Filter</string>
+    <string name="no_materials">Keine Materialien</string>
 </resources>

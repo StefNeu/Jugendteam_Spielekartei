@@ -19,7 +19,7 @@
             android:id="@+id/materialToolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/jugendteamLightBlue"
+            android:background="@color/jugendteamDarkBlue"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:title="@string/app_name"
@@ -34,7 +34,7 @@
 
             <SearchView
                 android:id="@+id/searchbar"
-                android:layout_width="342dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:queryBackground="@color/ic_launcher_background">
 
@@ -42,7 +42,7 @@
 
             <ImageButton
                 android:id="@+id/filterButton"
-                android:layout_width="50dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="@color/cardview_shadow_end_color"

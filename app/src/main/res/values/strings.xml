@@ -9,7 +9,9 @@
     <string name="category_string">Category</string>
     <string name="size_string">Group size</string>
     <string name="age_string">Age</string>
-    <string name="material_string">Material</string>
+    <string name="material_string">Materials</string>
     <string name="description_string">Description</string>
+    <string name="filter_title">Filter</string>
+    <string name="no_materials">no materials</string>
 
 </resources>
