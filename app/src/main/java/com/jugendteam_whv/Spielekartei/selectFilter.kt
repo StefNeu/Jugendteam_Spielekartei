@@ -82,6 +82,45 @@ class selectFilter : AppCompatActivity() {
             gameStore.filterSelection.resetFilter()
             setValuesFromGameStore()
         }
+
+        ageSeekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(
+                p0: SeekBar?,
+                p1: Int,
+                p2: Boolean
+            ) {
+                ageNumber.text = p1.toString()
+            }
+
+            override fun onStartTrackingTouch(p0: SeekBar?) {
+
+            }
+
+            override fun onStopTrackingTouch(p0: SeekBar?) {
+                gameStore.filterSelection.age = p0?.progress!!
+                ageNumber.text = gameStore.filterSelection.age.toString()
+            }
+
+        })
+        sizeSeekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(
+                p0: SeekBar?,
+                p1: Int,
+                p2: Boolean
+            ) {
+                sizeNumber.text = p1.toString()
+            }
+
+            override fun onStartTrackingTouch(p0: SeekBar?) {
+
+            }
+
+            override fun onStopTrackingTouch(p0: SeekBar?) {
+                gameStore.filterSelection.size = p0?.progress!!
+                sizeNumber.text = gameStore.filterSelection.size.toString()
+            }
+
+        })
     }
 
 
