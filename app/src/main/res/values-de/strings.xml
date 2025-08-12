@@ -9,5 +9,6 @@
     <string name="description_string">Beschreibung</string>
     <string name="filter_title">Filter</string>
     <string name="no_materials">Keine Materialien</string>
-    <string name="resetFilter">Zurücksetzen</string>
+    <string name="reset_filter">Zurücksetzen</string>
+    <string name="use_Filter">Nutze Filter</string>
 </resources>

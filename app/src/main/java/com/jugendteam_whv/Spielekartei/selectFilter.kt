@@ -51,6 +51,16 @@ class selectFilter : AppCompatActivity() {
             Log.d("Filter selection", "MaterialsSwitch is "+materialsSwitch.isChecked.toString())
         }
 
+        ageSwitch.setOnClickListener {
+            gameStore.filterSelection.ageFilter = ageSwitch.isChecked
+            Log.d("Filter selection", "MaterialsSwitch is "+ageSwitch.isChecked.toString())
+        }
+
+        siceSwitch.setOnClickListener {
+            gameStore.filterSelection.siceFilter = siceSwitch.isChecked
+            Log.d("Filter selection", "MaterialsSwitch is "+ siceSwitch.isChecked.toString())
+        }
+
         resetButton.setOnClickListener {
             Log.d("Filter selection", "Filter are reset")
             gameStore.filterSelection.resetFilter()

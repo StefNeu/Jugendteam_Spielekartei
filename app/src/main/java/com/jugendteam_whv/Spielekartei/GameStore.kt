@@ -16,7 +16,8 @@ class GameStore private constructor() {
         fun getInstance() =
             instance ?: synchronized(this) { instance ?: GameStore().also { instance = it } }
     }
-    lateinit var gamesList: ArrayList<Game>
+    private lateinit var gamesList: ArrayList<Game>
+    lateinit var filteredGameList: ArrayList<Game>
     var selectedGame: Game? = null
     var filterSelection: FilterSelection = FilterSelection()
 
@@ -59,7 +60,7 @@ class GameStore private constructor() {
             gamesList.add(game)
 
 
-            Log.i("GameStore", "Game Nr.: "+ i + " = "+ name)
+            Log.i("GameStore", "Game Nr.: "+ i + " = "+ name +" loadet.")
         }
 
 
@@ -79,6 +80,14 @@ class GameStore private constructor() {
             category.equals("PUZZLE") -> return Category.PUZZLE
             else -> return Category.DEFAULT
         }
+    }
+
+    fun filterGameList() {
+        filteredGameList = gamesList
+        if (filterSelection.noMaterial) {
+           filteredGameList = filteredGameList.filter { game -> game.name.equals("Kein Material nötig") } as ArrayList<Game>
+        }
+
     }
 
 

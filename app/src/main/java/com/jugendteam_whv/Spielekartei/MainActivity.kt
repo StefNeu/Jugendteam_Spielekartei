@@ -33,18 +33,20 @@ class MainActivity : AppCompatActivity() {
         } catch (e: Throwable) {
             Log.e("MainActivity","Error in GameStore.lodingGames", e)
         }
-
+        searchbar = findViewById(R.id.searchbar)
+        filterButton = findViewById(R.id.filterButton)
         gameListView = findViewById(R.id.gameList)
-        gameList = gameStore.gamesList
+
+        gameStore.filterGameList()
+        gameList = gameStore.filteredGameList
         gameListAdapter = CustomGameAdapter(this, gameList as ArrayList<Game?>?)
         gameListView.adapter = gameListAdapter
 
-        searchbar = findViewById(R.id.searchbar)
-        filterButton = findViewById(R.id.filterButton)
+
 
         gameListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
             val selectedGame = gameList[position]
-            gameStore.selectedGame = gameStore.gamesList.get(position)
+            gameStore.selectedGame = gameStore.filteredGameList.get(position)
             Log.d("MainActivity", "Spiel ausgewählt: ${selectedGame.name}")
             val intent: Intent = Intent(this, games_details::class.java)
             startActivity(intent)
