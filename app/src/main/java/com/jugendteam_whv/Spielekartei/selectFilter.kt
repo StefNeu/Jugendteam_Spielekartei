@@ -53,7 +53,7 @@ class selectFilter : AppCompatActivity() {
     private fun setValuesFromGameStore() {
         materialsSwitch.isChecked = gameStore.filterSelection.noMaterial
         ageSwitch.isChecked = gameStore.filterSelection.ageFilter
-        siceSwitch.isChecked = gameStore.filterSelection.siceFilter
+        siceSwitch.isChecked = gameStore.filterSelection.sizeFilter
         ageSeekBar.progress = gameStore.filterSelection.age
         sizeSeekBar.progress = gameStore.filterSelection.size
         ageNumber.text = gameStore.filterSelection.age.toString()
@@ -73,7 +73,7 @@ class selectFilter : AppCompatActivity() {
         }
 
         siceSwitch.setOnClickListener {
-            gameStore.filterSelection.siceFilter = siceSwitch.isChecked
+            gameStore.filterSelection.sizeFilter = siceSwitch.isChecked
             Log.d("Filter selection", "MaterialsSwitch is "+ siceSwitch.isChecked.toString())
         }
 

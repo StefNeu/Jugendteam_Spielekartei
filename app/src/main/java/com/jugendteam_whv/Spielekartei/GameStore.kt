@@ -88,7 +88,15 @@ class GameStore private constructor() {
         filteredGameList = gamesList
         if (filterSelection.noMaterial) {
            filteredGameList = filteredGameList.filter { game -> game.material.equals("Kein Material nötig") } as ArrayList<Game>
-            Log.d("GameStore", "filterdGameList is filtered to exclude Games with materials.")
+            Log.d("GameStore", "filterdGameList is filtered to exclude Games with need of materials.")
+        }
+        if (filterSelection.ageFilter) {
+            filteredGameList = filteredGameList.filter { game -> game.age >= filterSelection.age } as ArrayList<Game>
+            Log.d("GameStore", "filterdGameList is filtered to exclude Games with a to big age.")
+        }
+        if (filterSelection.sizeFilter) {
+            filteredGameList = filteredGameList.filter { game -> game.groupSizeMin <= filterSelection.size && game.groupSizeMax >= filterSelection.size } as ArrayList<Game>
+            Log.d("GameStore", "filterdGameList is filtered to exclude Games with an wrong groupSize.")
         }
         Log.i("GameStore", "Number of items in filteredGameList: "+ filteredGameList.size)
     }
