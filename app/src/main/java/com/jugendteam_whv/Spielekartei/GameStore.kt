@@ -18,6 +18,7 @@ class GameStore private constructor() {
     }
     lateinit var gamesList: ArrayList<Game>
     var selectedGame: Game? = null
+    var filterSelection: FilterSelection = FilterSelection()
 
     /**
      * Loads the games from the XML file

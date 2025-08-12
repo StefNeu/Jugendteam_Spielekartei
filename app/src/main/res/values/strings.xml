@@ -13,5 +13,6 @@
     <string name="description_string">Description</string>
     <string name="filter_title">Filter</string>
     <string name="no_materials">no materials</string>
+    <string name="resetFilter">Reset</string>
 
 </resources>

@@ -42,5 +42,6 @@ class games_details : AppCompatActivity() {
         ageFild.setText(game.age.toString())
         materialFild.setText(game.material)
         descriptionFild.setText(game.description)
+        Log.d("Game details", "Game details loudet.")
     }
 }
