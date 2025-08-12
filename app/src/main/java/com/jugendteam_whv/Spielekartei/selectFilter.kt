@@ -3,7 +3,9 @@ package com.jugendteam_whv.Spielekartei
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.SeekBar
 import android.widget.Switch
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -14,6 +16,10 @@ class selectFilter : AppCompatActivity() {
     private lateinit var materialsSwitch: Switch
     private lateinit var ageSwitch: Switch
     private lateinit var siceSwitch: Switch
+    private lateinit var ageSeekBar: SeekBar
+    private lateinit var sizeSeekBar: SeekBar
+    private lateinit var ageNumber: TextView
+    private lateinit var sizeNumber: TextView
     private lateinit var resetButton: Button
     var gameStore: GameStore = GameStore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,10 +44,20 @@ class selectFilter : AppCompatActivity() {
         resetButton = findViewById(R.id.filterReset)
         ageSwitch = findViewById(R.id.switch_age)
         siceSwitch = findViewById(R.id.switch_sice)
+        ageSeekBar = findViewById(R.id.seekBarAge)
+        sizeSeekBar = findViewById(R.id.seekBarSize)
+        ageNumber = findViewById(R.id.numerAge)
+        sizeNumber = findViewById(R.id.numberSize)
     }
 
     private fun setValuesFromGameStore() {
         materialsSwitch.isChecked = gameStore.filterSelection.noMaterial
+        ageSwitch.isChecked = gameStore.filterSelection.ageFilter
+        siceSwitch.isChecked = gameStore.filterSelection.siceFilter
+        ageSeekBar.progress = gameStore.filterSelection.age
+        sizeSeekBar.progress = gameStore.filterSelection.size
+        ageNumber.text = gameStore.filterSelection.age.toString()
+        sizeNumber.text = gameStore.filterSelection.size.toString()
 
     }
 
