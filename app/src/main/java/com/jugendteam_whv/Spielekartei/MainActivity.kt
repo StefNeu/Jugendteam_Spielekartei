@@ -37,19 +37,23 @@ class MainActivity : AppCompatActivity() {
         filterButton = findViewById(R.id.filterButton)
         gameListView = findViewById(R.id.gameList)
 
-        gameStore.filterGameList()
-        gameList = gameStore.filteredGameList
-        gameListAdapter = CustomGameAdapter(this, gameList as ArrayList<Game?>?)
+        //gameList = gameStore.filteredGameList
+        gameListAdapter = CustomGameAdapter(this, gameStore.filteredGameList as ArrayList<Game?>?)
         gameListView.adapter = gameListAdapter
 
 
-
         gameListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            val selectedGame = gameList[position]
-            gameStore.selectedGame = gameStore.filteredGameList.get(position)
-            Log.d("MainActivity", "Spiel ausgewählt: ${selectedGame.name}")
-            val intent: Intent = Intent(this, games_details::class.java)
-            startActivity(intent)
+            //val selectedGame = gameList[position]
+            try {
+                val selectedGame = gameStore.filteredGameList.get(position)
+                gameStore.selectedGame = gameStore.filteredGameList.get(position)
+                Log.d("MainActivity", "Spiel ausgewählt: ${gameStore.selectedGame?.name}")
+                val intent: Intent = Intent(this, games_details::class.java)
+                startActivity(intent)
+            } catch (e: java.lang.IndexOutOfBoundsException) {
+                Log.e("MainActivity", "Error selecting a game.")
+            }
+
 
         }
 
@@ -70,6 +74,15 @@ class MainActivity : AppCompatActivity() {
             val intent: Intent = Intent(this, selectFilter::class.java)
             startActivity(intent)
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        gameStore.filterGameList()
+        //gameListAdapter.notifyDataSetChanged()
+        gameListAdapter = CustomGameAdapter(this, gameStore.filteredGameList as ArrayList<Game?>?)
+        gameListAdapter.notifyDataSetChanged()
+        gameListView.adapter = gameListAdapter
     }
 
 

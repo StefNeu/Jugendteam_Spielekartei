@@ -28,7 +28,7 @@ class games_details : AppCompatActivity() {
         }
         var gameStore: GameStore = GameStore.getInstance()
         var game: Game = gameStore.selectedGame!!
-        Log.d("Games Details",game.name )
+        Log.d("Games Details","Game details for "+game.name )
         toolbar = findViewById(R.id.toolbar)
         categoryFild = findViewById(R.id.category)
         sizeFild = findViewById(R.id.size)

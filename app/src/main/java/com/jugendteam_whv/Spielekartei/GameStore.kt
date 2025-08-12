@@ -17,7 +17,7 @@ class GameStore private constructor() {
             instance ?: synchronized(this) { instance ?: GameStore().also { instance = it } }
     }
     private lateinit var gamesList: ArrayList<Game>
-    lateinit var filteredGameList: ArrayList<Game>
+    var filteredGameList = mutableListOf<Game>()
     var selectedGame: Game? = null
     var filterSelection: FilterSelection = FilterSelection()
 
@@ -61,6 +61,8 @@ class GameStore private constructor() {
 
 
             Log.i("GameStore", "Game Nr.: "+ i + " = "+ name +" loadet.")
+
+            filteredGameList = gamesList
         }
 
 
@@ -85,9 +87,10 @@ class GameStore private constructor() {
     fun filterGameList() {
         filteredGameList = gamesList
         if (filterSelection.noMaterial) {
-           filteredGameList = filteredGameList.filter { game -> game.name.equals("Kein Material nötig") } as ArrayList<Game>
+           filteredGameList = filteredGameList.filter { game -> game.material.equals("Kein Material nötig") } as ArrayList<Game>
+            Log.d("GameStore", "filterdGameList is filtered to exclude Games with materials.")
         }
-
+        Log.i("GameStore", "Number of items in filteredGameList: "+ filteredGameList.size)
     }
 
 
