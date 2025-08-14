@@ -2304,4 +2304,31 @@ Also:
  tippt auf kleinen Finger
  Und jetzt mach’s nach!            </description>
   </row>
+  <row>
+    <name>Cames</name>
+    <category>CARD_GAMES</category>
+    <size_min>4</size_min>
+    <size_max>6</size_max>
+    <age>12</age>
+    <material>Standart-52-Karten Deck</material>
+    <description>
+      Spielregeln für 4 Spieler:
+      Gespielt wird in 2 Teams a 2 Personen. Jeder Spieler erhält 4 Karten. Weiter 4 Karten werden auf den Tisch gelekt. Jedes Team einigt sich auf ein unauffälliges, aber eindeutiges Geheimzeichen.
+      Alle Spieler dürfen gleichzeitig Karten mit der Mitte tauschen (gleiche Anzahl ablegen und aufnehmen). Wenn niemand mehr tauscht, werden die Mittelkarten durch 4 neue ersetzt. Hat ein Spieler vier gleiche Karten, signalisiert er es dem Partner. Erkennt der Partner das Signal, ruft er „Cames!“. Die Karten werden aufgedeckt:
+      Bei Erfolg: Punkt für das Team.
+      Bei Fehler: Punkt für das gegnerische Team.
+
+      Gegnerische Teams können „Contra-Camps“ rufen, wenn sie einen Bluff vermuten.
+
+      Spielregeln für 6 Spieler:
+
+      Gegnerische Teams können „Contra-Camps“ rufen, wenn sie einen Bluff vermuten. Jeder Spieler erhält 4 Karten. Jedes Team bestimmt ein eigenes Geheimzeichen. Sitzordnung: Abwechselnd, sodass Partner nicht direkt nebeneinander sitzen.
+
+      Der jüngste Spieler Zieht eine Karte und kann sie mit seinen Tauschen. Dann gibt er eine Karte nach gegen den Uhrzeiger Sinn weiter. Wenn die gleiche Karte wieder bei ihn ankommt wird sie auf dem Ablagestapel gelegt. Hat ein Spieler vier gleiche Karten, signalisiert er es dem Partner. Erkennt der Partner das Signal, ruft er „Cames!“. Die Karten werden aufgedeckt:
+      Bei Erfolg: Punkt für das Team.
+      Bei Fehler: Punkt für das gegnerische Team.
+
+      Gegnerische Teams können „Contra-Camps“ rufen, wenn sie einen Bluff vermuten.
+    </description>
+  </row>
 </root>

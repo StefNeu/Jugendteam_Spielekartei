@@ -80,6 +80,7 @@ class GameStore private constructor() {
             category.equals("PRAYERS") -> return Category.PRAYERS
             category.equals("IMPETUS") -> return Category.IMPETUS
             category.equals("PUZZLE") -> return Category.PUZZLE
+            category.equals("CARD_GAMES") -> return Category.CARD_GAMES
             else -> return Category.DEFAULT
         }
     }
@@ -91,7 +92,7 @@ class GameStore private constructor() {
             Log.d("GameStore", "filterdGameList is filtered to exclude Games with need of materials.")
         }
         if (filterSelection.ageFilter) {
-            filteredGameList = filteredGameList.filter { game -> game.age >= filterSelection.age } as ArrayList<Game>
+            filteredGameList = filteredGameList.filter { game -> game.age <= filterSelection.age } as ArrayList<Game>
             Log.d("GameStore", "filterdGameList is filtered to exclude Games with a to big age.")
         }
         if (filterSelection.sizeFilter) {
