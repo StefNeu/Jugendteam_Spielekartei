@@ -16,7 +16,7 @@
             android:name=".selectFilter"
             android:exported="false" />
         <activity
-            android:name=".games_details"
+            android:name=".GamesDetails"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

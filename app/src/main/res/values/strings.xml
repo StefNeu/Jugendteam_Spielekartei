@@ -15,5 +15,6 @@
     <string name="no_materials">no materials</string>
     <string name="reset_filter">Reset</string>
     <string name="use_Filter">use filter</string>
+    <string name="share">Share With</string>
 
 </resources>

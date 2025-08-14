@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             try {
                 gameStore.selectedGame = gameListAdapter.getItem(position)
                 Log.d("MainActivity", "Spiel ausgewählt: ${gameStore.selectedGame?.name}")
-                val intent: Intent = Intent(this, games_details::class.java)
+                val intent: Intent = Intent(this, GamesDetails::class.java)
                 startActivity(intent)
             } catch (e: java.lang.IndexOutOfBoundsException) {
                 Log.e("MainActivity", "Error selecting a game.")

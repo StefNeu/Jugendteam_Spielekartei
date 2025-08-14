@@ -8,34 +8,53 @@
     android:background="@color/white"
     tools:context=".selectFilter">
 
-    <LinearLayout
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFilter"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="wrap_content"
+        android:background="@color/jugendteamDarkBlue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/filter_title"
+        app:titleTextColor="@color/white" />
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbarFilter"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/jugendteamDarkBlue"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
-            app:title="@string/filter_title"
-            app:titleTextColor="@color/white" />
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/jugendteamDarkBlue"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarFilter"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarFilter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="702dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarFilter">
 
         <Switch
             android:id="@+id/switch_material"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/no_materials" />
+            android:text="@string/no_materials"
+            android:textSize="20sp" />
 
         <Switch
             android:id="@+id/switch_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/age_string" />
+            android:text="@string/age_string"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,13 +70,15 @@
                 android:layout_weight="1"
                 android:max="20"
                 android:progress="5"
-                android:progressTint="@color/jugendteamDarkBlue" />
+                android:progressTint="@color/jugendteamDarkBlue"
+                android:scrollbarSize="8dp" />
 
             <TextView
                 android:id="@+id/numerAge"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="5"
                 android:textAlignment="center"
                 android:textSize="24sp" />
@@ -67,7 +88,8 @@
             android:id="@+id/switch_sice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/size_string" />
+            android:text="@string/size_string"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -82,13 +104,15 @@
                 android:layout_weight="1"
                 android:max="100"
                 android:progress="5"
-                android:progressTint="@color/jugendteamDarkBlue" />
+                android:progressTint="@color/jugendteamDarkBlue"
+                android:scrollbarSize="8dp" />
 
             <TextView
                 android:id="@+id/numberSize"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="10"
                 android:textAlignment="center"
                 android:textSize="24sp" />
@@ -99,13 +123,15 @@
             android:id="@+id/filterReset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reset_filter" />
+            android:text="@string/reset_filter"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/use_Filter" />
+            android:text="@string/use_Filter"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

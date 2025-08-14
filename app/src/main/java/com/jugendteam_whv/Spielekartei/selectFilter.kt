@@ -1,11 +1,15 @@
 package com.jugendteam_whv.Spielekartei
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.SeekBar
 import android.widget.Switch
 import android.widget.TextView
+import android.widget.Toolbar
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,6 +25,8 @@ class selectFilter : AppCompatActivity() {
     private lateinit var ageNumber: TextView
     private lateinit var sizeNumber: TextView
     private lateinit var resetButton: Button
+    private lateinit var toolbar: androidx.appcompat.widget.Toolbar
+    private lateinit var backButton : ImageButton
     var gameStore: GameStore = GameStore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,7 +43,9 @@ class selectFilter : AppCompatActivity() {
         setListener()
 
 
+
     }
+
 
     private fun findWidgets(){
         materialsSwitch = findViewById(R.id.switch_material)
@@ -48,6 +56,8 @@ class selectFilter : AppCompatActivity() {
         sizeSeekBar = findViewById(R.id.seekBarSize)
         ageNumber = findViewById(R.id.numerAge)
         sizeNumber = findViewById(R.id.numberSize)
+        toolbar = findViewById(R.id.toolbarFilter)
+        backButton = findViewById(R.id.back_button)
     }
 
     private fun setValuesFromGameStore() {
@@ -121,6 +131,11 @@ class selectFilter : AppCompatActivity() {
             }
 
         })
+
+        backButton.setOnClickListener {
+            val intent: Intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 

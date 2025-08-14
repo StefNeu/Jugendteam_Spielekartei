@@ -69,19 +69,19 @@ class GameStore private constructor() {
     }
 
     fun categoryStringToEnum(category: String): Category{
-        when{
-            category.equals("GROUP_ALLOCATION") -> return Category.GROUP_ALLOCATION
-            category.equals("GET_TO_KNOW") -> return Category.GET_TO_KNOW
-            category.equals("CIRCLE_GAME") -> return Category.CIRCLE_GAME
-            category.equals("SINGING_GAME") -> return Category.SINGING_GAME
-            category.equals("MOVEMENT_GAME") -> return Category.MOVEMENT_GAME
-            category.equals("TERRAIN_GAME") -> return Category.TERRAIN_GAME
-            category.equals("TRUST_GAME") -> return Category.TRUST_GAME
-            category.equals("PRAYERS") -> return Category.PRAYERS
-            category.equals("IMPETUS") -> return Category.IMPETUS
-            category.equals("PUZZLE") -> return Category.PUZZLE
-            category.equals("CARD_GAMES") -> return Category.CARD_GAMES
-            else -> return Category.DEFAULT
+        return when{
+            category.equals("GROUP_ALLOCATION") -> Category.GROUP_ALLOCATION
+            category.equals("GET_TO_KNOW") -> Category.GET_TO_KNOW
+            category.equals("CIRCLE_GAME") -> Category.CIRCLE_GAME
+            category.equals("SINGING_GAME") -> Category.SINGING_GAME
+            category.equals("MOVEMENT_GAME") -> Category.MOVEMENT_GAME
+            category.equals("TERRAIN_GAME") -> Category.TERRAIN_GAME
+            category.equals("TRUST_GAME") -> Category.TRUST_GAME
+            category.equals("PRAYERS") -> Category.PRAYERS
+            category.equals("IMPETUS") -> Category.IMPETUS
+            category.equals("PUZZLE") -> Category.PUZZLE
+            category.equals("CARD_GAMES") -> Category.CARD_GAMES
+            else -> Category.DEFAULT
         }
     }
 
