@@ -37,16 +37,13 @@ class MainActivity : AppCompatActivity() {
         filterButton = findViewById(R.id.filterButton)
         gameListView = findViewById(R.id.gameList)
 
-        //gameList = gameStore.filteredGameList
         gameListAdapter = CustomGameAdapter(this, gameStore.filteredGameList as ArrayList<Game?>?)
         gameListView.adapter = gameListAdapter
 
 
         gameListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            //val selectedGame = gameList[position]
             try {
-                val selectedGame = gameStore.filteredGameList.get(position)
-                gameStore.selectedGame = gameStore.filteredGameList.get(position)
+                gameStore.selectedGame = gameListAdapter.getItem(position)
                 Log.d("MainActivity", "Spiel ausgewählt: ${gameStore.selectedGame?.name}")
                 val intent: Intent = Intent(this, games_details::class.java)
                 startActivity(intent)

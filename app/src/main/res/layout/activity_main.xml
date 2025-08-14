@@ -25,31 +25,30 @@
             app:title="@string/app_name"
             app:titleTextColor="@color/white" />
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@android:color/transparent"
-            android:backgroundTint="@android:color/transparent"
-            android:orientation="horizontal">
-
-            <SearchView
-                android:id="@+id/searchbar"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:queryBackground="@color/ic_launcher_background">
-
-            </SearchView>
+            android:layout_height="wrap_content">
 
             <ImageButton
                 android:id="@+id/filterButton"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:tint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/baseline_filter_alt_24" />
 
-        </LinearLayout>
+            <SearchView
+                android:id="@+id/searchbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:queryBackground="@color/ic_launcher_background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <ListView
             android:id="@+id/gameList"
