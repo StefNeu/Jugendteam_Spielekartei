@@ -2331,4 +2331,160 @@ Also:
       Gegnerische Teams können „Contra-Camps“ rufen, wenn sie einen Bluff vermuten.
     </description>
   </row>
+  <row>
+    <name>Durak</name>
+    <category>CARD_GAMES</category>
+    <size_min>3</size_min>
+    <size_max>5</size_max>
+    <age>12</age>
+    <material>Standart-52-Karten Deck</material>
+    <description>
+      Durak (russisch für „Dummkopf“) ist ein strategisches Kartenspiel für zwei bis sechs Spieler. Ziel des Spiels ist es, nicht der letzte Spieler mit Karten auf der Hand zu sein – denn dieser gilt als der Durak, also der Verlierer.
+      Gespielt wird mit einem Kartensatz aus 36 Karten, also von der Sechs bis zum Ass in jeder der vier Farben. Zu Beginn erhält jeder Spieler sechs Karten. Die restlichen Karten werden als Nachziehstapel in die Mitte gelegt. Die unterste Karte des Stapels wird aufgedeckt; ihre Farbe bestimmt die Trumpffarbe und bleibt sichtbar unter dem Stapel liegen.
+      Der Spieler mit der niedrigsten Trumpfkarte beginnt das Spiel als erster Angreifer. Er spielt eine beliebige Karte auf den Tisch. Der Spieler links von ihm ist der Verteidiger und muss versuchen, diese Karte abzuwehren. Dies gelingt ihm entweder mit einer höheren Karte derselben Farbe oder mit einer beliebigen Trumpfkarte. Ein Trumpf wiederum kann nur mit einem höheren Trumpf abgewehrt werden.
+
+      Weitere Angreifer (meist die Mitspieler im Uhrzeigersinn) dürfen dem Verteidiger zusätzliche Karten „zuspielen“, sofern sie den gleichen Kartenwert haben wie eine bereits ausgespielte Karte (z.\,B. eine weitere Sieben, wenn bereits eine Sieben im Spiel liegt). Insgesamt dürfen aber nie mehr Karten ausgespielt werden, als der Verteidiger noch auf der Hand hat.
+
+      Kann der Verteidiger alle Karten erfolgreich abwehren, werden diese aus dem Spiel genommen. Der Verteidiger wird in der nächsten Runde zum Angreifer. Gelingt ihm die Verteidigung nicht oder gibt er freiwillig auf, so muss er alle angreifenden Karten aufnehmen und setzt in der nächsten Runde aus; der nächste Spieler im Uhrzeigersinn wird dann Angreifer.
+
+      Nach jeder Runde ziehen alle Spieler ihre Handkarten wieder auf sechs auf – zunächst der Angreifer, dann alle Mitspieler im Uhrzeigersinn, zuletzt der Verteidiger. Sobald der Nachziehstapel aufgebraucht ist, wird ohne Nachziehen weitergespielt.
+      Das Spiel endet, wenn nur noch ein Spieler Karten auf der Hand hat. Dieser ist der Durak. Alle anderen Spieler haben das Spiel erfolgreich beendet. Es gibt keinen einzelnen Gewinner – nur einen Verlierer.
+      In manchen Spielrunden darf der Verteidiger bei bestimmten Varianten (z.\,B. „Perevodnoy Durak“) den Angriff weiterleiten, indem er eine Karte gleichen Werts wie die Angreifende spielt. Der nächste Spieler im Uhrzeigersinn wird dadurch zum neuen Verteidiger. Bei vier oder sechs Spielern kann auch in Teams gespielt werden.
+    </description>
+  </row>
+  <row>
+    <name>Arschloch</name>
+    <category>CARD_GAMES</category>
+    <size_min>2</size_min>
+    <size_max>15</size_max>
+    <age>8</age>
+    <material>Standart-Karten Deck</material>
+    <description>Arschloch ist ein beliebtes, unterhaltsames Kartenspiel für drei bis acht Spieler. Ziel des Spiels ist es, möglichst schnell alle eigenen Karten loszuwerden, um sich einen hohen Rang zu erspielen – idealerweise den des Königs. Der Spieler, der als letzter seine Karten ablegt, wird „Arschloch“ genannt und hat in der nächsten Runde mit Nachteilen zu rechnen. Das Spiel lebt vom sozialen Gefälle, das durch die Ränge entsteht, und bietet viel Raum für Schadenfreude und Taktik.
+      Gespielt wird meist mit einem normalen französischen Blatt zu 52 Karten (bei vielen Spielern kann ein zweites Deck dazugenommen werden). Es gibt keine Trumpffarbe.  Bei manchen Varianten ist auch die Rangfolge anders (z.\,B. Ass am höchsten), aber die hier beschriebene Variante nutzt die Zwei als höchste Karte. Die Karten werden komplett verteilt; es kann vorkommen, dass nicht alle Spieler gleich viele Karten erhalten.
+      Der Spieler mit der niedrigsten Karte (häufig die Kreuz Zwei oder eine beliebige Zwei) beginnt und legt eine oder mehrere Karten gleichen Werts offen in die Mitte. Die Spielrichtung ist im Uhrzeigersinn. Der nächste Spieler muss nun dieselbe Anzahl Karten ablegen, jedoch mit einem höheren Kartenwert. Zum Beispiel kann auf ein einzelnes Paar Sechsen ein Paar Siebener gelegt werden. Kann oder will ein Spieler keinen höheren Satz spielen, muss er passen. Ist ein Spieler an der Reihe und alle anderen haben gepasst, gewinnt er den Stich und darf einen neuen Zug beginnen – mit einem beliebigen Kartenwert und einer beliebigen Anzahl gleicher Karten.
+      Besonders stark ist die Zwei, die jede andere Karte schlägt. Wer eine Zwei spielt, beendet in der Regel den laufenden Stich sofort. Wird ein kompletter Satz an Karten gelegt (z.\,B. vier Damen), wird der Stich ebenfalls sofort beendet und aus dem Spiel genommen. Das Spiel wird fortgesetzt, bis alle Spieler ihre Karten abgelegt haben. Die Reihenfolge, in der sie aussteigen, bestimmt ihre Ränge für die nächste Runde.
+      Nach jeder Runde erhalten die Spieler Titel entsprechend ihrer Platzierung. Der erste wird König, der zweite Vizekönig, der Vorletzte Vizearschloch und der Letzte Arschloch. Spieler dazwischen sind einfach normale Bürger. In der nächsten Runde gibt es eine Kartenweitergabe: Das Arschloch muss seine besten (höchsten) Karten an den Präsidenten abgeben – meist zwei Karten. Der König wiederum gibt im Tausch zwei seiner schlechtesten (niedrigsten) Karten zurück. Dasselbe gilt entsprechend zwischen Vizekönig und Vizearschloch (mit einer Karte). Dadurch soll der König gestärkt und das Arschloch benachteiligt werden.
+      Häufig wird vereinbart, dass der Präsident das Spiel beginnt. Manche Spielrunden führen zusätzliche Sonderregeln ein, wie etwa das „Reinwerfen“ (dabei dürfen Spieler Karten des aktuellen Werts sofort dazulegen, auch wenn sie nicht an der Reihe sind), das „Skippen“ durch bestimmte Kombinationen oder das Sperren von bestimmten Karten.
+      Arschloch kann beliebig lange gespielt werden – oft über mehrere Runden hinweg. Ziel ist es, sich nach oben zu arbeiten und nicht dauerhaft in der untersten Position zu bleiben. Es gibt keinen endgültigen Gewinner, dafür aber viel Raum für Dynamik, Rache und Spaß innerhalb der Gruppe.
+    </description>
+  </row>
+  <row>
+    <name>Schwimmen</name>
+    <category>CARD_GAMES</category>
+    <size_min>3</size_min>
+    <size_max>8</size_max>
+    <age>10</age>
+    <material>Standart-32-Karten Deck</material>
+    <description>
+      textbf{Schwimmen} ist ein einfaches und beliebtes Kartenspiel, das meist mit 2 bis 6 Spielerinnen und Spielern gespielt wird. Gespielt wird mit einem 32er Skatblatt (Karten von Sieben bis Ass). Ziel des Spiels ist es, eine möglichst hohe Punktezahl auf der Hand zu erreichen, wobei maximal 31 Punkte möglich sind. Die Punkte zählen nur innerhalb einer Farbe (Herz, Karo, Pik oder Kreuz). Bube zählt 10 Punkte, Dame 10 Punkte, König ebenfalls 10 Punkte. Das Ass zählt 11 Punkte, und die Zahlenkarten entsprechend ihrem Wert.
+      Zu Beginn erhält jede Person drei Karten, ebenso werden drei Karten offen in die Mitte gelegt. Wer an der Reihe ist, darf entweder:
+      eine Karte tauschen (eine Handkarte gegen eine Karte aus der Mitte),
+      zwei Karten tauschen,
+      oder alle drei Karten tauschen.
+
+      Alternativ kann man auch „klopfen“, wenn man glaubt, eine gute Hand zu haben. Dadurch wird die letzte Runde für alle anderen eingeleitet. Danach dürfen alle noch einmal tauschen oder passen. Wer am Ende die niedrigste Punktzahl hat, verliert ein „Leben“. Jeder hat zu Beginn des Spiels drei Leben. Hat man alle verloren, „schwimmt“ man – man darf noch weiterspielen, aber ein weiterer Verlust führt zum Ausscheiden aus dem Spiel. Gewonnen hat am Ende die Person, die als Letztes übrig bleibt.
+
+      Die höchste Punktzahl ist 31 Punkte – das ist zum Beispiel möglich mit Ass, König und Zehn einer Farbe. Diese Kombination beendet das Spiel sofort, und alle anderen verlieren ein Leben.
+    </description>
+  </row>
+  <row>
+    <name>Auf dem Donnerbalken saßen zwei Gestalten</name>
+    <category>SINGING_GAME</category>
+    <size_min>1</size_min>
+    <size_max>100</size_max>
+    <age>6</age>
+    <material>kein Material nötig</material>
+    <description>
+      Auf dem Donnerbalken saßen zwei Gestalten
+      und sie schrien nach Klopapier, Klopapier.
+
+      Und dann kam der zweite, der sich zu ihm reihte
+      und sie schrien nach Klopapier, Klopapier
+
+      Und da kam der Dritte, setzt sich in die Mitte
+      und sie schrien nach Klopapier, Klopapier.
+
+      Und da kam der Vierte, als die Scheiße schmierte
+      und sie schrien nach Klopapier, Klopapier.
+
+      Und da kam der Fünfte, der die Nase rümpfte
+      und sie schrien nach Klopapier, Klopapier.
+
+      Und da kam der Sechste, als die Scheiße kleckste
+      sie schrien nach Klopapier, Klopapier.
+
+      Und da kam der Siebte, als der Balken wippte
+      und sie schrien nach Klopapier, Klopapier.
+
+      Und da kam der Achte, als der Balken krachte
+      und sie schrien nach Klopapier, Klopapier.
+
+      Und da kam der Neunte, als die Scheiße schäumte
+      und sie schrien nach Klopapier, Klopapier.
+
+      Und da kam der Zehnte, brachte das ersehnte
+      KLO-PA-PIER!
+
+      (Und dann kam der elfte, nam sich gleich der Hälfte,
+      und sie schrien nach Klopapier! Klopapier! Klopapier!)
+    </description>
+  </row>
+  <row>
+    <name>60 Sekunden auf dieser Welt</name>
+    <category>IMPETUS</category>
+    <size_min>1</size_min>
+    <size_max>99</size_max>
+    <age>15</age>
+    <material>kein Material nötig</material>
+    <description>
+      Schaut 60 Sekunden lang auf die Uhr und nehmt jede Sekunde bewusst wahr. Spürt, wie sich 60 Sekunden dehnen und zugleich flüchtig anfühlen können. Denkt darüber nach, was in dieser kurzen Zeitspanne überall auf der Welt passiert – die Freude und das Leid, das Gute und das Schlechte. \\
+      In diesen 60 Sekunden, sind auf der Welt:
+
+      - 241 Mio. E-Mails wurden verschickt worden
+      - 500 Stunden Videomaterial bei YouTube hochgeladen worden
+      - 1500 Bäume gepflanzt worden
+      - 259 Kinder geboren worden, dabei sind 0,5 Frauen gestorben
+      - 1 Mensch durch Gewalt oder Konflikt getötet worden
+      - 20 Menschen durch Naturkatstrophen betroffen
+      - 50 Menschen an vermeidbaren Krankheiten gestorben
+      - 100 Menschen in Armut geraten
+      - 200 Menschen Opfer von Diskriminierung oder Ungerechtigkeit geworden
+      - 2 Kinder als Sklaven verkauft worden
+      - 6 Kinder an Hunger gestorben, insgesamt starben 10 Kinder
+      - 6 Mädchen an den Genitalien verstümmelt worden
+      - 435 Kinder und Jugendliche vergewaltigt worden
+    </description>
+  </row>
+  <row>
+    <name>Das Geschenk</name>
+    <category>IMPETUS</category>
+    <size_min>1</size_min>
+    <size_max>99</size_max>
+    <age>12</age>
+    <material>kein Material nötig</material>
+    <description>
+      Vor langer Zeit lebte ein König mit seinen drei Töchtern in großem Wohlstand. Er liebte seine Töchter über alles – jede auf ihre eigene Weise. Doch als er älter wurde, stellte sich die Frage, wer eines Tages den Thron erben sollte. Da er keine bevorzugte, wollte er eine Entscheidung treffen, die auf mehr als nur Gefühl beruhte.
+      Er rief seine Töchter zu sich und sprach:
+
+      „Nur eine von euch kann meine Nachfolgerin werden. Innerhalb von drei Tagen soll jede mir das wertvollste Geschenk bringen, das sie mir machen kann. Diejenige, deren Gabe mein Herz am tiefsten berührt, soll Königin werden.“\\ \\
+      Die älteste Tochter zögerte nicht lange. Sie ließ eine gewaltige Büste aus reinem Silber anfertigen – das Abbild ihres Vaters, mächtig, stolz, erhaben. Als er sie sah, war der König bewegt.
+      Doch die mittlere Tochter wollte sie übertreffen. Auch sie ließ eine Büste anfertigen – jedoch aus purem Gold, reich verziert mit Edelsteinen. Sie strahlte in allen Farben. Der König war beeindruckt von der Schönheit und dem materiellen Wert.
+      Dann kam die jüngste Tochter. Sie trat mit einer kleinen, schlichten Holzkiste vor ihren Vater. In ihr lag nichts weiter als etwas Salz.
+      Der König runzelte die Stirn.
+      „Das soll dein Geschenk sein? Salz?“
+      Er war empört.
+      „Das ist eine Beleidigung! Du nimmst diese Aufgabe nicht ernst. Verschwinde – du bist nicht mehr meine Tochter!“
+      Die jüngste Tochter wurde verstoßen und verließ das Schloss in Tränen.
+      Viele Jahre vergingen. Die jüngste Tochter schlug sich durchs Leben und entdeckte dabei ihre Leidenschaft fürs Kochen. Sie wurde zur besten Köchin des Landes – talentiert, kreativ, mit einem feinen Gespür für Aromen.
+      Eines Tages wurde am Hof ein großes Fest gefeiert – die Hochzeit der ältesten Königstochter. Der König ließ aus allen Teilen des Reiches Köche kommen, darunter auch die inzwischen berühmte Köchin, ohne zu wissen, wer sie war.
+      Als das Festmahl begann, bestellte der König seine Lieblingssuppe – eine Speise, die ihn seit seiner Kindheit begleitet hatte. Er führte den ersten Löffel zum Mund – und spuckte ihn sofort wieder aus.
+      „Was ist das?“, rief er. „Wo ist das Salz?“
+      Da trat die Köchin hervor und sagte ruhig:
+      „Majestät, einst hielten Sie mein Geschenk für wertlos.“
+      Der König erstarrte. Er sah sie an – und erkannte in ihren Augen die Tochter, die er einst verstoßen hatte. In diesem Moment begriff er.
+      Er erhob sich, trat zu ihr und nahm sie in die Arme.
+      „Vergib mir“, flüsterte er. „Du hast mir das Kostbarste geschenkt – das, was man erst erkennt, wenn es fehlt.“
+      Von diesem Tag an stand sie wieder an seiner Seite. Und als der König starb, wurde sie zur neuen Herrscherin – klug, gerecht und mit dem Wissen: Manches, was unscheinbar erscheint, trägt das größte Gewicht.
+    </description>
+  </row>
 </root>
