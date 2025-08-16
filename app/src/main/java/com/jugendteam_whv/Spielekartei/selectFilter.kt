@@ -4,9 +4,11 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
+import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.SeekBar
+import android.widget.Spinner
 import android.widget.Switch
 import android.widget.TextView
 import android.widget.Toolbar
@@ -14,6 +16,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import kotlin.enums.enumEntries
 
 
 class selectFilter : AppCompatActivity() {
@@ -27,8 +30,13 @@ class selectFilter : AppCompatActivity() {
     private lateinit var resetButton: Button
     private lateinit var toolbar: androidx.appcompat.widget.Toolbar
     private lateinit var backButton : ImageButton
+    private lateinit var categorySelecter : Spinner
+    private var categoryList : MutableList<String> = Category.values().map { it.toString() } as MutableList<String>
+
+
     var gameStore: GameStore = GameStore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
+        categoryList.add(0,"Alle ")
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_select_filter)
@@ -43,7 +51,9 @@ class selectFilter : AppCompatActivity() {
         setListener()
 
 
-
+        var categoryAdapter : ArrayAdapter<String> = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categoryList)
+        categoryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        categorySelecter.adapter = categoryAdapter
     }
 
 
@@ -58,6 +68,7 @@ class selectFilter : AppCompatActivity() {
         sizeNumber = findViewById(R.id.numberSize)
         toolbar = findViewById(R.id.toolbarFilter)
         backButton = findViewById(R.id.back_button)
+        categorySelecter = findViewById(R.id.categpry_selecter)
     }
 
     private fun setValuesFromGameStore() {

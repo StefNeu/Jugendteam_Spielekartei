@@ -119,18 +119,16 @@
 
         </LinearLayout>
 
+        <Spinner
+            android:id="@+id/categpry_selecter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <Button
             android:id="@+id/filterReset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/reset_filter"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/use_Filter"
             android:textSize="20sp" />
 
     </LinearLayout>
