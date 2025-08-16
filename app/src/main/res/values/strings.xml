@@ -16,5 +16,18 @@
     <string name="reset_filter">Reset</string>
     <string name="use_Filter">use filter</string>
     <string name="share">Share With</string>
+    <string name="category_group_allocation">Group allocations</string>
+    <string name="category_get_to_know">Get to knows</string>
+    <string name="category_circle_game">Circle games</string>
+    <string name="category_singing_game">Singing games</string>
+    <string name="category_movement_game">Movement games</string>
+    <string name="category_terain_game">Terain Game</string>
+    <string name="category_trust_game">Trust games</string>
+    <string name="category_prayers">prayerss</string>
+    <string name="catergory_impetus">Impetus</string>
+    <string name="category_puzzle">Puzzles</string>
+    <string name="category_card_games">Card games</string>
+    <string name="category_default">Default</string>
+    <string name="category_all">All</string>
 
 </resources>

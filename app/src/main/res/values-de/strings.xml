@@ -12,4 +12,17 @@
     <string name="reset_filter">Zurücksetzen</string>
     <string name="use_Filter">Nutze Filter</string>
     <string name="share">Teile mit</string>
+    <string name="category_default">Standard</string>
+    <string name="category_all">Alle</string>
+    <string name="category_group_allocation">Gruppeneinteilung</string>
+    <string name="category_get_to_know">Kennenlernene</string>
+    <string name="category_circle_game">Kreisspiele</string>
+    <string name="category_singing_game">Singespiele</string>
+    <string name="category_movement_game">Bewegungsspiele</string>
+    <string name="category_terain_game">Geländespiele</string>
+    <string name="category_trust_game">Vertrauensspiele</string>
+    <string name="category_prayers">Gebete</string>
+    <string name="catergory_impetus">Impulse</string>
+    <string name="category_puzzle">Rätzel</string>
+    <string name="category_card_games">Karten Spiele</string>
 </resources>
