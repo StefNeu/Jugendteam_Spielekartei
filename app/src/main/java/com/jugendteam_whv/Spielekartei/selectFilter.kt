@@ -16,6 +16,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.jugendteam_whv.Spielekartei.Category
 import kotlin.enums.enumEntries
 
 
@@ -31,12 +32,14 @@ class selectFilter : AppCompatActivity() {
     private lateinit var toolbar: androidx.appcompat.widget.Toolbar
     private lateinit var backButton : ImageButton
     private lateinit var categorySelecter : Spinner
-    private var categoryList : MutableList<String> = Category.values().map { it.toString() } as MutableList<String>
+    private lateinit var categoryList : MutableList<String>
 
 
     var gameStore: GameStore = GameStore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
-        categoryList.add(0,"Alle ")
+
+        categoryList =  Category.values().map { it.getDisplayName(applicationContext) } as MutableList<String>
+        categoryList.add(0,getString(R.string.category_all))
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_select_filter)

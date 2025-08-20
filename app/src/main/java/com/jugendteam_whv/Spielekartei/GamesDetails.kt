@@ -67,7 +67,7 @@ class GamesDetails : AppCompatActivity() {
 
     fun setText() {
         toolbar.setTitle(game.name)
-        categoryFild.setText(game.category.toString())
+        categoryFild.setText(game.category.getDisplayName(applicationContext))
         var groupSizeString: String = game.groupSizeMin.toString() + " - " + game.groupSizeMax.toString()
         sizeFild.setText(groupSizeString)
         ageFild.setText(game.age.toString())
@@ -89,14 +89,14 @@ class GamesDetails : AppCompatActivity() {
             Log.d("Games Details", "Share Button pressed.")
             val intent : Intent = Intent()
             var shareText : String = ""
-            when{
-                game.category == Category.PRAYERS -> shareText  = game.description
-                else -> shareText  = game.name + "\n \n"+
-                    getString(R.string.category_string) + ": " + game.category + "\n"+
-                    getString(R.string.age_string) + ": " + game.age.toString() +  "\n"+
-                    getString(R.string.size_string) + ": " + game.groupSizeMin.toString() + " - "  + game.groupSizeMin.toString() + "\n\n"+
-                    getString(R.string.material_string) + ":\n" + game.material + "\n\n" +
-                    getString(R.string.description_string) + ":\n" + game.description
+            shareText = when{
+                game.category == Category.PRAYERS -> game.description
+                else -> game.name + "\n \n"+
+                        getString(R.string.category_string) + ": " + game.category + "\n"+
+                        getString(R.string.age_string) + ": " + game.age.toString() +  "\n"+
+                        getString(R.string.size_string) + ": " + game.groupSizeMin.toString() + " - "  + game.groupSizeMin.toString() + "\n\n"+
+                        getString(R.string.material_string) + ":\n" + game.material + "\n\n" +
+                        getString(R.string.description_string) + ":\n" + game.description
             }
 
             intent.action = Intent.ACTION_SEND

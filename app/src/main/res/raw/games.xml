@@ -2,7 +2,7 @@
 <root>
   <row>
     <name>Kartenverteilen</name>
-    <category>GROUP_ALLOCATION </category>
+    <category>GROUP_ALLOCATION</category>
     <size_min>6</size_min>
     <size_max>30</size_max>
     <age>6</age>
@@ -17,7 +17,7 @@ Wichtig: vorher die Karten auf die Gesamtgruppengröße anpassen, so dass das Pr
   </row>
   <row>
     <name>Atomspiel</name>
-    <category>GROUP_ALLOCATION </category>
+    <category>GROUP_ALLOCATION</category>
     <size_min>8</size_min>
     <size_max>50</size_max>
     <age>6</age>
@@ -29,7 +29,7 @@ Variation:
   </row>
   <row>
     <name>Familie Meyer</name>
-    <category>GROUP_ALLOCATION </category>
+    <category>GROUP_ALLOCATION</category>
     <size_min>87</size_min>
     <size_max>30</size_max>
     <age>8</age>
