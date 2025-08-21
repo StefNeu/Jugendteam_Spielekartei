@@ -1,9 +1,12 @@
 package com.jugendteam_whv.Spielekartei
 
+import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.MenuItem
+import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ImageButton
@@ -11,19 +14,19 @@ import android.widget.SeekBar
 import android.widget.Spinner
 import android.widget.Switch
 import android.widget.TextView
-import android.widget.Toolbar
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.jugendteam_whv.Spielekartei.Category
-import kotlin.enums.enumEntries
 
 
-class selectFilter : AppCompatActivity() {
+class SelectFilter : AppCompatActivity() {
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
     private lateinit var materialsSwitch: Switch
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
     private lateinit var ageSwitch: Switch
-    private lateinit var siceSwitch: Switch
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
+    private lateinit var sizeSwitch: Switch
     private lateinit var ageSeekBar: SeekBar
     private lateinit var sizeSeekBar: SeekBar
     private lateinit var ageNumber: TextView
@@ -38,8 +41,7 @@ class selectFilter : AppCompatActivity() {
     var gameStore: GameStore = GameStore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        categoryList =  Category.values().map { it.getDisplayName(applicationContext) } as MutableList<String>
-        categoryList.add(0,getString(R.string.category_all))
+        categoryList =  Category.entries.map { it.getDisplayName(applicationContext) } as MutableList<String>
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_select_filter)
@@ -54,7 +56,7 @@ class selectFilter : AppCompatActivity() {
         setListener()
 
 
-        var categoryAdapter : ArrayAdapter<String> = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categoryList)
+        val categoryAdapter : ArrayAdapter<String> = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categoryList)
         categoryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         categorySelecter.adapter = categoryAdapter
     }
@@ -64,7 +66,7 @@ class selectFilter : AppCompatActivity() {
         materialsSwitch = findViewById(R.id.switch_material)
         resetButton = findViewById(R.id.filterReset)
         ageSwitch = findViewById(R.id.switch_age)
-        siceSwitch = findViewById(R.id.switch_sice)
+        sizeSwitch = findViewById(R.id.switch_sice)
         ageSeekBar = findViewById(R.id.seekBarAge)
         sizeSeekBar = findViewById(R.id.seekBarSize)
         ageNumber = findViewById(R.id.numerAge)
@@ -77,7 +79,7 @@ class selectFilter : AppCompatActivity() {
     private fun setValuesFromGameStore() {
         materialsSwitch.isChecked = gameStore.filterSelection.noMaterial
         ageSwitch.isChecked = gameStore.filterSelection.ageFilter
-        siceSwitch.isChecked = gameStore.filterSelection.sizeFilter
+        sizeSwitch.isChecked = gameStore.filterSelection.sizeFilter
         ageSeekBar.progress = gameStore.filterSelection.age
         sizeSeekBar.progress = gameStore.filterSelection.size
         ageNumber.text = gameStore.filterSelection.age.toString()
@@ -96,9 +98,9 @@ class selectFilter : AppCompatActivity() {
             Log.d("Filter selection", "MaterialsSwitch is "+ageSwitch.isChecked.toString())
         }
 
-        siceSwitch.setOnClickListener {
-            gameStore.filterSelection.sizeFilter = siceSwitch.isChecked
-            Log.d("Filter selection", "MaterialsSwitch is "+ siceSwitch.isChecked.toString())
+        sizeSwitch.setOnClickListener {
+            gameStore.filterSelection.sizeFilter = sizeSwitch.isChecked
+            Log.d("Filter selection", "MaterialsSwitch is "+ sizeSwitch.isChecked.toString())
         }
 
         resetButton.setOnClickListener {
@@ -147,11 +149,32 @@ class selectFilter : AppCompatActivity() {
         })
 
         backButton.setOnClickListener {
-            val intent: Intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+
+        categorySelecter.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                TODO("Not yet implemented")
+            }
+
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+                TODO("Not yet implemented")
+            }
+
+        }
+
+
+
     }
 
 
-    
+
+
+
 }

@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
 
         filterButton.setOnClickListener {
             Log.d("MainActivity", "Click on filterButton")
-            val intent: Intent = Intent(this, selectFilter::class.java)
+            val intent: Intent = Intent(this, SelectFilter::class.java)
             startActivity(intent)
         }
     }

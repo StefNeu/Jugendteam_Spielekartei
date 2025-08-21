@@ -3,9 +3,10 @@ package com.jugendteam_whv.Spielekartei
 import android.content.Context
 
 enum class Category {
-    GROUP_ALLOCATION, GET_TO_KNOW, CIRCLE_GAME, SINGING_GAME, MOVEMENT_GAME, TERRAIN_GAME, TRUST_GAME, PRAYERS, IMPETUS, PUZZLE, CARD_GAMES, DEFAULT;
+    ALL ,GROUP_ALLOCATION, GET_TO_KNOW, CIRCLE_GAME, SINGING_GAME, MOVEMENT_GAME, TERRAIN_GAME, TRUST_GAME, PRAYERS, IMPETUS, PUZZLE, CARD_GAMES, DEFAULT;
     override fun toString(): String {
         return when (this) {
+            ALL -> "Alle"
             GROUP_ALLOCATION -> "Gruppeneinteilung"
             GET_TO_KNOW -> "Kennenlernen"
             CIRCLE_GAME -> "Kreisspiel"
@@ -23,6 +24,7 @@ enum class Category {
 
     fun getDisplayName(context: Context) : String {
         return when (this) {
+            ALL -> context.getString(R.string.category_all)
             GROUP_ALLOCATION -> context.getString(R.string.category_group_allocation)
             GET_TO_KNOW -> context.getString(R.string.category_get_to_know)
             CIRCLE_GAME -> context.getString(R.string.category_circle_game)

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.JugendteamSpielekartei"
         tools:targetApi="31">
         <activity
-            android:name=".selectFilter"
+            android:name=".SelectFilter"
             android:exported="false" />
         <activity
             android:name=".GamesDetails"
