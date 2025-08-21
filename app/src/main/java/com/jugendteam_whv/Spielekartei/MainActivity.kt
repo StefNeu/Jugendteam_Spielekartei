@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         try {
             gameStore.loadGames(appContext)
         } catch (e: Throwable) {
-            Log.e("MainActivity","Error in GameStore.lodingGames", e)
+            Log.e("MainActivity","Error in GameStore.loadingGames", e)
         }
         searchbar = findViewById(R.id.searchbar)
         filterButton = findViewById(R.id.filterButton)
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, GamesDetails::class.java)
                 startActivity(intent)
             } catch (e: java.lang.IndexOutOfBoundsException) {
-                Log.e("MainActivity", "Error selecting a game.")
+                Log.e("MainActivity", "Error selecting a game.", e)
             }
 
 
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
         filterButton.setOnClickListener {
             Log.d("MainActivity", "Click on filterButton")
-            val intent: Intent = Intent(this, SelectFilter::class.java)
+            val intent = Intent(this, SelectFilter::class.java)
             startActivity(intent)
         }
 
@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, GamesDetails::class.java)
                 startActivity(intent)
             } catch (e: Exception) {
-                Log.e("MainActivity", "Error in random choosing a game.")
+                Log.e("MainActivity", "Error in random choosing a game.", e)
             }
 
         }
@@ -90,8 +90,13 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         gameStore.filterGameList()
-        //gameListAdapter.notifyDataSetChanged()
-        gameListAdapter = CustomGameAdapter(this, gameStore.filteredGameList as ArrayList<Game?>?)
+        try {
+            gameListAdapter =
+                CustomGameAdapter(this, gameStore.filteredGameList as ArrayList<Game?>?)
+        } catch (e: Exception) {
+            Log.e("MainActivity", "Error in onResume", e)
+        }
+
         gameListAdapter.notifyDataSetChanged()
         gameListView.adapter = gameListAdapter
     }
