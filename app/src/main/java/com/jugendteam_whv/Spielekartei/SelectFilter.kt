@@ -1,7 +1,6 @@
 package com.jugendteam_whv.Spielekartei
 
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -34,7 +33,7 @@ class SelectFilter : AppCompatActivity() {
     private lateinit var resetButton: Button
     private lateinit var toolbar: androidx.appcompat.widget.Toolbar
     private lateinit var backButton : ImageButton
-    private lateinit var categorySelecter : Spinner
+    private lateinit var categorySpinner : Spinner
     private lateinit var categoryList : MutableList<String>
 
 
@@ -58,7 +57,7 @@ class SelectFilter : AppCompatActivity() {
 
         val categoryAdapter : ArrayAdapter<String> = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categoryList)
         categoryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        categorySelecter.adapter = categoryAdapter
+        categorySpinner.adapter = categoryAdapter
     }
 
 
@@ -73,7 +72,7 @@ class SelectFilter : AppCompatActivity() {
         sizeNumber = findViewById(R.id.numberSize)
         toolbar = findViewById(R.id.toolbarFilter)
         backButton = findViewById(R.id.back_button)
-        categorySelecter = findViewById(R.id.categpry_selecter)
+        categorySpinner = findViewById(R.id.categpry_selecter)
     }
 
     private fun setValuesFromGameStore() {
@@ -153,18 +152,22 @@ class SelectFilter : AppCompatActivity() {
             startActivity(intent)
         }
 
-        categorySelecter.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
+        categorySpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(
                 parent: AdapterView<*>?,
                 view: View?,
                 position: Int,
                 id: Long
             ) {
-                TODO("Not yet implemented")
+                if (position >= 0 && position < Category.entries.size) {
+                    val selectedCategory = Category.entries[position]
+                    gameStore.filterSelection.category = selectedCategory
+                    Log.d("Filter selection", "CategorySelector selected: ${selectedCategory.getDisplayName(applicationContext)}")
+                }
             }
 
-            override fun onNothingSelected(p0: AdapterView<*>?) {
-                TODO("Not yet implemented")
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                Log.d("Filter selection", "Nothing selected.")
             }
 
         }
