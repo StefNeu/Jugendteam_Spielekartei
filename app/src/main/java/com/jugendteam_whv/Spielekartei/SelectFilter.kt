@@ -83,7 +83,7 @@ class SelectFilter : AppCompatActivity() {
         sizeSeekBar.progress = gameStore.filterSelection.size
         ageNumber.text = gameStore.filterSelection.age.toString()
         sizeNumber.text = gameStore.filterSelection.size.toString()
-
+        categorySpinner.setSelection(gameStore.filterSelection.category.ordinal)
     }
 
     private fun setListener() {
