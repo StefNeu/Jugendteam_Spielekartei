@@ -29,5 +29,6 @@
     <string name="category_card_games">Card games</string>
     <string name="category_default">Default</string>
     <string name="category_all">All</string>
+    <string name="randome_game_description">Button to get a randome Game</string>
 
 </resources>

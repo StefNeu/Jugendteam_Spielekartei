@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var gameListView: ListView
     private lateinit var filterButton: ImageButton
-    private lateinit var gameList: ArrayList<Game>
+    private lateinit var randomGameButton : ImageButton
     private lateinit var gameListAdapter: CustomGameAdapter
     private lateinit var gameStore: GameStore
     private lateinit var searchbar: SearchView
@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         searchbar = findViewById(R.id.searchbar)
         filterButton = findViewById(R.id.filterButton)
         gameListView = findViewById(R.id.gameList)
+        randomGameButton = findViewById(R.id.randomGameButton)
 
         gameListAdapter = CustomGameAdapter(this, gameStore.filteredGameList as ArrayList<Game?>?)
         gameListView.adapter = gameListAdapter
@@ -45,7 +46,7 @@ class MainActivity : AppCompatActivity() {
             try {
                 gameStore.selectedGame = gameListAdapter.getItem(position)
                 Log.d("MainActivity", "Spiel ausgewählt: ${gameStore.selectedGame?.name}")
-                val intent: Intent = Intent(this, GamesDetails::class.java)
+                val intent = Intent(this, GamesDetails::class.java)
                 startActivity(intent)
             } catch (e: java.lang.IndexOutOfBoundsException) {
                 Log.e("MainActivity", "Error selecting a game.")
@@ -70,6 +71,19 @@ class MainActivity : AppCompatActivity() {
             Log.d("MainActivity", "Click on filterButton")
             val intent: Intent = Intent(this, SelectFilter::class.java)
             startActivity(intent)
+        }
+
+        randomGameButton.setOnClickListener {
+            Log.d("MainActivity", "Click on the Random Game Button.")
+            try {
+                gameStore.selectedGame =
+                    gameListAdapter.getItem((0..gameListAdapter.count).random())
+                val intent = Intent(this, GamesDetails::class.java)
+                startActivity(intent)
+            } catch (e: Exception) {
+                Log.e("MainActivity", "Error in random choosing a game.")
+            }
+
         }
     }
 

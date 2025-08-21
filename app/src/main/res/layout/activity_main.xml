@@ -32,22 +32,35 @@
             <ImageButton
                 android:id="@+id/filterButton"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
-                android:tint="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/baseline_filter_alt_24" />
+                app:srcCompat="@drawable/outline_tune_24"
+                app:tint="@color/black" />
 
             <SearchView
                 android:id="@+id/searchbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:queryBackground="@color/ic_launcher_background"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/randomGameButton"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/randomGameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:backgroundTint="@color/white"
+                android:contentDescription="@string/randome_game_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/filterButton"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/baseline_casino_24"
+                app:tint="@color/black" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <ListView
