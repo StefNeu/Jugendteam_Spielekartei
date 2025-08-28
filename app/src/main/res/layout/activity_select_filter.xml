@@ -94,6 +94,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:background="@color/white"
             android:orientation="horizontal">
 
             <SeekBar
@@ -110,7 +111,7 @@
             <TextView
                 android:id="@+id/numberSize"
                 android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="10"
