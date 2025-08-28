@@ -26,7 +26,8 @@ jobs:
       run: ./gradlew assembleRelease
     - name: List APK outputs
       run: ls -R app/build/outputs/apk
-
+    - name: Grant read write permission for .apk
+      run: chmod +rw app/build/outputs/apk/release/app-release-unsigned.apk
     - name: Rename APK
       run: app/build/outputs/apk/release/app-release-unsigned.apk app/build/outputs/apk/release/Jugendteam_Spielekartei.apk
   
