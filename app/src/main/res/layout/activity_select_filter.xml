@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/jugendteamDarkBlue"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="@+id/toolbarFilter"
         app:layout_constraintEnd_toEndOf="@+id/toolbarFilter"
         app:layout_constraintTop_toTopOf="parent"
@@ -47,14 +48,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/no_materials"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         <Switch
             android:id="@+id/switch_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/age_string"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -81,7 +84,8 @@
                 android:gravity="center_vertical"
                 android:text="5"
                 android:textAlignment="center"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                tools:ignore="HardcodedText,RtlCompat" />
         </LinearLayout>
 
         <Switch
@@ -89,7 +93,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/size_string"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -116,7 +121,8 @@
                 android:gravity="center_vertical"
                 android:text="10"
                 android:textAlignment="center"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                tools:ignore="HardcodedText,RtlCompat" />
 
         </LinearLayout>
 

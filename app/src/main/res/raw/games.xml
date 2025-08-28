@@ -676,7 +676,7 @@ A ra-vi -Mit dem Zeigefinger Richtung Kopf zeigen und drehen, zum Abschluss nach
     <size_min>5</size_min>
     <size_max>99</size_max>
     <age>6</age>
-    <material></material>
+    <material>Kein Material nötig</material>
     <description>Die Spieler stehen im Kreis, nicht zu eng, so dass sich jeder frei bewegen kann. Es wird der Liedertext (&quot;here we go with the big fat pony&quot;) gesungen, alle bereits &quot;aktiven&quot; Spieler (zuerst nur der erste Spieler) laufen dabei im Kreis. Anschließend bleiben die aktiven Spieler bei (jeweils) einem noch passiven Spieler stehen und führen die Bewegungen mit diesem gemeinsam durch. Diese bisherpassiven Spieler werden dadurch zu aktiven und laufen in der nächsten Runde ebenfalls im Kreis mit.
 Liedertext und BewegungenDie Melodie des Liedes entspricht dem bekannten Lied &quot;What shall we do with the drunken sailor?&quot;:
 Here we go with the big fat pony,here we go with the big fat pony,here we go with the bigfat pony,Die aktiv laufenden Spieler laufen im Uhrzeigersinn im Kreis 
