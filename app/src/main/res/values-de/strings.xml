@@ -26,4 +26,5 @@
     <string name="category_puzzle">Rätzel</string>
     <string name="category_card_games">Karten Spiele</string>
     <string name="randome_game_description">Schaltfläche zum Abrufen eines zufälligen Spiels</string>
+    <string name="description_empty">keine Beschreibung</string>
 </resources>
