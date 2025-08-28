@@ -94,6 +94,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:background="@color/white"
             android:orientation="horizontal">
 
             <SeekBar
@@ -110,7 +111,7 @@
             <TextView
                 android:id="@+id/numberSize"
                 android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="10"
@@ -122,14 +123,23 @@
         <Spinner
             android:id="@+id/categpry_selecter"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/filterReset"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reset_filter"
-            android:textSize="20sp" />
+            android:textSize="34sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/filterReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reset_filter"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 

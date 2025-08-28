@@ -18,7 +18,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-
 class SelectFilter : AppCompatActivity() {
     @SuppressLint("UseSwitchCompatOrMaterialCode")
     private lateinit var materialsSwitch: Switch
@@ -36,30 +35,31 @@ class SelectFilter : AppCompatActivity() {
     private lateinit var categorySpinner : Spinner
     private lateinit var categoryList : MutableList<String>
 
-
     var gameStore: GameStore = GameStore.getInstance()
-    override fun onCreate(savedInstanceState: Bundle?) {
 
-        categoryList =  Category.entries.map { it.getDisplayName(applicationContext) } as MutableList<String>
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_select_filter)
+
+        categoryList =  Category.entries.map { it.getDisplayName(applicationContext) } as MutableList<String>
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        findWidgets()
-        setValuesFromGameStore()
-        setListener()
+        findWidgets() // Widgets müssen zuerst gefunden werden
 
-
-        val categoryAdapter : ArrayAdapter<String> = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categoryList)
-        categoryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        // Adapter für den Spinner hier einrichten, BEVOR setValuesFromGameStore und setListener aufgerufen werden
+        val categoryAdapter = ArrayAdapter<String>(this, R.layout.custom_spinner_item, categoryList)
+        categoryAdapter.setDropDownViewResource(R.layout.custom_spinner_dropdown_item)
         categorySpinner.adapter = categoryAdapter
-    }
 
+        setValuesFromGameStore() // Setzt initiale Werte, inklusive Spinner-Auswahl
+        setListener() // Setzt alle Listener, inklusive für den Spinner
+    }
 
     private fun findWidgets(){
         materialsSwitch = findViewById(R.id.switch_material)
@@ -72,7 +72,7 @@ class SelectFilter : AppCompatActivity() {
         sizeNumber = findViewById(R.id.numberSize)
         toolbar = findViewById(R.id.toolbarFilter)
         backButton = findViewById(R.id.back_button)
-        categorySpinner = findViewById(R.id.categpry_selecter)
+        categorySpinner = findViewById(R.id.categpry_selecter) // Beachte den möglichen Tippfehler in der ID
     }
 
     private fun setValuesFromGameStore() {
@@ -84,6 +84,14 @@ class SelectFilter : AppCompatActivity() {
         ageNumber.text = gameStore.filterSelection.age.toString()
         sizeNumber.text = gameStore.filterSelection.size.toString()
 
+        // Kategorie-Spinner Wert setzen
+        val categoryToSelect = gameStore.filterSelection.category
+        val selectedIndex = Category.entries.indexOf(categoryToSelect)
+        if (categorySpinner.adapter != null && selectedIndex != -1 && selectedIndex < categorySpinner.adapter.count) {
+            categorySpinner.setSelection(selectedIndex, false) // 'false' um Listener nicht auszulösen
+        } else {
+            Log.w("SelectFilter", "Konnte Spinner-Auswahl nicht setzen. Index: $selectedIndex, Adapter-Anzahl: ${categorySpinner.adapter?.count}")
+        }
     }
 
     private fun setListener() {
@@ -94,12 +102,12 @@ class SelectFilter : AppCompatActivity() {
 
         ageSwitch.setOnClickListener {
             gameStore.filterSelection.ageFilter = ageSwitch.isChecked
-            Log.d("Filter selection", "MaterialsSwitch is "+ageSwitch.isChecked.toString())
+            Log.d("Filter selection", "AgeSwitch is "+ageSwitch.isChecked.toString())
         }
 
         sizeSwitch.setOnClickListener {
             gameStore.filterSelection.sizeFilter = sizeSwitch.isChecked
-            Log.d("Filter selection", "MaterialsSwitch is "+ sizeSwitch.isChecked.toString())
+            Log.d("Filter selection", "SizeSwitch is "+ sizeSwitch.isChecked.toString())
         }
 
         resetButton.setOnClickListener {
@@ -109,42 +117,25 @@ class SelectFilter : AppCompatActivity() {
         }
 
         ageSeekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
-            override fun onProgressChanged(
-                p0: SeekBar?,
-                p1: Int,
-                p2: Boolean
-            ) {
+            override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
                 ageNumber.text = p1.toString()
             }
-
-            override fun onStartTrackingTouch(p0: SeekBar?) {
-
-            }
-
+            override fun onStartTrackingTouch(p0: SeekBar?) {}
             override fun onStopTrackingTouch(p0: SeekBar?) {
-                gameStore.filterSelection.age = p0?.progress!!
+                p0?.let { gameStore.filterSelection.age = it.progress }
                 ageNumber.text = gameStore.filterSelection.age.toString()
             }
-
         })
+
         sizeSeekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
-            override fun onProgressChanged(
-                p0: SeekBar?,
-                p1: Int,
-                p2: Boolean
-            ) {
+            override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
                 sizeNumber.text = p1.toString()
             }
-
-            override fun onStartTrackingTouch(p0: SeekBar?) {
-
-            }
-
+            override fun onStartTrackingTouch(p0: SeekBar?) {}
             override fun onStopTrackingTouch(p0: SeekBar?) {
-                gameStore.filterSelection.size = p0?.progress!!
+                p0?.let { gameStore.filterSelection.size = it.progress }
                 sizeNumber.text = gameStore.filterSelection.size.toString()
             }
-
         })
 
         backButton.setOnClickListener {
@@ -153,31 +144,19 @@ class SelectFilter : AppCompatActivity() {
         }
 
         categorySpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
-            override fun onItemSelected(
-                parent: AdapterView<*>?,
-                view: View?,
-                position: Int,
-                id: Long
-            ) {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 if (position >= 0 && position < Category.entries.size) {
                     val selectedCategory = Category.entries[position]
-                    gameStore.filterSelection.category = selectedCategory
-                    Log.d("Filter selection", "CategorySelector selected: ${selectedCategory.getDisplayName(applicationContext)}")
+                    if (gameStore.filterSelection.category != selectedCategory) {
+                         gameStore.filterSelection.category = selectedCategory
+                         Log.d("Filter selection", "CategorySelector selected: ${selectedCategory.getDisplayName(applicationContext)}")
+                    }
                 }
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 Log.d("Filter selection", "Nothing selected.")
             }
-
         }
-
-
-
     }
-
-
-
-
-
 }
