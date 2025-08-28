@@ -3,6 +3,11 @@
     <style name="Base.Theme.JugendteamSpielekartei" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <!-- For API 27 and above, make navigation bar icons dark for light navigation bar -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
     </style>
 
     <style name="roundImage">
