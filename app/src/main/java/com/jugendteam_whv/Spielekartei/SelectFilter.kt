@@ -50,15 +50,15 @@ class SelectFilter : AppCompatActivity() {
             insets
         }
 
-        findWidgets() // Widgets müssen zuerst gefunden werden
+        findWidgets()
 
-        // Adapter für den Spinner hier einrichten, BEVOR setValuesFromGameStore und setListener aufgerufen werden
+
         val categoryAdapter = ArrayAdapter<String>(this, R.layout.custom_spinner_item, categoryList)
         categoryAdapter.setDropDownViewResource(R.layout.custom_spinner_dropdown_item)
         categorySpinner.adapter = categoryAdapter
 
-        setValuesFromGameStore() // Setzt initiale Werte, inklusive Spinner-Auswahl
-        setListener() // Setzt alle Listener, inklusive für den Spinner
+        setValuesFromGameStore()
+        setListener()
     }
 
     private fun findWidgets(){
@@ -72,7 +72,7 @@ class SelectFilter : AppCompatActivity() {
         sizeNumber = findViewById(R.id.numberSize)
         toolbar = findViewById(R.id.toolbarFilter)
         backButton = findViewById(R.id.back_button)
-        categorySpinner = findViewById(R.id.categpry_selecter) // Beachte den möglichen Tippfehler in der ID
+        categorySpinner = findViewById(R.id.categpry_selecter)
     }
 
     private fun setValuesFromGameStore() {
@@ -84,11 +84,11 @@ class SelectFilter : AppCompatActivity() {
         ageNumber.text = gameStore.filterSelection.age.toString()
         sizeNumber.text = gameStore.filterSelection.size.toString()
 
-        // Kategorie-Spinner Wert setzen
+
         val categoryToSelect = gameStore.filterSelection.category
         val selectedIndex = Category.entries.indexOf(categoryToSelect)
         if (categorySpinner.adapter != null && selectedIndex != -1 && selectedIndex < categorySpinner.adapter.count) {
-            categorySpinner.setSelection(selectedIndex, false) // 'false' um Listener nicht auszulösen
+            categorySpinner.setSelection(selectedIndex, false)
         } else {
             Log.w("SelectFilter", "Konnte Spinner-Auswahl nicht setzen. Index: $selectedIndex, Adapter-Anzahl: ${categorySpinner.adapter?.count}")
         }

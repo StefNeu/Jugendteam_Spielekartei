@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         gameListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
             try {
                 gameStore.selectedGame = gameListAdapter.getItem(position)
-                Log.d("MainActivity", "Spiel ausgewählt: ${gameStore.selectedGame?.name}")
+                Log.d("MainActivity", "Game selected: ${gameStore.selectedGame?.name}")
                 val intent = Intent(this, GamesDetails::class.java)
                 startActivity(intent)
             } catch (e: java.lang.IndexOutOfBoundsException) {
