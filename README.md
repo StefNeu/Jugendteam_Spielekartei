@@ -21,7 +21,7 @@ Dies ist eine Android-Anwendung, die als Spielekartei für das Jugendteam dient.
 
 ### Installation
 
-1.  Klone das Repository: `git clone https://DEIN_REPOSITORY_LINK_HIER`
+1.  Klone das Repository: `git clone https://github.com/StefNeu/Jugendteam_Spielekartei.git`
 2.  Öffne das Projekt in Android Studio.
 3.  Lasse Gradle die Abhängigkeiten synchronisieren.
 4.  Baue und installiere die App auf einem Emulator oder einem physischen Gerät.
