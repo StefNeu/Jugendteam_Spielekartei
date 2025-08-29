@@ -1,6 +1,5 @@
 package com.jugendteam_whv.Spielekartei
 
-
 import android.content.Context
 import android.util.Log
 import org.w3c.dom.Document
@@ -10,65 +9,57 @@ import java.io.StringReader
 import javax.xml.parsers.DocumentBuilderFactory
 
 class GameStore private constructor() {
-    companion object{
+    companion object {
         @Volatile private var instance: GameStore? = null
 
         fun getInstance() =
             instance ?: synchronized(this) { instance ?: GameStore().also { instance = it } }
     }
-    private lateinit var gamesList: ArrayList<Game>
-    var filteredGameList = mutableListOf<Game>()
+    private var gamesList: ArrayList<Game> = ArrayList() // Explizit ArrayList
+    var filteredGameList: MutableList<Game> = mutableListOf<Game>()
     var selectedGame: Game? = null
     var filterSelection: FilterSelection = FilterSelection()
 
-    /**
-     * Loads the games from the XML file
-     * Overwrites the Games Array
-     */
     fun loadGames(appContext: Context) {
-        gamesList = ArrayList()
+        gamesList.clear() // Vorherige Spiele löschen, falls vorhanden
         var doc: Document? = null
         try {
-
             val inputStream = appContext.resources.openRawResource(R.raw.games)
             val dbFactory = DocumentBuilderFactory.newInstance()
             val dBuilder = dbFactory.newDocumentBuilder()
             val xmlInput = InputSource(StringReader(inputStream.bufferedReader().use { it.readText() }))
             doc = dBuilder.parse(xmlInput)
-
             Log.i("GameStore", "Games file loaded")
-            Log.i("GameStore", "Name of the root: "+ doc.documentElement.tagName)
-
-
         } catch (e: Throwable) {
-            Log.e("GameStore", "Error loading games", e)
+            Log.e("GameStore", "Error loading games XML", e)
+            filteredGameList.clear()
+            return
         }
 
         val rootElement = doc?.documentElement
         val gameElements = rootElement?.getElementsByTagName("row")
-        for (i in 0 until gameElements!!.length) {
-            val gameElement = gameElements.item(i) as Element
-            val name = (gameElement.getElementsByTagName("name").item(0) as Element).textContent ?: ""
-            val category: Category = categoryStringToEnum( (gameElement.getElementsByTagName("category").item(0) as Element).textContent ?: "")
-            val sizeMin: Int = (gameElement.getElementsByTagName("size_min").item(0) as Element).textContent.toInt()
-            val sizeMax: Int = (gameElement.getElementsByTagName("size_max").item(0) as Element).textContent.toInt()
-            val age: Int = (gameElement.getElementsByTagName("age").item(0) as Element).textContent.toInt()
-            val material: String = (gameElement.getElementsByTagName("material").item(0) as Element).textContent ?: ""
-            val description: String = (gameElement.getElementsByTagName("description").item(0) as Element).textContent ?: ""
+        if (gameElements != null) {
+            for (i in 0 until gameElements.length) {
+                val gameElement = gameElements.item(i) as Element
+                val name = (gameElement.getElementsByTagName("name").item(0) as Element).textContent ?: ""
+                val category: Category = categoryStringToEnum((gameElement.getElementsByTagName("category").item(0) as Element).textContent ?: "")
+                // Verwende toIntOrNull für sicherere Konvertierung
+                val sizeMin: Int = (gameElement.getElementsByTagName("size_min").item(0) as Element).textContent.toIntOrNull() ?: 0
+                val sizeMax: Int = (gameElement.getElementsByTagName("size_max").item(0) as Element).textContent.toIntOrNull() ?: Int.MAX_VALUE
+                val age: Int = (gameElement.getElementsByTagName("age").item(0) as Element).textContent.toIntOrNull() ?: 0
+                val material: String = (gameElement.getElementsByTagName("material").item(0) as Element).textContent ?: ""
+                val description: String = (gameElement.getElementsByTagName("description").item(0) as Element).textContent ?: ""
 
-            val game = Game(name, category, sizeMin, sizeMax, age, material, description)
-            gamesList.add(game)
-
-
-            Log.i("GameStore", "Game Nr.: $i = $name loadet.")
-
-            filteredGameList = gamesList
+                val game = Game(name, category, sizeMin, sizeMax, age, material, description)
+                gamesList.add(game)
+            }
         }
-
-
+        // Initialisiere filteredGameList mit allen Spielen nach dem Laden
+        filteredGameList = gamesList.toMutableList()
+        Log.i("GameStore", "${gamesList.size} games loaded. filteredGameList initialized with ${filteredGameList.size} games.")
     }
 
-    fun categoryStringToEnum(category: String): Category{
+    fun categoryStringToEnum(category: String): Category {
         return when (category) {
             "GROUP_ALLOCATION" -> Category.GROUP_ALLOCATION
             "GET_TO_KNOW" -> Category.GET_TO_KNOW
@@ -86,24 +77,28 @@ class GameStore private constructor() {
     }
 
     fun filterGameList() {
-        filteredGameList = gamesList
+        // Starte die Filterung immer von einer (schreibgeschützten) Kopie der ursprünglichen gamesList
+        var currentFilteredList: List<Game> = gamesList.toList()
+
         if (filterSelection.noMaterial) {
-           filteredGameList = filteredGameList.filter { game -> game.material == "Kein Material nötig" } as ArrayList<Game>
-            Log.d("GameStore", "filterdGameList is filtered to exclude Games with need of materials.")
+            currentFilteredList = currentFilteredList.filter { game -> game.material == "Kein Material nötig" }
+            Log.d("GameStore", "Filtered for no material. Count: ${currentFilteredList.size}")
         }
         if (filterSelection.ageFilter) {
-            filteredGameList = filteredGameList.filter { game -> game.age <= filterSelection.age } as ArrayList<Game>
-            Log.d("GameStore", "filterdGameList is filtered to exclude Games with a to big age.")
+            currentFilteredList = currentFilteredList.filter { game -> game.age <= filterSelection.age }
+            Log.d("GameStore", "Filtered for age <= ${filterSelection.age}. Count: ${currentFilteredList.size}")
         }
         if (filterSelection.sizeFilter) {
-            filteredGameList = filteredGameList.filter { game -> game.groupSizeMin <= filterSelection.size && game.groupSizeMax >= filterSelection.size } as ArrayList<Game>
-            Log.d("GameStore", "filterdGameList is filtered to exclude Games with an wrong groupSize.")
+            currentFilteredList = currentFilteredList.filter { game -> game.groupSizeMin <= filterSelection.size && game.groupSizeMax >= filterSelection.size }
+            Log.d("GameStore", "Filtered for size around ${filterSelection.size}. Count: ${currentFilteredList.size}")
         }
-        if (filterSelection.category != Category.ALL) {
-            filteredGameList = filteredGameList.filter { game -> game.category == filterSelection.category } as ArrayList<Game>
+        if (filterSelection.category != Category.ALL) { // Annahme: Category.ALL existiert
+            currentFilteredList = currentFilteredList.filter { game -> game.category == filterSelection.category }
+            Log.d("GameStore", "Filtered for category ${filterSelection.category}. Count: ${currentFilteredList.size}")
         }
-        Log.i("GameStore", "Number of items in filteredGameList: "+ filteredGameList.size)
+        
+        // Aktualisiere die Haupt-filteredGameList mit dem Ergebnis
+        filteredGameList = currentFilteredList.toMutableList()
+        Log.i("GameStore", "Final number of items in filteredGameList: ${filteredGameList.size}")
     }
-
-
 }

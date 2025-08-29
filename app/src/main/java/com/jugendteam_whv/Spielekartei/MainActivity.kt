@@ -30,15 +30,22 @@ class MainActivity : AppCompatActivity() {
         gameStore = GameStore.getInstance()
         try {
             gameStore.loadGames(appContext)
-        } catch (e: Throwable) {
+        } catch (e: Exception) {
             Log.e("MainActivity","Error in GameStore.loadingGames", e)
         }
         searchbar = findViewById(R.id.searchbar)
         filterButton = findViewById(R.id.filterButton)
         gameListView = findViewById(R.id.gameList)
         randomGameButton = findViewById(R.id.randomGameButton)
+        
+        try {
+            val gamesForAdapter = ArrayList(gameStore.filteredGameList.map { it as Game? })
+            gameListAdapter = CustomGameAdapter(this, gamesForAdapter)
+        } catch (e: Exception) {
+            Log.e("MainActivity", "Error creating CustomGameAdapter in onCreate", e)
+            gameListAdapter = CustomGameAdapter(this, ArrayList())
+        }
 
-        gameListAdapter = CustomGameAdapter(this, gameStore.filteredGameList as ArrayList<Game?>?)
         gameListView.adapter = gameListAdapter
 
 
@@ -51,8 +58,6 @@ class MainActivity : AppCompatActivity() {
             } catch (e: java.lang.IndexOutOfBoundsException) {
                 Log.e("MainActivity", "Error selecting a game.", e)
             }
-
-
         }
 
         searchbar.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
@@ -76,14 +81,17 @@ class MainActivity : AppCompatActivity() {
         randomGameButton.setOnClickListener {
             Log.d("MainActivity", "Click on the Random Game Button.")
             try {
-                gameStore.selectedGame =
-                    gameListAdapter.getItem((0..gameListAdapter.count).random())
-                val intent = Intent(this, GamesDetails::class.java)
-                startActivity(intent)
+                if (gameListAdapter.count > 0) {
+                    gameStore.selectedGame =
+                        gameListAdapter.getItem((0 until gameListAdapter.count).random())
+                    val intent = Intent(this, GamesDetails::class.java)
+                    startActivity(intent)
+                } else {
+                    Log.w("MainActivity", "Random game selection attempted on empty or uninitialized adapter.")
+                }
             } catch (e: Exception) {
                 Log.e("MainActivity", "Error in random choosing a game.", e)
             }
-
         }
     }
 
@@ -91,15 +99,14 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         gameStore.filterGameList()
         try {
-            gameListAdapter =
-                CustomGameAdapter(this, gameStore.filteredGameList as ArrayList<Game?>?)
+            val gamesForAdapter = ArrayList(gameStore.filteredGameList.map { it as Game? })
+            gameListAdapter = CustomGameAdapter(this, gamesForAdapter)
         } catch (e: Exception) {
-            Log.e("MainActivity", "Error in onResume", e)
+            Log.e("MainActivity", "Error creating CustomGameAdapter in onResume", e)
+            gameListAdapter = CustomGameAdapter(this, ArrayList())
         }
 
         gameListAdapter.notifyDataSetChanged()
         gameListView.adapter = gameListAdapter
     }
-
-
 }
