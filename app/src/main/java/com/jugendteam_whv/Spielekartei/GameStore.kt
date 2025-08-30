@@ -60,7 +60,7 @@ class GameStore private constructor() {
             gamesList.add(game)
 
 
-            Log.i("GameStore", "Game Nr.: $i = $name loadet.")
+            Log.i("GameStore", "Game Nr.: $i = $name loaded.")
 
             filteredGameList = gamesList
         }
