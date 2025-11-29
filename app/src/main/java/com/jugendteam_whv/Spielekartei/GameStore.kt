@@ -26,6 +26,8 @@ class GameStore private constructor() {
      * Overwrites the Games Array
      */
     fun loadGames(appContext: Context) {
+        var db = GamesDatabase(appContext)
+        db.getAllGames()
         gamesList = ArrayList()
         var doc: Document? = null
         try {
