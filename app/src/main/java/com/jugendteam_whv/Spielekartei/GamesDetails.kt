@@ -21,12 +21,13 @@ class GamesDetails : AppCompatActivity() {
     private lateinit var materialFild: TextView
     private lateinit var descriptionFild: TextView
 
-    private lateinit var category_ : TextView
-    private lateinit var size_ : TextView
-    private lateinit var age_ : TextView
-    private lateinit var material_ : TextView
+    private lateinit var category_: TextView
+    private lateinit var size_: TextView
+    private lateinit var age_: TextView
+    private lateinit var material_: TextView
 
-    private lateinit var shareButton : ImageButton
+    private lateinit var shareButton: ImageButton
+    private lateinit var bookmarkButton: ImageButton
     private var gameStore: GameStore = GameStore.getInstance()
     private var game: Game = gameStore.selectedGame!!
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,12 +40,14 @@ class GamesDetails : AppCompatActivity() {
             insets
         }
 
-        Log.d("Games Details","Game details for "+game.name )
+        Log.d("Games Details", "Game details for " + game.name)
         initializeVariablesForUi()
         setText()
+        setBookmark()
         Log.d("Game details", "Game details loudet.")
         setOnClick()
-        when{
+
+        when {
             game.category == Category.PRAYERS -> prayersUiChanges()
             else -> null
         }
@@ -63,12 +66,14 @@ class GamesDetails : AppCompatActivity() {
         age_ = findViewById(R.id.age_)
         material_ = findViewById(R.id.material_)
         shareButton = findViewById(R.id.share_button)
+        bookmarkButton = findViewById(R.id.bookmark_button)
     }
 
     fun setText() {
         toolbar.setTitle(game.name)
         categoryFild.setText(game.category.getDisplayName(applicationContext))
-        var groupSizeString: String = game.groupSizeMin.toString() + " - " + game.groupSizeMax.toString()
+        var groupSizeString: String =
+            game.groupSizeMin.toString() + " - " + game.groupSizeMax.toString()
         sizeFild.setText(groupSizeString)
         ageFild.setText(game.age.toString())
         materialFild.setText(game.material)
@@ -87,14 +92,14 @@ class GamesDetails : AppCompatActivity() {
     fun setOnClick() {
         shareButton.setOnClickListener {
             Log.d("Games Details", "Share Button pressed.")
-            val intent : Intent = Intent()
-            var shareText : String = ""
-            shareText = when{
+            val intent: Intent = Intent()
+            var shareText: String = ""
+            shareText = when {
                 game.category == Category.PRAYERS -> game.description
-                else -> game.name + "\n \n"+
-                        getString(R.string.category_string) + ": " + game.category + "\n"+
-                        getString(R.string.age_string) + ": " + game.age.toString() +  "\n"+
-                        getString(R.string.size_string) + ": " + game.groupSizeMin.toString() + " - "  + game.groupSizeMin.toString() + "\n\n"+
+                else -> game.name + "\n \n" +
+                        getString(R.string.category_string) + ": " + game.category + "\n" +
+                        getString(R.string.age_string) + ": " + game.age.toString() + "\n" +
+                        getString(R.string.size_string) + ": " + game.groupSizeMin.toString() + " - " + game.groupSizeMin.toString() + "\n\n" +
                         getString(R.string.material_string) + ":\n" + game.material + "\n\n" +
                         getString(R.string.description_string) + ":\n" + game.description
             }
@@ -106,5 +111,21 @@ class GamesDetails : AppCompatActivity() {
 
 
         }
+        bookmarkButton.setOnClickListener {
+            if (gameStore.bookamrkStore.contains(game.name)) {
+                gameStore.bookamrkStore.remove(game.name)
+                bookmarkButton.setImageResource(R.drawable.outline_bookmark_24)
+            } else {
+                gameStore.bookamrkStore.add(game.name)
+                bookmarkButton.setImageResource(R.drawable.outline_bookmark_check_24)
+            }
+        }
     }
+
+    fun setBookmark() {
+        if (gameStore.bookamrkStore.contains(game.name)) {
+            bookmarkButton.setImageResource(R.drawable.outline_bookmark_check_24)
+        }
+    }
+
 }

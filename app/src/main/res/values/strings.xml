@@ -31,5 +31,6 @@
     <string name="category_all">All</string>
     <string name="randome_game_description">Button to get a randome Game</string>
     <string name="description_empty">no description</string>
+    <string name="filter_favorite">Display only favorits</string>
 
 </resources>

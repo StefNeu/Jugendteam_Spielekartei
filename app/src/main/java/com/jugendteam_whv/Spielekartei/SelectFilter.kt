@@ -25,6 +25,9 @@ class SelectFilter : AppCompatActivity() {
     private lateinit var ageSwitch: Switch
     @SuppressLint("UseSwitchCompatOrMaterialCode")
     private lateinit var sizeSwitch: Switch
+
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
+    private lateinit var bookmarkSwitch: Switch
     private lateinit var ageSeekBar: SeekBar
     private lateinit var sizeSeekBar: SeekBar
     private lateinit var ageNumber: TextView
@@ -73,12 +76,14 @@ class SelectFilter : AppCompatActivity() {
         toolbar = findViewById(R.id.toolbarFilter)
         backButton = findViewById(R.id.back_button)
         categorySpinner = findViewById(R.id.categpry_selecter)
+        bookmarkSwitch = findViewById(R.id.favorite_selecter)
     }
 
     private fun setValuesFromGameStore() {
         materialsSwitch.isChecked = gameStore.filterSelection.noMaterial
         ageSwitch.isChecked = gameStore.filterSelection.ageFilter
         sizeSwitch.isChecked = gameStore.filterSelection.sizeFilter
+        bookmarkSwitch.isChecked = gameStore.filterSelection.bookmark
         ageSeekBar.progress = gameStore.filterSelection.age
         sizeSeekBar.progress = gameStore.filterSelection.size
         ageNumber.text = gameStore.filterSelection.age.toString()
@@ -157,6 +162,10 @@ class SelectFilter : AppCompatActivity() {
             override fun onNothingSelected(parent: AdapterView<*>?) {
                 Log.d("Filter selection", "Nothing selected.")
             }
+        }
+        bookmarkSwitch.setOnClickListener {
+            gameStore.filterSelection.bookmark = bookmarkSwitch.isChecked
+            Log.d("Filter selection", "FavoritSwitch is "+ bookmarkSwitch.isChecked.toString())
         }
     }
 }

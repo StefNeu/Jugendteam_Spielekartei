@@ -44,6 +44,13 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbarFilter">
 
         <Switch
+            android:id="@+id/favorite_selecter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_favorite"
+            android:textSize="20sp" />
+
+        <Switch
             android:id="@+id/switch_material"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -146,6 +153,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch" />
 
     </LinearLayout>
 
