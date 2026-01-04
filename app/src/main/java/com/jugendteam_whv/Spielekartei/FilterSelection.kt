@@ -6,7 +6,8 @@ data class FilterSelection(
     var sizeFilter: Boolean = false,
     var age: Int = 10,
     var size: Int = 10,
-    var category: Category = Category.ALL
+    var category: Category = Category.ALL,
+    var bookmark: Boolean = false
     ){
     fun resetFilter(){
         noMaterial = false
@@ -15,6 +16,7 @@ data class FilterSelection(
         age = 10
         size = 10
         category = Category.ALL
+        bookmark = false
     }
 }
 

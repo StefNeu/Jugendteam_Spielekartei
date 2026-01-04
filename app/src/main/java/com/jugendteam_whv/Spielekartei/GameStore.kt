@@ -20,6 +20,8 @@ class GameStore private constructor() {
     var selectedGame: Game? = null
     var filterSelection: FilterSelection = FilterSelection()
 
+    lateinit var bookamrkStore: Bookmark
+
     fun loadGames(appContext: Context) {
         gamesList.clear() // Vorherige Spiele löschen, falls vorhanden
         var doc: Document? = null
@@ -35,6 +37,8 @@ class GameStore private constructor() {
             filteredGameList.clear()
             return
         }
+
+        bookamrkStore = Bookmark(context = appContext)
 
         val rootElement = doc?.documentElement
         val gameElements = rootElement?.getElementsByTagName("row")
@@ -79,7 +83,10 @@ class GameStore private constructor() {
     fun filterGameList() {
         // Starte die Filterung immer von einer (schreibgeschützten) Kopie der ursprünglichen gamesList
         var currentFilteredList: List<Game> = gamesList.toList()
-
+        if (filterSelection.bookmark) {
+            currentFilteredList = currentFilteredList.filter { game -> bookamrkStore.contains(game.name) }
+            Log.d("GameStore", "Filtered for bookmark. Count: ${currentFilteredList.size}")
+        }
         if (filterSelection.noMaterial) {
             currentFilteredList = currentFilteredList.filter { game -> game.material == "Kein Material nötig" }
             Log.d("GameStore", "Filtered for no material. Count: ${currentFilteredList.size}")
@@ -100,5 +107,6 @@ class GameStore private constructor() {
         // Aktualisiere die Haupt-filteredGameList mit dem Ergebnis
         filteredGameList = currentFilteredList.toMutableList()
         Log.i("GameStore", "Final number of items in filteredGameList: ${filteredGameList.size}")
+
     }
 }

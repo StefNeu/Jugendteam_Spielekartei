@@ -35,6 +35,15 @@
                 android:backgroundTint="@color/jugendteamDarkBlue"
                 app:srcCompat="@drawable/baseline_share_24"
                 app:tint="@color/white" />
+
+            <ImageButton
+                android:id="@+id/bookmark_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:backgroundTint="@color/jugendteamDarkBlue"
+                app:srcCompat="@drawable/outline_bookmark_24"
+                app:tint="@color/white" />
         </androidx.appcompat.widget.Toolbar>
 
 
@@ -180,6 +189,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

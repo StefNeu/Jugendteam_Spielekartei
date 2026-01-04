@@ -27,4 +27,5 @@
     <string name="category_card_games">Karten Spiele</string>
     <string name="randome_game_description">Schaltfläche zum Abrufen eines zufälligen Spiels</string>
     <string name="description_empty">keine Beschreibung</string>
+    <string name="filter_favorite">Filter nach Favoriten</string>
 </resources>
