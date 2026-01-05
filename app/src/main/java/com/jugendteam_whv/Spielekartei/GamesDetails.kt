@@ -28,6 +28,7 @@ class GamesDetails : AppCompatActivity() {
 
     private lateinit var shareButton: ImageButton
     private lateinit var bookmarkButton: ImageButton
+    private lateinit var backButton: ImageButton
     private var gameStore: GameStore = GameStore.getInstance()
     private var game: Game = gameStore.selectedGame!!
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -67,6 +68,7 @@ class GamesDetails : AppCompatActivity() {
         material_ = findViewById(R.id.material_)
         shareButton = findViewById(R.id.share_button)
         bookmarkButton = findViewById(R.id.bookmark_button)
+        backButton = findViewById(R.id.back_button)
     }
 
     fun setText() {
@@ -119,6 +121,10 @@ class GamesDetails : AppCompatActivity() {
                 gameStore.bookamrkStore.add(game.name)
                 bookmarkButton.setImageResource(R.drawable.outline_bookmark_check_24)
             }
+        }
+        backButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 

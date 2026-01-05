@@ -28,6 +28,15 @@
             app:titleTextColor="@color/white" >
 
             <ImageButton
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:backgroundTint="@color/jugendteamDarkBlue"
+                app:srcCompat="@drawable/baseline_arrow_back_24"
+                app:tint="@color/white" />
+
+            <ImageButton
                 android:id="@+id/share_button"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
