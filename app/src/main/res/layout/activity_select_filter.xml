@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:title="@string/filter_title"
-        app:titleTextColor="@color/white" />
+        app:titleTextColor="@color/tint_toolbar" />
 
     <ImageButton
         android:id="@+id/back_button"
@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/jugendteamDarkBlue"
         android:importantForAccessibility="no"
+        android:tint="@color/tint_toolbar"
         app:layout_constraintBottom_toBottomOf="@+id/toolbarFilter"
         app:layout_constraintEnd_toEndOf="@+id/toolbarFilter"
         app:layout_constraintTop_toTopOf="parent"

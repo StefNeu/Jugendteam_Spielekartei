@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#383737</color>
     <color name="jugendteamLightBlue">#1c8fbe</color>
     <color name="jugendteamDarkBlue">#1D3D5D</color>
-    <color name="Background">#DCDCDC</color>
+    <color name="Background">#3C3A3A</color>
     <color name="tint_toolbar">#FFFFFF</color>
 </resources>
