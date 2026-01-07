@@ -26,6 +26,12 @@ Dies ist eine Android-Anwendung, die als Spielekartei für das Jugendteam dient.
 3.  Lasse Gradle die Abhängigkeiten synchronisieren.
 4.  Baue und installiere die App auf einem Emulator oder einem physischen Gerät.
 
+### Installation mit apk
+
+1. ladet die neueste APK (hier)[https://github.com/StefNeu/Jugendteam_Spielekartei/releases/tag/releas2] herunter.
+2. starten auf den Android gerät die APK
+3. Das ausführen von APK muss teilweise erlaubt werden.(googlen hilft)
+
 
 
 ## Mitwirken
