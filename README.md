@@ -28,7 +28,7 @@ Dies ist eine Android-Anwendung, die als Spielekartei für das Jugendteam dient.
 
 ### Installation mit apk
 
-1. ladet die neueste APK (hier)[https://github.com/StefNeu/Jugendteam_Spielekartei/releases/tag/releas2] herunter.
+1. ladet die neueste APK [hier](https://github.com/StefNeu/Jugendteam_Spielekartei/releases/tag/releas2) herunter.
 2. starten auf den Android gerät die APK
 3. Das ausführen von APK muss teilweise erlaubt werden.(googlen hilft)
 
