@@ -2486,4 +2486,20 @@ Also:
       Von diesem Tag an stand sie wieder an seiner Seite. Und als der König starb, wurde sie zur neuen Herrscherin – klug, gerecht und mit dem Wissen: Manches, was unscheinbar erscheint, trägt das größte Gewicht.
     </description>
   </row>
+    <row>
+        <name>Wertschätzungs-Glas</name>
+        <category>IMPETUS</category>
+        <size_min>1</size_min>
+        <size_max>99</size_max>
+        <age>0</age>
+        <material>kein Material nötig</material>
+        <description>
+            Wertschätzungs-Gläser sind eine einfache Methode, um in einer Gruppe Anerkennung sichtbar zu
+            machen. Jede Person schreibt für alle anderen einen kurzen positiven Satz darüber, was sie an dieser
+            Person schätzt oder was sie besonders macht. Die Aussagen werden auf kleine Zettel geschrieben
+            und anschließend gesammelt. Für jede Person wird ein eigenes Marmeladenglas vorbereitet, in das alle Zettel gelegt werden, die über sie verfasst wurden. Danach werden die Gl¨ aser mit den Namen
+            beschriftet und am Ende überreicht. So erhält jede Person ein persönliches Glas voller wertschätzender
+            Botschaften, das Mut macht und stärkt.
+        </description>
+    </row>
 </root>
