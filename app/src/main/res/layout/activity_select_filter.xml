@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/white"
+    android:foregroundTint="@color/black"
     tools:context=".SelectFilter">
 
     <androidx.appcompat.widget.Toolbar
@@ -137,8 +138,12 @@
         <Spinner
             android:id="@+id/categpry_selecter"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="34sp" />
+            android:layout_height="51dp"
+            android:background="@color/white"
+            android:dropDownSelector="@color/black"
+            android:popupBackground="@color/white"
+            android:spinnerMode="dialog"
+            android:textSize="48sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
