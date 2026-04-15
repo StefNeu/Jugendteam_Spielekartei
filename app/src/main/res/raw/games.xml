@@ -2502,4 +2502,19 @@ Also:
             Botschaften, das Mut macht und stärkt.
         </description>
     </row>
+  <row>
+    <name>Tischgebete 8</name>
+    <category>PRAYERS</category>
+    <size_min>0</size_min>
+    <size_max>0</size_max>
+    <age>0</age>
+    <material>Kein Material nötig</material>
+    <description>
+      Lieber Gott, mach doch,
+      daß die Vitamine in den Pudding kommen,
+      die sonst im Spinat sind!
+
+      Amen.
+    </description>
+  </row>
 </root>
